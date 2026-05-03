@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-03T23:45:00.214798+00:00",
+    "generated_at": "2026-05-03T23:49:40.788674+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -738,7 +738,7 @@
       }
     ],
     "scanner_file": "scan_20260501_203001.json",
-    "scanner_age_seconds": 184499,
+    "scanner_age_seconds": 184779,
     "market_context": {
       "SPY": {
         "price": 719.85,
@@ -1089,6 +1089,467 @@
       "economic": "ok"
     }
   },
-  "macro": null,
-  "halts": null
+  "macro": {
+    "fetch_status": "ok",
+    "futures_proxy": [
+      {
+        "symbol": "SPY",
+        "label": "S&P 500",
+        "proxy_for": "ES futures / SPX",
+        "last": 720.65,
+        "prev_close": 718.66,
+        "change_pct": 0.28,
+        "day_high": 724.87,
+        "day_low": 720.47,
+        "volume": 43459978
+      },
+      {
+        "symbol": "QQQ",
+        "label": "Nasdaq 100",
+        "proxy_for": "NQ futures / NDX",
+        "last": 673.55,
+        "prev_close": 667.74,
+        "change_pct": 0.87,
+        "day_high": 675.97,
+        "day_low": 668.8,
+        "volume": 39323275
+      },
+      {
+        "symbol": "DIA",
+        "label": "Dow Jones",
+        "proxy_for": "YM futures / DJIA",
+        "last": 495.02,
+        "prev_close": 496.65,
+        "change_pct": -0.33,
+        "day_high": 499.93,
+        "day_low": 494.91,
+        "volume": 4406293
+      },
+      {
+        "symbol": "IWM",
+        "label": "Russell 2000",
+        "proxy_for": "RTY futures / RUT",
+        "last": 279.28,
+        "prev_close": 277.97,
+        "change_pct": 0.47,
+        "day_high": 279.81,
+        "day_low": 276.57,
+        "volume": 28938375
+      }
+    ],
+    "commodities": [
+      {
+        "symbol": "USO",
+        "label": "Oil (WTI proxy)",
+        "proxy_for": "WTI crude",
+        "last": 142.8,
+        "prev_close": 147.09,
+        "change_pct": -2.92,
+        "day_high": 143.85,
+        "day_low": 138.8,
+        "volume": 12801593
+      },
+      {
+        "symbol": "UNG",
+        "label": "Natural gas",
+        "proxy_for": "NG futures",
+        "last": 10.71,
+        "prev_close": 10.6,
+        "change_pct": 1.04,
+        "day_high": 10.73,
+        "day_low": 10.55,
+        "volume": 7259651
+      },
+      {
+        "symbol": "GLD",
+        "label": "Gold",
+        "proxy_for": "Gold futures",
+        "last": 423.18,
+        "prev_close": 423.66,
+        "change_pct": -0.11,
+        "day_high": 427.93,
+        "day_low": 421.08,
+        "volume": 5958810
+      }
+    ],
+    "vol_and_dollar": [
+      {
+        "symbol": "VIXY",
+        "label": "VIX (proxy)",
+        "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
+        "last": 27.43,
+        "prev_close": 27.22,
+        "change_pct": 0.77,
+        "day_high": 27.43,
+        "day_low": 26.8,
+        "volume": 2388003
+      },
+      {
+        "symbol": "UUP",
+        "label": "US Dollar",
+        "proxy_for": "DXY",
+        "last": 27.41,
+        "prev_close": 27.36,
+        "change_pct": 0.18,
+        "day_high": 27.42,
+        "day_low": 27.26,
+        "volume": 2575605
+      },
+      {
+        "symbol": "TLT",
+        "label": "20Y Treasuries",
+        "proxy_for": "Long bonds \u2014 inverse to long yields",
+        "last": 85.69,
+        "prev_close": 85.62,
+        "change_pct": 0.08,
+        "day_high": 86.0,
+        "day_low": 85.34,
+        "volume": 21290814
+      }
+    ],
+    "asia": [
+      {
+        "symbol": "EWJ",
+        "label": "Japan",
+        "proxy_for": "Nikkei / TOPIX",
+        "last": 88.3,
+        "prev_close": 89.1,
+        "change_pct": -0.9,
+        "day_high": 88.87,
+        "day_low": 87.91,
+        "volume": 5441628
+      },
+      {
+        "symbol": "FXI",
+        "label": "China large-cap",
+        "proxy_for": "HSI / CSI300",
+        "last": 36.81,
+        "prev_close": 36.79,
+        "change_pct": 0.05,
+        "day_high": 37.09,
+        "day_low": 36.67,
+        "volume": 17967229
+      },
+      {
+        "symbol": "EWY",
+        "label": "South Korea",
+        "proxy_for": "KOSPI",
+        "last": 162.0,
+        "prev_close": 160.76,
+        "change_pct": 0.77,
+        "day_high": 164.18,
+        "day_low": 159.66,
+        "volume": 9841688
+      },
+      {
+        "symbol": "EWT",
+        "label": "Taiwan",
+        "proxy_for": "TAIEX",
+        "last": 89.97,
+        "prev_close": 89.88,
+        "change_pct": 0.1,
+        "day_high": 91.28,
+        "day_low": 89.55,
+        "volume": 3476962
+      }
+    ],
+    "europe": [
+      {
+        "symbol": "EWG",
+        "label": "Germany",
+        "proxy_for": "DAX",
+        "last": 42.33,
+        "prev_close": 42.26,
+        "change_pct": 0.17,
+        "day_high": 42.78,
+        "day_low": 42.28,
+        "volume": 3345076
+      },
+      {
+        "symbol": "EWU",
+        "label": "UK",
+        "proxy_for": "FTSE 100",
+        "last": 47.02,
+        "prev_close": 47.15,
+        "change_pct": -0.28,
+        "day_high": 47.35,
+        "day_low": 46.97,
+        "volume": 1772426
+      },
+      {
+        "symbol": "EWQ",
+        "label": "France",
+        "proxy_for": "CAC 40",
+        "last": 45.37,
+        "prev_close": 45.33,
+        "change_pct": 0.09,
+        "day_high": 45.77,
+        "day_low": 45.37,
+        "volume": 267729
+      },
+      {
+        "symbol": "VGK",
+        "label": "Europe broad",
+        "proxy_for": "STOXX 600 broad",
+        "last": 87.15,
+        "prev_close": 87.14,
+        "change_pct": 0.01,
+        "day_high": 88.05,
+        "day_low": 86.15,
+        "volume": 4508326
+      }
+    ],
+    "sectors_extra": [
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "proxy_for": "Sector",
+        "last": 58.85,
+        "prev_close": 59.65,
+        "change_pct": -1.34,
+        "day_high": 59.6,
+        "day_low": 58.26,
+        "volume": 35831623
+      },
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "proxy_for": "Sector",
+        "last": 51.92,
+        "prev_close": 52.13,
+        "change_pct": -0.4,
+        "day_high": 52.61,
+        "day_low": 51.92,
+        "volume": 39619086
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "proxy_for": "Sector",
+        "last": 172.96,
+        "prev_close": 174.58,
+        "change_pct": -0.93,
+        "day_high": 175.43,
+        "day_low": 172.94,
+        "volume": 6801573
+      },
+      {
+        "symbol": "SMH",
+        "label": "Semis",
+        "proxy_for": "PHLX SOX proxy",
+        "last": 508.89,
+        "prev_close": 506.72,
+        "change_pct": 0.43,
+        "day_high": 511.99,
+        "day_low": 502.25,
+        "volume": 5323147
+      },
+      {
+        "symbol": "XLK",
+        "label": "Technology",
+        "proxy_for": "Sector",
+        "last": 161.87,
+        "prev_close": 159.5,
+        "change_pct": 1.49,
+        "day_high": 162.28,
+        "day_low": 160.14,
+        "volume": 10164127
+      }
+    ]
+  },
+  "halts": {
+    "fetch_status": "ok",
+    "halts_today": [
+      {
+        "ticker": "ERNAW",
+        "halt_reason": "",
+        "title": "ERNAW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000ERNAWErnexa Therapeutics WarrantsNASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "UHGWW",
+        "halt_reason": "",
+        "title": "UHGWW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000UHGWWUnited Homes Group, Inc. WtNASDAQT12",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ERNA",
+        "halt_reason": "",
+        "title": "ERNA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000ERNAErnexa Therapeutics Inc NASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "FCHL",
+        "halt_reason": "",
+        "title": "FCHL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000FCHLFitness Champs Hld Ltd Cmn StkNASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "INHD",
+        "halt_reason": "",
+        "title": "INHD",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000INHDInno Holdings Inc.NASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "VEEE",
+        "halt_reason": "",
+        "title": "VEEE",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000VEEETwin Vee PowerCats Co. Cm StNASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "UHG",
+        "halt_reason": "",
+        "title": "UHG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000UHGUnited Homes Group, IncNASDAQT12",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "TRI",
+        "halt_reason": "",
+        "title": "TRI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/01/2026                    19:50:00.000TRIThomson Reuters Cp CmnNASDAQT1",
+        "published": "Fri, 01 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "APUS",
+        "halt_reason": "",
+        "title": "APUS",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time04/02/2026                    11:54:38.095APUSApimeds Pharmaceuticals US, Inc.AMEXH11",
+        "published": "Thu, 02 Apr 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "TCGL",
+        "halt_reason": "",
+        "title": "TCGL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time02/02/2026                    03:33:59TCGLTechCreate Group Ltd. Class A Ordinary SharesAMEXH11",
+        "published": "Mon, 02 Feb 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "JMG",
+        "halt_reason": "",
+        "title": "JMG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time01/15/2026                    02:55:27JMGJM Group Limited Ordinary SharesAMEXH11",
+        "published": "Thu, 15 Jan 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "MAGH",
+        "halt_reason": "",
+        "title": "MAGH",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time12/04/2025                    19:50:00MAGHMagnitude International Ltd OSNASDAQT12",
+        "published": "Thu, 04 Dec 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "MAMK",
+        "halt_reason": "",
+        "title": "MAMK",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/14/2025                    19:50:00MAMKMaxsMaking Inc.NASDAQT12",
+        "published": "Fri, 14 Nov 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "MCTA",
+        "halt_reason": "",
+        "title": "MCTA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/11/2025                    19:50:00MCTACharming Medical Limit Cl A OSNASDAQT12",
+        "published": "Tue, 11 Nov 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "LAWR",
+        "halt_reason": "",
+        "title": "LAWR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/22/2025                    19:50:00LAWRRobot Consulting ADSNASDAQT12",
+        "published": "Wed, 22 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PC",
+        "halt_reason": "",
+        "title": "PC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/16/2025                    19:50:00PCPremium Catering Hold Ltd OSNASDAQT12",
+        "published": "Thu, 16 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "NUTR",
+        "halt_reason": "",
+        "title": "NUTR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/08/2025                    19:50:00NUTRNusatrip Incorporated Comm StkNASDAQT12",
+        "published": "Wed, 08 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "EMPG",
+        "halt_reason": "",
+        "title": "EMPG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/08/2025                    19:50:00EMPGEmpro Group Inc.NASDAQT12",
+        "published": "Wed, 08 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PTNM",
+        "halt_reason": "",
+        "title": "PTNM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00PTNMPitanium Ltd Ord ANASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PLTS",
+        "halt_reason": "",
+        "title": "PLTS",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00PLTSPlatinum Analytics Cymn Ord ANASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "EFTY",
+        "halt_reason": "",
+        "title": "EFTY",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00EFTYEtoiles Capital Group Cl A OSNASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "UCFI",
+        "halt_reason": "",
+        "title": "UCFI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/01/2025                    11:28:10UCFICN Healthy Food Tech Group CS NASDAQT12",
+        "published": "Wed, 01 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "UCFIW",
+        "halt_reason": "",
+        "title": "UCFIW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/01/2025                    11:28:10UCFIWCN Healthy Food Tech WarrantNASDAQT12",
+        "published": "Wed, 01 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "SDM",
+        "halt_reason": "",
+        "title": "SDM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/26/2025                    19:50:00SDMSmart Digital Group Limited OSNASDAQT12",
+        "published": "Fri, 26 Sep 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "QMMM",
+        "halt_reason": "",
+        "title": "QMMM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/26/2025                    19:50:00QMMMQMMM Hldgs Ord Shs ANASDAQT12",
+        "published": "Fri, 26 Sep 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "OST",
+        "halt_reason": "",
+        "title": "OST",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/12/2025                    12:24:23OSTOstin Tech Grp Co Ord Cl A OrdNASDAQT12",
+        "published": "Fri, 12 Sep 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "SVA",
+        "halt_reason": "",
+        "title": "SVA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time02/22/2019                    16:02:01SVASinovac Biotech, Ltd Ord ShrsNASDAQT12",
+        "published": "Fri, 22 Feb 2019 05:00:00 GMT"
+      }
+    ],
+    "feed_pubdate": null
+  }
 }
