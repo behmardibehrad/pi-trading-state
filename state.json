@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-04T08:40:00.223334+00:00",
+    "generated_at": "2026-05-04T08:45:00.211751+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -1030,7 +1030,7 @@
       }
     ],
     "scanner_file": "scan_20260504_014418.json",
-    "scanner_age_seconds": 24941,
+    "scanner_age_seconds": 25241,
     "market_context": {
       "SPY": {
         "price": 720.65,
@@ -2793,6 +2793,26 @@
       },
       {
         "time_utc": "2026-05-04 08:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "KZ",
+        "impact": "low",
+        "prev": 0.6,
+        "estimate": null,
+        "actual": 0.8,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-04 08:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "KZ",
+        "impact": "low",
+        "prev": 11,
+        "estimate": null,
+        "actual": 10.6,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-04 08:00:00",
         "event": "PPI YoY",
         "country": "JO",
         "impact": "low",
@@ -3564,7 +3584,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 721.35,
+        "last": 721.31,
         "prev_close": 718.66,
         "change_pct": 0.37,
         "day_high": 724.87,
@@ -3575,9 +3595,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 675.9,
+        "last": 675.68,
         "prev_close": 667.74,
-        "change_pct": 1.22,
+        "change_pct": 1.19,
         "day_high": 675.97,
         "day_low": 668.8,
         "volume": 39323275
@@ -3586,9 +3606,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 493.76,
+        "last": 494.13,
         "prev_close": 496.65,
-        "change_pct": -0.58,
+        "change_pct": -0.51,
         "day_high": 499.93,
         "day_low": 494.91,
         "volume": 4406293
@@ -3597,7 +3617,7 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 279.28,
+        "last": 279.29,
         "prev_close": 277.97,
         "change_pct": 0.47,
         "day_high": 279.81,
@@ -3610,9 +3630,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 144.6,
+        "last": 144.37,
         "prev_close": 147.09,
-        "change_pct": -1.69,
+        "change_pct": -1.85,
         "day_high": 143.85,
         "day_low": 138.8,
         "volume": 12801593
@@ -3632,9 +3652,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 420.2,
+        "last": 420.4,
         "prev_close": 423.66,
-        "change_pct": -0.82,
+        "change_pct": -0.77,
         "day_high": 427.93,
         "day_low": 421.08,
         "volume": 5958810
@@ -3702,9 +3722,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 165.36,
+        "last": 165.3,
         "prev_close": 160.76,
-        "change_pct": 2.86,
+        "change_pct": 2.82,
         "day_high": 164.18,
         "day_low": 159.66,
         "volume": 9841688
@@ -3772,9 +3792,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 59.01,
+        "last": 58.99,
         "prev_close": 59.65,
-        "change_pct": -1.07,
+        "change_pct": -1.11,
         "day_high": 59.6,
         "day_low": 58.26,
         "volume": 35831623
@@ -3805,9 +3825,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 514.26,
+        "last": 513.83,
         "prev_close": 506.72,
-        "change_pct": 1.49,
+        "change_pct": 1.4,
         "day_high": 511.99,
         "day_low": 502.25,
         "volume": 5323147
