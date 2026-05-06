@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-06T13:40:00.224031+00:00",
+    "generated_at": "2026-05-06T13:45:00.227037+00:00",
     "session_phase": "rth"
   },
   "scanner": {
@@ -1468,7 +1468,7 @@
       }
     ],
     "scanner_file": "scan_20260506_133001.json",
-    "scanner_age_seconds": 598,
+    "scanner_age_seconds": 898,
     "market_context": {
       "SPY": {
         "price": 728.05,
@@ -8383,7 +8383,7 @@
         "country": "US",
         "impact": "medium",
         "prev": -6.233,
-        "estimate": -3.3,
+        "estimate": -2.8,
         "actual": null,
         "unit": ""
       },
@@ -8413,7 +8413,7 @@
         "country": "US",
         "impact": "low",
         "prev": -4.494,
-        "estimate": -2.4,
+        "estimate": -2,
         "actual": null,
         "unit": ""
       },
@@ -8433,7 +8433,7 @@
         "country": "US",
         "impact": "medium",
         "prev": -6.075,
-        "estimate": -2.1,
+        "estimate": -1.7,
         "actual": null,
         "unit": ""
       },
@@ -8640,45 +8640,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 729.08,
+        "last": 729.2,
         "prev_close": 723.77,
-        "change_pct": 0.73,
+        "change_pct": 0.75,
         "day_high": 729.55,
         "day_low": 727.82,
-        "volume": 4092545
+        "volume": 4685960
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 688.78,
+        "last": 689.95,
         "prev_close": 681.61,
-        "change_pct": 1.05,
-        "day_high": 689.41,
+        "change_pct": 1.22,
+        "day_high": 689.97,
         "day_low": 686.48,
-        "volume": 5263730
+        "volume": 5914974
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 498.41,
+        "last": 497.75,
         "prev_close": 492.96,
-        "change_pct": 1.11,
+        "change_pct": 0.97,
         "day_high": 498.72,
         "day_low": 496.9,
-        "volume": 748630
+        "volume": 836653
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 285.16,
+        "last": 284.95,
         "prev_close": 282.56,
-        "change_pct": 0.92,
+        "change_pct": 0.85,
         "day_high": 285.75,
         "day_low": 284.69,
-        "volume": 4134572
+        "volume": 4771773
       }
     ],
     "commodities": [
@@ -8686,12 +8686,12 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.68,
+        "last": 135.37,
         "prev_close": 144.17,
-        "change_pct": -6.58,
+        "change_pct": -6.1,
         "day_high": 135.8,
         "day_low": 134.15,
-        "volume": 4942634
+        "volume": 5116301
       },
       {
         "symbol": "UNG",
@@ -8702,18 +8702,18 @@
         "change_pct": -2.26,
         "day_high": 10.46,
         "day_low": 10.38,
-        "volume": 977711
+        "volume": 1041129
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 431.11,
+        "last": 431.13,
         "prev_close": 418.27,
         "change_pct": 3.07,
         "day_high": 431.48,
         "day_low": 429.73,
-        "volume": 1208112
+        "volume": 1271910
       }
     ],
     "vol_and_dollar": [
@@ -8721,12 +8721,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 27.07,
+        "last": 27.1,
         "prev_close": 27.7,
-        "change_pct": -2.27,
-        "day_high": 27.08,
+        "change_pct": -2.17,
+        "day_high": 27.1,
         "day_low": 26.95,
-        "volume": 304193
+        "volume": 322382
       },
       {
         "symbol": "UUP",
@@ -8737,18 +8737,18 @@
         "change_pct": -0.58,
         "day_high": 27.35,
         "day_low": 27.34,
-        "volume": 151558
+        "volume": 168895
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 86.03,
+        "last": 85.95,
         "prev_close": 85.43,
-        "change_pct": 0.7,
+        "change_pct": 0.61,
         "day_high": 86.12,
-        "day_low": 86.02,
-        "volume": 2112536
+        "day_low": 85.94,
+        "volume": 2688696
       }
     ],
     "asia": [
@@ -8756,12 +8756,12 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 91.45,
+        "last": 91.48,
         "prev_close": 89.26,
-        "change_pct": 2.45,
-        "day_high": 91.48,
+        "change_pct": 2.49,
+        "day_high": 91.52,
         "day_low": 91.22,
-        "volume": 583517
+        "volume": 687026
       },
       {
         "symbol": "FXI",
@@ -8772,29 +8772,29 @@
         "change_pct": 1.73,
         "day_high": 37.13,
         "day_low": 36.93,
-        "volume": 2267904
+        "volume": 3061955
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 179.52,
+        "last": 179.85,
         "prev_close": 173.47,
-        "change_pct": 3.49,
+        "change_pct": 3.68,
         "day_high": 180.57,
         "day_low": 179.08,
-        "volume": 2955197
+        "volume": 3377950
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 93.96,
+        "last": 93.99,
         "prev_close": 92.77,
-        "change_pct": 1.28,
-        "day_high": 94.03,
+        "change_pct": 1.32,
+        "day_high": 94.06,
         "day_low": 93.67,
-        "volume": 533899
+        "volume": 719928
       }
     ],
     "europe": [
@@ -8802,45 +8802,45 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 43.34,
+        "last": 43.32,
         "prev_close": 42.39,
-        "change_pct": 2.24,
+        "change_pct": 2.19,
         "day_high": 43.38,
         "day_low": 43.27,
-        "volume": 213039
+        "volume": 257169
       },
       {
         "symbol": "EWU",
         "label": "UK",
         "proxy_for": "FTSE 100",
-        "last": 47.48,
+        "last": 47.43,
         "prev_close": 46.45,
-        "change_pct": 2.22,
+        "change_pct": 2.11,
         "day_high": 47.53,
-        "day_low": 47.46,
-        "volume": 31197
+        "day_low": 47.43,
+        "volume": 36138
       },
       {
         "symbol": "EWQ",
         "label": "France",
         "proxy_for": "CAC 40",
-        "last": 46.59,
+        "last": 46.56,
         "prev_close": 45.12,
-        "change_pct": 3.26,
+        "change_pct": 3.19,
         "day_high": 46.61,
         "day_low": 46.46,
-        "volume": 15251
+        "volume": 20197
       },
       {
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 89.0,
+        "last": 88.91,
         "prev_close": 86.87,
-        "change_pct": 2.45,
+        "change_pct": 2.35,
         "day_high": 89.06,
         "day_low": 88.82,
-        "volume": 85624
+        "volume": 113103
       }
     ],
     "sectors_extra": [
@@ -8848,56 +8848,56 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 57.48,
+        "last": 57.57,
         "prev_close": 59.45,
-        "change_pct": -3.31,
+        "change_pct": -3.16,
         "day_high": 57.89,
         "day_low": 57.18,
-        "volume": 8310481
+        "volume": 9910439
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 52.15,
+        "last": 52.11,
         "prev_close": 51.59,
-        "change_pct": 1.09,
+        "change_pct": 1.01,
         "day_high": 52.23,
         "day_low": 51.91,
-        "volume": 3483290
+        "volume": 4241115
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 175.5,
+        "last": 174.77,
         "prev_close": 172.41,
-        "change_pct": 1.79,
+        "change_pct": 1.37,
         "day_high": 175.76,
-        "day_low": 174.97,
-        "volume": 991724
+        "day_low": 174.75,
+        "volume": 1294461
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 541.41,
+        "last": 542.83,
         "prev_close": 522.69,
-        "change_pct": 3.58,
-        "day_high": 544.02,
+        "change_pct": 3.85,
+        "day_high": 544.21,
         "day_low": 535.6,
-        "volume": 2323973
+        "volume": 2744156
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 167.71,
+        "last": 168.14,
         "prev_close": 165.63,
-        "change_pct": 1.26,
+        "change_pct": 1.52,
         "day_high": 168.42,
         "day_low": 166.96,
-        "volume": 935819
+        "volume": 1100301
       }
     ]
   },
@@ -8905,24 +8905,38 @@
     "fetch_status": "ok",
     "halts_today": [
       {
+        "ticker": "EZGO",
+        "halt_reason": "",
+        "title": "EZGO",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:42:41.130EZGOEZGO Technologies Ltd. Or ShNASDAQLUDP05/06/2026                    09:42:41",
+        "published": "Wed, 06 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "FFDI",
+        "halt_reason": "",
+        "title": "FFDI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:39:02.353FFDIFidelity Fundamental Developed International ETFNon NASDAQM",
+        "published": "Wed, 06 May 2026 04:00:00 GMT"
+      },
+      {
         "ticker": "HLXX",
         "halt_reason": "",
         "title": "HLXX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:35:30.883HLXXTradr 2X Long HL Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:35:30.883HLXXTradr 2X Long HL Daily ETFNon NASDAQM05/06/2026                    09:40:30                      09:40:30",
         "published": "Wed, 06 May 2026 04:00:00 GMT"
       },
       {
         "ticker": "PAAU",
         "halt_reason": "",
         "title": "PAAU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:35:18.276PAAUT-REX 2X Long PAAS Daily Target ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:35:18.276PAAUT-REX 2X Long PAAS Daily Target ETFNon NASDAQM05/06/2026                    09:40:18                      09:40:18",
         "published": "Wed, 06 May 2026 04:00:00 GMT"
       },
       {
         "ticker": "ERNA",
         "halt_reason": "",
         "title": "ERNA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:34:45.196ERNAErnexa Therapeutics Inc NASDAQLUDP05/06/2026                    09:34:45",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/06/2026                    09:34:45.196ERNAErnexa Therapeutics Inc NASDAQLUDP05/06/2026                    09:34:45                      09:39:45",
         "published": "Wed, 06 May 2026 04:00:00 GMT"
       },
       {
