@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-09T23:55:00.219841+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-05-10T08:00:00.215524+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -1760,7 +1760,7 @@
       }
     ],
     "scanner_file": "scan_20260508_203001.json",
-    "scanner_age_seconds": 98699,
+    "scanner_age_seconds": 127799,
     "market_context": {
       "SPY": {
         "price": 737.47,
@@ -1861,58 +1861,83 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": [
-      {
-        "symbol": "ENTX",
-        "date": "2026-05-08",
-        "hour": "amc",
-        "eps_estimate": -0.153,
-        "eps_actual": -0.07,
-        "rev_estimate": null,
-        "rev_actual": 0,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
-        "symbol": "TOMZ",
-        "date": "2026-05-08",
-        "hour": "amc",
-        "eps_estimate": -0.0408,
-        "eps_actual": -0.04,
-        "rev_estimate": 1723800,
-        "rev_actual": 1650000,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
-        "symbol": "NTIP",
-        "date": "2026-05-08",
-        "hour": "amc",
-        "eps_estimate": null,
-        "eps_actual": -0.02,
-        "rev_estimate": null,
-        "rev_actual": 0,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
-        "symbol": "HE",
-        "date": "2026-05-08",
-        "hour": "amc",
-        "eps_estimate": 0.2874,
-        "eps_actual": 0.18,
-        "rev_estimate": null,
-        "rev_actual": 746450000,
-        "year": 2026,
-        "quarter": 1
-      }
-    ],
+    "earnings_yesterday_ah": [],
     "earnings_today_bmo": [],
     "earnings_today_ah": [],
     "econ_data_today": [
       {
-        "time_utc": "2026-05-09 11:00:00",
-        "event": "ECB Donnery Speech",
+        "time_utc": "2026-05-10 06:00:00",
+        "event": "Industrial Production YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 15,
+        "estimate": null,
+        "actual": -14.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 06:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "EG",
+        "impact": "low",
+        "prev": 3.2,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-10 06:10:00",
+        "event": "Car Sales YoY",
+        "country": "ID",
+        "impact": "low",
+        "prev": -13.8,
+        "estimate": null,
+        "actual": 55,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 06:30:00",
+        "event": "Inflation Rate MoM",
+        "country": "EG",
+        "impact": "low",
+        "prev": 3.2,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 06:30:00",
+        "event": "Inflation Rate YoY",
+        "country": "EG",
+        "impact": "low",
+        "prev": 15.2,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 08:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "RW",
+        "impact": "low",
+        "prev": 1.7,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 08:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "RW",
+        "impact": "low",
+        "prev": 7.7,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-10 09:30:00",
+        "event": "ECB Cipollone Speech",
         "country": "EU",
         "impact": "medium",
         "prev": null,
@@ -1921,31 +1946,141 @@
         "unit": ""
       },
       {
-        "time_utc": "2026-05-09 12:00:00",
-        "event": "Consumer Confidence",
-        "country": "MX",
+        "time_utc": "2026-05-10 13:00:00",
+        "event": "Core Inflation Rate YoY",
+        "country": "EG",
+        "impact": "low",
+        "prev": 14,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 00:00:00",
+        "event": "Victory Day",
+        "country": "KG",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 00:00:00",
+        "event": "Victory Day",
+        "country": "KZ",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 00:00:00",
+        "event": "Victory Day",
+        "country": "RU",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 00:00:00",
+        "event": "Victory Day",
+        "country": "TJ",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 00:00:00",
+        "event": "Victory Day over Fascism",
+        "country": "AZ",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "Building Permits MoM Final",
+        "country": "AU",
+        "impact": "low",
+        "prev": 31,
+        "estimate": -10.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "Building Permits YoY Final",
+        "country": "AU",
+        "impact": "low",
+        "prev": 16.1,
+        "estimate": 9,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "Inflation Rate MoM",
+        "country": "CN",
         "impact": "medium",
-        "prev": 44.1,
-        "estimate": null,
+        "prev": -0.7,
+        "estimate": -0.1,
         "actual": null,
-        "unit": ""
+        "unit": "%"
       },
       {
-        "time_utc": "2026-05-10 00:00:00",
-        "event": "Mothers\u2019 Day",
-        "country": "SV",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "Inflation Rate YoY",
+        "country": "CN",
+        "impact": "high",
+        "prev": 1,
+        "estimate": 0.8,
         "actual": null,
-        "unit": ""
+        "unit": "%"
       },
       {
-        "time_utc": "2026-05-10 00:00:00",
-        "event": "South Liberation Day",
-        "country": "LB",
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "PPI YoY",
+        "country": "CN",
+        "impact": "medium",
+        "prev": 0.5,
+        "estimate": 1.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-11 01:30:00",
+        "event": "Private House Approvals MoM Final",
+        "country": "AU",
         "impact": "low",
-        "prev": null,
+        "prev": 2,
+        "estimate": 0.9,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-11 02:30:00",
+        "event": "3-Year KTB Auction",
+        "country": "KR",
+        "impact": "low",
+        "prev": 3.45,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-11 03:00:00",
+        "event": "Consumer Confidence",
+        "country": "ID",
+        "impact": "low",
+        "prev": 122.9,
         "estimate": null,
         "actual": null,
         "unit": ""
