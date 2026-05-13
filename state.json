@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-13T08:55:00.211704+00:00",
+    "generated_at": "2026-05-13T09:00:00.222574+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -884,7 +884,7 @@
       }
     ],
     "scanner_file": "scan_20260512_203001.json",
-    "scanner_age_seconds": 44699,
+    "scanner_age_seconds": 44999,
     "market_context": {
       "SPY": {
         "price": 737.33,
@@ -1537,17 +1537,6 @@
         "quarter": 1
       },
       {
-        "symbol": "GCTS",
-        "date": "2026-05-12",
-        "hour": "amc",
-        "eps_estimate": -0.1496,
-        "eps_actual": null,
-        "rev_estimate": 1790436,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
         "symbol": "FEAM",
         "date": "2026-05-12",
         "hour": "amc",
@@ -1678,17 +1667,6 @@
         "rev_actual": 25190000,
         "year": 2026,
         "quarter": 4
-      },
-      {
-        "symbol": "PHVS",
-        "date": "2026-05-12",
-        "hour": "amc",
-        "eps_estimate": -0.7262,
-        "eps_actual": null,
-        "rev_estimate": 0,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 1
       },
       {
         "symbol": "NXT",
@@ -2104,17 +2082,6 @@
         "date": "2026-05-13",
         "hour": "bmo",
         "eps_estimate": -0.4965,
-        "eps_actual": null,
-        "rev_estimate": 0,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
-        "symbol": "IPSC",
-        "date": "2026-05-13",
-        "hour": "bmo",
-        "eps_estimate": -0.1612,
         "eps_actual": null,
         "rev_estimate": 0,
         "rev_actual": null,
@@ -2991,6 +2958,17 @@
         "rev_actual": null,
         "year": 2026,
         "quarter": 2
+      },
+      {
+        "symbol": "PHVS",
+        "date": "2026-05-13",
+        "hour": "amc",
+        "eps_estimate": -0.7262,
+        "eps_actual": null,
+        "rev_estimate": 0,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
       },
       {
         "symbol": "FIHL",
@@ -4722,9 +4700,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 740.22,
+        "last": 740.26,
         "prev_close": 739.3,
-        "change_pct": 0.12,
+        "change_pct": 0.13,
         "day_high": 738.84,
         "day_low": 731.83,
         "volume": 54773636
@@ -4733,7 +4711,7 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 713.0,
+        "last": 713.02,
         "prev_close": 713.29,
         "change_pct": -0.04,
         "day_high": 710.18,
@@ -4744,9 +4722,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 497.15,
+        "last": 497.26,
         "prev_close": 497.11,
-        "change_pct": 0.01,
+        "change_pct": 0.03,
         "day_high": 498.41,
         "day_low": 493.19,
         "volume": 7449071
@@ -4755,7 +4733,7 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 283.47,
+        "last": 283.48,
         "prev_close": 285.33,
         "change_pct": -0.65,
         "day_high": 284.06,
@@ -4768,9 +4746,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 143.53,
+        "last": 143.28,
         "prev_close": 138.66,
-        "change_pct": 3.51,
+        "change_pct": 3.33,
         "day_high": 144.8,
         "day_low": 143.09,
         "volume": 6112609
@@ -4790,9 +4768,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 431.32,
+        "last": 431.64,
         "prev_close": 434.65,
-        "change_pct": -0.77,
+        "change_pct": -0.69,
         "day_high": 432.98,
         "day_low": 425.85,
         "volume": 6707432
@@ -4825,9 +4803,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 85.01,
+        "last": 85.02,
         "prev_close": 85.56,
-        "change_pct": -0.64,
+        "change_pct": -0.63,
         "day_high": 85.2,
         "day_low": 84.92,
         "volume": 27690637
@@ -4838,9 +4816,9 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 92.76,
+        "last": 92.91,
         "prev_close": 92.26,
-        "change_pct": 0.54,
+        "change_pct": 0.7,
         "day_high": 92.26,
         "day_low": 91.36,
         "volume": 6548727
@@ -4849,9 +4827,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 37.4,
+        "last": 37.41,
         "prev_close": 37.47,
-        "change_pct": -0.19,
+        "change_pct": -0.16,
         "day_high": 37.51,
         "day_low": 37.06,
         "volume": 32105077
@@ -4860,9 +4838,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 188.74,
+        "last": 189.01,
         "prev_close": 192.85,
-        "change_pct": -2.13,
+        "change_pct": -1.99,
         "day_high": 185.31,
         "day_low": 173.6,
         "volume": 39918583
@@ -4871,9 +4849,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 94.23,
+        "last": 94.0,
         "prev_close": 97.15,
-        "change_pct": -3.01,
+        "change_pct": -3.24,
         "day_high": 94.87,
         "day_low": 92.38,
         "volume": 9963759
@@ -4941,9 +4919,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 51.37,
+        "last": 51.38,
         "prev_close": 51.18,
-        "change_pct": 0.37,
+        "change_pct": 0.39,
         "day_high": 51.7,
         "day_low": 50.81,
         "volume": 44194798
