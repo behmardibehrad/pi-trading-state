@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-13T12:00:00.224146+00:00",
+    "generated_at": "2026-05-13T12:05:00.222094+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -884,7 +884,7 @@
       }
     ],
     "scanner_file": "scan_20260513_113001.json",
-    "scanner_age_seconds": 1799,
+    "scanner_age_seconds": 2099,
     "market_context": {
       "SPY": {
         "price": 739.56,
@@ -4248,7 +4248,7 @@
         "impact": "medium",
         "prev": 0.6,
         "estimate": 0,
-        "actual": null,
+        "actual": 0.5,
         "unit": "%"
       },
       {
@@ -4258,7 +4258,7 @@
         "impact": "low",
         "prev": 0.2,
         "estimate": 2.75,
-        "actual": null,
+        "actual": 4,
         "unit": "%"
       },
       {
@@ -4894,9 +4894,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 739.65,
+        "last": 740.11,
         "prev_close": 739.3,
-        "change_pct": 0.05,
+        "change_pct": 0.11,
         "day_high": 738.84,
         "day_low": 731.83,
         "volume": 54773636
@@ -4905,9 +4905,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 711.99,
+        "last": 712.63,
         "prev_close": 713.29,
-        "change_pct": -0.18,
+        "change_pct": -0.09,
         "day_high": 710.18,
         "day_low": 696.64,
         "volume": 46036766
@@ -4916,9 +4916,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 496.55,
+        "last": 496.7,
         "prev_close": 497.11,
-        "change_pct": -0.11,
+        "change_pct": -0.08,
         "day_high": 498.41,
         "day_low": 493.19,
         "volume": 7449071
@@ -4927,9 +4927,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 283.21,
+        "last": 283.39,
         "prev_close": 285.33,
-        "change_pct": -0.74,
+        "change_pct": -0.68,
         "day_high": 284.06,
         "day_low": 278.28,
         "volume": 27453178
@@ -4940,9 +4940,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 143.5,
+        "last": 143.41,
         "prev_close": 138.66,
-        "change_pct": 3.49,
+        "change_pct": 3.43,
         "day_high": 144.8,
         "day_low": 143.09,
         "volume": 6112609
@@ -4951,9 +4951,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.91,
+        "last": 10.92,
         "prev_close": 11.22,
-        "change_pct": -2.76,
+        "change_pct": -2.67,
         "day_high": 11.01,
         "day_low": 10.78,
         "volume": 7577356
@@ -4975,9 +4975,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 26.83,
+        "last": 26.8,
         "prev_close": 27.41,
-        "change_pct": -2.12,
+        "change_pct": -2.23,
         "day_high": 27.87,
         "day_low": 26.66,
         "volume": 3643585
@@ -4997,9 +4997,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 84.97,
+        "last": 84.98,
         "prev_close": 85.56,
-        "change_pct": -0.69,
+        "change_pct": -0.68,
         "day_high": 85.2,
         "day_low": 84.92,
         "volume": 27690637
@@ -5021,9 +5021,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 37.3,
+        "last": 37.29,
         "prev_close": 37.47,
-        "change_pct": -0.45,
+        "change_pct": -0.48,
         "day_high": 37.51,
         "day_low": 37.06,
         "volume": 32105077
@@ -5032,9 +5032,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 188.75,
+        "last": 189.2,
         "prev_close": 192.85,
-        "change_pct": -2.13,
+        "change_pct": -1.89,
         "day_high": 185.31,
         "day_low": 173.6,
         "volume": 39918583
@@ -5043,9 +5043,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 94.17,
+        "last": 94.07,
         "prev_close": 97.15,
-        "change_pct": -3.07,
+        "change_pct": -3.17,
         "day_high": 94.87,
         "day_low": 92.38,
         "volume": 9963759
@@ -5102,9 +5102,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 57.28,
+        "last": 57.29,
         "prev_close": 57.17,
-        "change_pct": 0.19,
+        "change_pct": 0.21,
         "day_high": 57.84,
         "day_low": 57.14,
         "volume": 36817174
@@ -5135,9 +5135,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 572.61,
+        "last": 573.61,
         "prev_close": 576.31,
-        "change_pct": -0.64,
+        "change_pct": -0.47,
         "day_high": 570.4,
         "day_low": 542.67,
         "volume": 17760368
@@ -5146,9 +5146,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 177.66,
+        "last": 177.78,
         "prev_close": 177.88,
-        "change_pct": -0.12,
+        "change_pct": -0.06,
         "day_high": 176.99,
         "day_low": 171.19,
         "volume": 15953623
@@ -5162,7 +5162,7 @@
         "ticker": "ASRT",
         "halt_reason": "",
         "title": "ASRT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/13/2026                    07:55:00.000ASRTAssertio Holdings, Inc.NASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/13/2026                    07:55:00.000ASRTAssertio Holdings, Inc.NASDAQT305/13/2026                    08:15:00                      08:20:00",
         "published": "Wed, 13 May 2026 04:00:00 GMT"
       },
       {
