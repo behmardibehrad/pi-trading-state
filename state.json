@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-18T23:50:00.212037+00:00",
+    "generated_at": "2026-05-18T23:55:00.217921+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -1173,7 +1173,7 @@
       }
     ],
     "scanner_file": "scan_20260518_203001.json",
-    "scanner_age_seconds": 11999,
+    "scanner_age_seconds": 12299,
     "market_context": {
       "SPY": {
         "price": 738.11,
@@ -2280,9 +2280,9 @@
         "event": "GDP Capital Expenditure QoQ Prel",
         "country": "JP",
         "impact": "low",
-        "prev": 1.3,
+        "prev": 1.4,
         "estimate": 0.2,
-        "actual": null,
+        "actual": 0.3,
         "unit": "%"
       },
       {
@@ -2292,7 +2292,7 @@
         "impact": "low",
         "prev": 0,
         "estimate": 0.2,
-        "actual": null,
+        "actual": 0.3,
         "unit": "%"
       },
       {
@@ -2300,9 +2300,9 @@
         "event": "GDP Growth Annualized Prel",
         "country": "JP",
         "impact": "medium",
-        "prev": 1.3,
+        "prev": 0.8,
         "estimate": 1.7,
-        "actual": null,
+        "actual": 2.1,
         "unit": "%"
       },
       {
@@ -2310,9 +2310,9 @@
         "event": "GDP Growth Rate QoQ Prel",
         "country": "JP",
         "impact": "high",
-        "prev": 0.3,
+        "prev": 0.2,
         "estimate": 0.4,
-        "actual": null,
+        "actual": 0.5,
         "unit": "%"
       },
       {
@@ -2322,7 +2322,7 @@
         "impact": "low",
         "prev": 3.4,
         "estimate": 3.1,
-        "actual": null,
+        "actual": 3.4,
         "unit": "%"
       },
       {
@@ -2330,9 +2330,9 @@
         "event": "GDP Private Consumption QoQ Prel",
         "country": "JP",
         "impact": "low",
-        "prev": 0.3,
+        "prev": 0,
         "estimate": 0.2,
-        "actual": null,
+        "actual": 0.3,
         "unit": "%"
       },
       {
@@ -2448,45 +2448,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 739.12,
+        "last": 738.68,
         "prev_close": 739.17,
-        "change_pct": -0.01,
+        "change_pct": -0.07,
         "day_high": 741.41,
         "day_low": 733.39,
-        "volume": 47912852
+        "volume": 47915948
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 706.76,
+        "last": 706.2,
         "prev_close": 708.93,
-        "change_pct": -0.31,
+        "change_pct": -0.39,
         "day_high": 712.07,
         "day_low": 698.85,
-        "volume": 50656206
+        "volume": 50664900
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 497.2,
+        "last": 496.88,
         "prev_close": 495.37,
-        "change_pct": 0.37,
+        "change_pct": 0.3,
         "day_high": 497.64,
         "day_low": 493.6,
-        "volume": 5496409
+        "volume": 5499017
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 276.48,
+        "last": 276.08,
         "prev_close": 277.6,
-        "change_pct": -0.4,
+        "change_pct": -0.55,
         "day_high": 279.08,
         "day_low": 273.94,
-        "volume": 27243735
+        "volume": 27244598
       }
     ],
     "commodities": [
@@ -2494,12 +2494,12 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 149.86,
+        "last": 150.04,
         "prev_close": 148.23,
-        "change_pct": 1.1,
+        "change_pct": 1.22,
         "day_high": 154.08,
         "day_low": 144.96,
-        "volume": 10816151
+        "volume": 10818349
       },
       {
         "symbol": "UNG",
@@ -2510,18 +2510,18 @@
         "change_pct": 2.03,
         "day_high": 11.61,
         "day_low": 11.36,
-        "volume": 8580571
+        "volume": 8581071
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 420.66,
+        "last": 420.56,
         "prev_close": 417.29,
-        "change_pct": 0.81,
+        "change_pct": 0.78,
         "day_high": 420.93,
         "day_low": 416.06,
-        "volume": 5680507
+        "volume": 5680797
       }
     ],
     "vol_and_dollar": [
@@ -2529,12 +2529,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 26.25,
+        "last": 26.34,
         "prev_close": 26.93,
-        "change_pct": -2.53,
+        "change_pct": -2.19,
         "day_high": 26.89,
         "day_low": 26.02,
-        "volume": 4564384
+        "volume": 4564522
       },
       {
         "symbol": "UUP",
@@ -2556,7 +2556,7 @@
         "change_pct": -0.1,
         "day_high": 83.92,
         "day_low": 83.31,
-        "volume": 26175301
+        "volume": 26176760
       }
     ],
     "asia": [
@@ -2569,7 +2569,7 @@
         "change_pct": -0.16,
         "day_high": 91.27,
         "day_low": 90.23,
-        "volume": 8364812
+        "volume": 8364844
       },
       {
         "symbol": "FXI",
@@ -2580,18 +2580,18 @@
         "change_pct": 0.06,
         "day_high": 36.38,
         "day_low": 36.09,
-        "volume": 23318634
+        "volume": 23318635
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 176.95,
+        "last": 176.99,
         "prev_close": 178.86,
-        "change_pct": -1.07,
+        "change_pct": -1.05,
         "day_high": 182.79,
         "day_low": 173.15,
-        "volume": 17192346
+        "volume": 17192463
       },
       {
         "symbol": "EWT",
@@ -2656,23 +2656,23 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 60.57,
+        "last": 60.58,
         "prev_close": 59.44,
-        "change_pct": 1.9,
+        "change_pct": 1.92,
         "day_high": 60.7,
         "day_low": 58.72,
-        "volume": 41516490
+        "volume": 41519677
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 51.73,
+        "last": 51.74,
         "prev_close": 51.1,
-        "change_pct": 1.23,
+        "change_pct": 1.25,
         "day_high": 51.8,
         "day_low": 50.97,
-        "volume": 32973230
+        "volume": 32975534
       },
       {
         "symbol": "XLI",
@@ -2689,12 +2689,12 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 548.61,
+        "last": 547.3,
         "prev_close": 556.34,
-        "change_pct": -1.39,
+        "change_pct": -1.62,
         "day_high": 567.21,
         "day_low": 536.87,
-        "volume": 12336576
+        "volume": 12341882
       },
       {
         "symbol": "XLK",
@@ -2705,13 +2705,34 @@
         "change_pct": -0.89,
         "day_high": 177.85,
         "day_low": 171.91,
-        "volume": 19165036
+        "volume": 19165131
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "MCW",
+        "halt_reason": "",
+        "title": "MCW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/18/2026                    19:50:00.000MCWMister Car Wash Cmn StkNASDAQT12",
+        "published": "Mon, 18 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NCI",
+        "halt_reason": "",
+        "title": "NCI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/18/2026                    19:50:00.000NCINeo-Concept Internat Cl A OSNASDAQT1",
+        "published": "Mon, 18 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "EZGO",
+        "halt_reason": "",
+        "title": "EZGO",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/18/2026                    19:50:00.000EZGOEZGO Technologies Ltd. Or ShNASDAQT1",
+        "published": "Mon, 18 May 2026 04:00:00 GMT"
+      },
       {
         "ticker": "DTSTW",
         "halt_reason": "",
