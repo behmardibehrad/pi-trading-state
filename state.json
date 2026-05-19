@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-19T20:25:00.226518+00:00",
+    "generated_at": "2026-05-19T20:30:00.224973+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20260519_200000.json",
-    "scanner_age_seconds": 1499,
+    "scanner_age_seconds": 1799,
     "market_context": {
       "SPY": {
         "price": 733.8,
@@ -255,17 +255,6 @@
     ],
     "earnings_today_bmo": [
       {
-        "symbol": "WGRX",
-        "date": "2026-05-19",
-        "hour": "bmo",
-        "eps_estimate": null,
-        "eps_actual": null,
-        "rev_estimate": null,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 1
-      },
-      {
         "symbol": "PDCC",
         "date": "2026-05-19",
         "hour": "bmo",
@@ -444,13 +433,24 @@
     ],
     "earnings_today_ah": [
       {
+        "symbol": "WGRX",
+        "date": "2026-05-19",
+        "hour": "amc",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "rev_estimate": null,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
         "symbol": "MOVE",
         "date": "2026-05-19",
         "hour": "amc",
         "eps_estimate": -3.672,
-        "eps_actual": null,
+        "eps_actual": -3.13,
         "rev_estimate": 7777500,
-        "rev_actual": null,
+        "rev_actual": 510000,
         "year": 2026,
         "quarter": 1
       },
@@ -459,9 +459,9 @@
         "date": "2026-05-19",
         "hour": "amc",
         "eps_estimate": -0.0714,
-        "eps_actual": null,
+        "eps_actual": -0.03,
         "rev_estimate": 12148200,
-        "rev_actual": null,
+        "rev_actual": 11800000,
         "year": 2026,
         "quarter": 1
       },
@@ -536,9 +536,9 @@
         "date": "2026-05-19",
         "hour": "amc",
         "eps_estimate": 0.0799,
-        "eps_actual": null,
+        "eps_actual": 0.11,
         "rev_estimate": 184746143,
-        "rev_actual": null,
+        "rev_actual": 185250000,
         "year": 2026,
         "quarter": 4
       }
@@ -1350,12 +1350,12 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 272.9,
+        "last": 272.96,
         "prev_close": 275.97,
-        "change_pct": -1.11,
+        "change_pct": -1.09,
         "day_high": 275.07,
         "day_low": 270.63,
-        "volume": 1616671
+        "volume": 1617343
       }
     ],
     "commodities": [
@@ -1390,7 +1390,7 @@
         "change_pct": -1.58,
         "day_high": 414.22,
         "day_low": 409.9,
-        "volume": 92919
+        "volume": 92959
       }
     ],
     "vol_and_dollar": [
