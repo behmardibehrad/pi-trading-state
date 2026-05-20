@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-20T19:20:00.215300+00:00",
+    "generated_at": "2026-05-20T19:25:00.221801+00:00",
     "session_phase": "rth"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20260520_190001.json",
-    "scanner_age_seconds": 1199,
+    "scanner_age_seconds": 1499,
     "market_context": {
       "SPY": {
         "price": 740.11,
@@ -2116,45 +2116,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 740.69,
+        "last": 740.74,
         "prev_close": 733.8,
-        "change_pct": 0.94,
+        "change_pct": 0.95,
         "day_high": 741.8,
         "day_low": 733.9,
-        "volume": 882293
+        "volume": 896543
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 711.76,
+        "last": 711.86,
         "prev_close": 701.52,
-        "change_pct": 1.46,
+        "change_pct": 1.47,
         "day_high": 712.94,
         "day_low": 703.89,
-        "volume": 447638
+        "volume": 456911
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 500.12,
+        "last": 500.18,
         "prev_close": 493.94,
-        "change_pct": 1.25,
-        "day_high": 500.13,
+        "change_pct": 1.26,
+        "day_high": 500.3,
         "day_low": 492.58,
-        "volume": 66410
+        "volume": 67592
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 279.32,
+        "last": 279.34,
         "prev_close": 273.02,
         "change_pct": 2.31,
         "day_high": 279.91,
         "day_low": 273.42,
-        "volume": 1396706
+        "volume": 1407875
       }
     ],
     "commodities": [
@@ -2162,12 +2162,12 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 143.7,
+        "last": 143.75,
         "prev_close": 152.96,
-        "change_pct": -6.05,
+        "change_pct": -6.02,
         "day_high": 150.46,
         "day_low": 142.05,
-        "volume": 139556
+        "volume": 139856
       },
       {
         "symbol": "UNG",
@@ -2184,12 +2184,12 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 417.29,
+        "last": 417.21,
         "prev_close": 411.52,
-        "change_pct": 1.4,
+        "change_pct": 1.38,
         "day_high": 417.96,
         "day_low": 410.1,
-        "volume": 97452
+        "volume": 98123
       }
     ],
     "vol_and_dollar": [
@@ -2197,12 +2197,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 26.12,
+        "last": 26.06,
         "prev_close": 26.59,
-        "change_pct": -1.77,
+        "change_pct": -1.99,
         "day_high": 26.57,
         "day_low": 26.02,
-        "volume": 76460
+        "volume": 76770
       },
       {
         "symbol": "UUP",
@@ -2219,12 +2219,12 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 83.89,
+        "last": 83.88,
         "prev_close": 83.01,
-        "change_pct": 1.06,
+        "change_pct": 1.05,
         "day_high": 84.0,
         "day_low": 83.05,
-        "volume": 1341702
+        "volume": 1348185
       }
     ],
     "asia": [
@@ -2232,12 +2232,12 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 91.17,
+        "last": 91.16,
         "prev_close": 90.3,
-        "change_pct": 0.96,
+        "change_pct": 0.95,
         "day_high": 91.19,
         "day_low": 89.59,
-        "volume": 506321
+        "volume": 509909
       },
       {
         "symbol": "FXI",
@@ -2248,29 +2248,29 @@
         "change_pct": 0.03,
         "day_high": 36.3,
         "day_low": 35.95,
-        "volume": 846302
+        "volume": 869193
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 179.28,
+        "last": 179.16,
         "prev_close": 174.02,
-        "change_pct": 3.02,
+        "change_pct": 2.95,
         "day_high": 180.07,
         "day_low": 173.67,
-        "volume": 393456
+        "volume": 395167
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 91.93,
+        "last": 91.94,
         "prev_close": 89.83,
-        "change_pct": 2.34,
+        "change_pct": 2.35,
         "day_high": 91.99,
         "day_low": 90.44,
-        "volume": 377674
+        "volume": 379167
       }
     ],
     "europe": [
@@ -2283,18 +2283,18 @@
         "change_pct": 2.02,
         "day_high": 43.08,
         "day_low": 42.22,
-        "volume": 117958
+        "volume": 118129
       },
       {
         "symbol": "EWU",
         "label": "UK",
         "proxy_for": "FTSE 100",
-        "last": 47.09,
+        "last": 47.1,
         "prev_close": 46.29,
-        "change_pct": 1.73,
+        "change_pct": 1.75,
         "day_high": 47.15,
         "day_low": 46.44,
-        "volume": 50089
+        "volume": 50309
       },
       {
         "symbol": "EWQ",
@@ -2311,12 +2311,12 @@
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 88.28,
+        "last": 88.26,
         "prev_close": 86.42,
-        "change_pct": 2.15,
+        "change_pct": 2.13,
         "day_high": 88.52,
         "day_low": 86.81,
-        "volume": 243653
+        "volume": 244812
       }
     ],
     "sectors_extra": [
@@ -2324,56 +2324,56 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 60.11,
+        "last": 60.09,
         "prev_close": 61.27,
-        "change_pct": -1.89,
+        "change_pct": -1.93,
         "day_high": 61.68,
         "day_low": 59.67,
-        "volume": 3454860
+        "volume": 3499161
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 51.65,
+        "last": 51.63,
         "prev_close": 51.12,
-        "change_pct": 1.04,
+        "change_pct": 1.0,
         "day_high": 51.66,
         "day_low": 50.78,
-        "volume": 2469194
+        "volume": 2480939
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 170.87,
+        "last": 170.79,
         "prev_close": 168.72,
-        "change_pct": 1.27,
+        "change_pct": 1.23,
         "day_high": 171.46,
         "day_low": 168.5,
-        "volume": 378351
+        "volume": 381315
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 562.26,
+        "last": 562.98,
         "prev_close": 543.83,
-        "change_pct": 3.39,
+        "change_pct": 3.52,
         "day_high": 564.41,
         "day_low": 551.82,
-        "volume": 206559
+        "volume": 211928
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 176.65,
+        "last": 176.72,
         "prev_close": 173.24,
-        "change_pct": 1.97,
+        "change_pct": 2.01,
         "day_high": 177.1,
         "day_low": 173.96,
-        "volume": 406272
+        "volume": 414738
       }
     ]
   },
@@ -2384,7 +2384,7 @@
         "ticker": "AIM",
         "halt_reason": "",
         "title": "AIM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/20/2026                    14:57:44.962AIMAIM ImmunoTech Inc.NYSET1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/20/2026                    14:57:44.962AIMAIM ImmunoTech Inc.NYSET305/20/2026                    15:20:00                      15:20:00",
         "published": "Wed, 20 May 2026 04:00:00 GMT"
       },
       {
