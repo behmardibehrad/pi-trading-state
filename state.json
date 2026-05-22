@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-22T20:05:00.221574+00:00",
+    "generated_at": "2026-05-22T20:10:00.229247+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20260522_200001.json",
-    "scanner_age_seconds": 299,
+    "scanner_age_seconds": 599,
     "market_context": {
       "SPY": {
         "price": 745.67,
@@ -1290,7 +1290,7 @@
         "change_pct": 0.4,
         "day_high": 748.92,
         "day_low": 744.53,
-        "volume": 1144671
+        "volume": 1144679
       },
       {
         "symbol": "QQQ",
@@ -1323,7 +1323,7 @@
         "change_pct": 0.93,
         "day_high": 286.58,
         "day_low": 283.71,
-        "volume": 835049
+        "volume": 835139
       }
     ],
     "commodities": [
@@ -1336,7 +1336,7 @@
         "change_pct": -1.08,
         "day_high": 143.5,
         "day_low": 138.97,
-        "volume": 72097
+        "volume": 72127
       },
       {
         "symbol": "UNG",
@@ -1412,23 +1412,23 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 35.52,
+        "last": 35.43,
         "prev_close": 35.88,
-        "change_pct": -1.0,
+        "change_pct": -1.25,
         "day_high": 35.6,
         "day_low": 35.18,
-        "volume": 1876526
+        "volume": 1879124
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 182.55,
+        "last": 182.96,
         "prev_close": 186.4,
-        "change_pct": -2.07,
+        "change_pct": -1.85,
         "day_high": 186.12,
         "day_low": 181.59,
-        "volume": 302579
+        "volume": 303279
       },
       {
         "symbol": "EWT",
@@ -1549,6 +1549,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "USGOW",
+        "halt_reason": "",
+        "title": "USGOW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/22/2026                    16:05:00.000USGOWUS GoldMining Inc. WtNASDAQT12",
+        "published": "Fri, 22 May 2026 04:00:00 GMT"
+      },
       {
         "ticker": "DGZ",
         "halt_reason": "",
