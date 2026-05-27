@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-27T12:15:00.211061+00:00",
+    "generated_at": "2026-05-27T12:20:00.220045+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20260527_113000.json",
-    "scanner_age_seconds": 2699,
+    "scanner_age_seconds": 2999,
     "market_context": {
       "SPY": {
         "price": 750.46,
@@ -898,6 +898,16 @@
       },
       {
         "time_utc": "2026-05-27 11:00:00",
+        "event": "GDP Growth Mainland QoQ",
+        "country": "NO",
+        "impact": "low",
+        "prev": 0.4,
+        "estimate": 0.3,
+        "actual": 0.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-27 11:00:00",
         "event": "MBA 30-Year Mortgage Rate",
         "country": "US",
         "impact": "medium",
@@ -991,9 +1001,9 @@
         "event": "ADP Employment Change Weekly",
         "country": "US",
         "impact": "medium",
-        "prev": 42.25,
+        "prev": 40.75,
         "estimate": null,
-        "actual": null,
+        "actual": 35.75,
         "unit": ""
       },
       {
@@ -1549,9 +1559,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 750.46,
+        "last": 752.38,
         "prev_close": 745.67,
-        "change_pct": 0.64,
+        "change_pct": 0.9,
         "day_high": 752.11,
         "day_low": 748.37,
         "volume": 1273804
@@ -1595,9 +1605,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 132.65,
+        "last": 131.46,
         "prev_close": 141.02,
-        "change_pct": -5.94,
+        "change_pct": -6.78,
         "day_high": 138.31,
         "day_low": 135.97,
         "volume": 67156
@@ -1617,9 +1627,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 406.63,
+        "last": 408.59,
         "prev_close": 413.85,
-        "change_pct": -1.74,
+        "change_pct": -1.27,
         "day_high": 415.89,
         "day_low": 411.57,
         "volume": 78064
@@ -1652,9 +1662,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 85.25,
+        "last": 85.45,
         "prev_close": 84.67,
-        "change_pct": 0.69,
+        "change_pct": 0.92,
         "day_high": 85.37,
         "day_low": 84.92,
         "volume": 1031428
@@ -1687,9 +1697,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 201.14,
+        "last": 203.14,
         "prev_close": 181.94,
-        "change_pct": 10.55,
+        "change_pct": 11.65,
         "day_high": 201.49,
         "day_low": 194.34,
         "volume": 628996
