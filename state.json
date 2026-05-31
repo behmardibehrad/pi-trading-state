@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-05-30T23:55:00.209686+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-05-31T08:00:00.213592+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -881,7 +881,7 @@
       }
     ],
     "scanner_file": "scan_20260529_203001.json",
-    "scanner_age_seconds": 98699,
+    "scanner_age_seconds": 127799,
     "market_context": {
       "SPY": {
         "price": 755.98,
@@ -982,85 +982,23 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": [
-      {
-        "symbol": "BN",
-        "date": "2026-05-29",
-        "hour": "amc",
-        "eps_estimate": 0.8343,
-        "eps_actual": null,
-        "rev_estimate": 2100170000,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 4
-      }
-    ],
+    "earnings_yesterday_ah": [],
     "earnings_today_bmo": [],
     "earnings_today_ah": [],
     "econ_data_today": [
       {
-        "time_utc": "2026-05-31 00:00:00",
-        "event": "Orthodox Pentecost",
-        "country": "RO",
+        "time_utc": "2026-05-31 09:30:00",
+        "event": "Budget Balance",
+        "country": "ZA",
         "impact": "low",
-        "prev": null,
+        "prev": -45.6,
         "estimate": null,
         "actual": null,
         "unit": ""
       },
       {
-        "time_utc": "2026-05-31 00:00:00",
-        "event": "Presidential Elections",
-        "country": "CO",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-05-31 00:00:00",
-        "event": "Royal Brunei Armed Forces Day",
-        "country": "BN",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-05-31 00:00:00",
-        "event": "Vesak Day",
-        "country": "MY",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-05-31 00:00:00",
-        "event": "Waisak Day",
-        "country": "ID",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-05-31 00:10:00",
-        "event": "ECB Schnabel Speech",
-        "country": "EU",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-05-31 00:30:00",
-        "event": "Fed Powell Speech",
+        "time_utc": "2026-05-31 12:30:00",
+        "event": "Fed Waller Speech",
         "country": "US",
         "impact": "medium",
         "prev": null,
@@ -1069,34 +1007,364 @@
         "unit": ""
       },
       {
-        "time_utc": "2026-05-31 01:30:00",
-        "event": "NBS General PMI",
-        "country": "CN",
+        "time_utc": "2026-05-31 14:00:00",
+        "event": "M3 Money Supply YoY",
+        "country": "SA",
         "impact": "low",
-        "prev": 50.1,
+        "prev": 8.2,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-31 14:00:00",
+        "event": "Private Bank Lending YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 7.4,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-05-31 23:00:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "AU",
+        "impact": "low",
+        "prev": 51.3,
+        "estimate": 50.2,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-05-31 23:50:00",
+        "event": "Capital Spending YoY",
+        "country": "JP",
+        "impact": "medium",
+        "prev": 6.5,
+        "estimate": 4.1,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Balance of Trade",
+        "country": "KR",
+        "impact": "low",
+        "prev": 23.77,
+        "estimate": 24.3,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Exports YoY",
+        "country": "KR",
+        "impact": "medium",
+        "prev": 48,
+        "estimate": 48.4,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "General Election",
+        "country": "ET",
+        "impact": "low",
+        "prev": null,
         "estimate": null,
         "actual": null,
         "unit": ""
       },
       {
-        "time_utc": "2026-05-31 01:30:00",
-        "event": "NBS Manufacturing PMI",
-        "country": "CN",
-        "impact": "high",
-        "prev": 50.3,
-        "estimate": 50,
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Imports YoY",
+        "country": "KR",
+        "impact": "low",
+        "prev": 16.7,
+        "estimate": 21.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "International Children\u2019s Day",
+        "country": "MD",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
         "actual": null,
         "unit": ""
       },
       {
-        "time_utc": "2026-05-31 01:30:00",
-        "event": "NBS Non Manufacturing PMI",
-        "country": "CN",
-        "impact": "medium",
-        "prev": 49.4,
-        "estimate": 49.5,
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "International Children\u2019s Day",
+        "country": "RO",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
         "actual": null,
         "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "June Bank Holiday",
+        "country": "IE",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "King\u2019s Birthday",
+        "country": "NZ",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Madaraka Day",
+        "country": "KE",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Mothers\u2019 and Children\u2019s Day",
+        "country": "MN",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Orthodox Pentecost Monday",
+        "country": "CY",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Orthodox Pentecost Monday",
+        "country": "GR",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Orthodox Pentecost Monday",
+        "country": "RO",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Pancasila Day",
+        "country": "ID",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "The Yang di-Pertuan Agong\u2019s Birthday",
+        "country": "MY",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Vesak Day",
+        "country": "SG",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Visakha Bucha",
+        "country": "TH",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:00:00",
+        "event": "Youth Day",
+        "country": "CV",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:01:00",
+        "event": "Cotality Dwelling Prices MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "KR",
+        "impact": "medium",
+        "prev": 53.6,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "PH",
+        "impact": "low",
+        "prev": 48.3,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "TW",
+        "impact": "low",
+        "prev": 55.3,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "VN",
+        "impact": "low",
+        "prev": 50.5,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 00:30:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "JP",
+        "impact": "low",
+        "prev": 55.1,
+        "estimate": 54.5,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 01:00:00",
+        "event": "TD-MI Inflation Gauge MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.6,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:30:00",
+        "event": "ANZ-Indeed Job Ads MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": -0.8,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:30:00",
+        "event": "Housing Credit MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.6,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:30:00",
+        "event": "Private Sector Credit MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.7,
+        "estimate": 0.6,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:30:00",
+        "event": "Private Sector Credit YoY",
+        "country": "AU",
+        "impact": "low",
+        "prev": 8.1,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:30:00",
+        "event": "Westpac Leading Index MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": -0.1,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 01:45:00",
+        "event": "RatingDog Manufacturing PMI",
+        "country": "CN",
+        "impact": "high",
+        "prev": 52.2,
+        "estimate": 51.4,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 02:30:00",
+        "event": "2-Year KTB Auction",
+        "country": "KR",
+        "impact": "low",
+        "prev": 3.52,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
       }
     ],
     "fetch_status": {
