@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-01T16:05:00.223092+00:00",
+    "generated_at": "2026-06-01T16:10:00.221334+00:00",
     "session_phase": "rth"
   },
   "scanner": {
@@ -151,7 +151,7 @@
       }
     ],
     "scanner_file": "scan_20260601_160001.json",
-    "scanner_age_seconds": 298,
+    "scanner_age_seconds": 598,
     "market_context": {
       "SPY": {
         "price": 756.72,
@@ -252,13 +252,1412 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": null,
-    "earnings_today_bmo": null,
-    "earnings_today_ah": null,
-    "econ_data_today": null,
+    "earnings_yesterday_ah": [],
+    "earnings_today_bmo": [
+      {
+        "symbol": "SAIC",
+        "date": "2026-06-01",
+        "hour": "bmo",
+        "eps_estimate": 2.3237,
+        "eps_actual": 3.23,
+        "rev_estimate": 1856861376,
+        "rev_actual": 1906000000,
+        "year": 2027,
+        "quarter": 1
+      }
+    ],
+    "earnings_today_ah": [
+      {
+        "symbol": "HUBG",
+        "date": "2026-06-01",
+        "hour": "amc",
+        "eps_estimate": 0.3471,
+        "eps_actual": null,
+        "rev_estimate": 907875480,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "HPE",
+        "date": "2026-06-01",
+        "hour": "amc",
+        "eps_estimate": 0.5396,
+        "eps_actual": null,
+        "rev_estimate": 9888522311,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "ONCO",
+        "date": "2026-06-01",
+        "hour": "amc",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "rev_estimate": null,
+        "rev_actual": null,
+        "year": 2025,
+        "quarter": 4
+      },
+      {
+        "symbol": "CRDO",
+        "date": "2026-06-01",
+        "hour": "amc",
+        "eps_estimate": 1.0497,
+        "eps_actual": null,
+        "rev_estimate": 440687134,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "EM",
+        "date": "2026-06-01",
+        "hour": "amc",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "rev_estimate": null,
+        "rev_actual": null,
+        "year": 2025,
+        "quarter": 4
+      }
+    ],
+    "econ_data_today": [
+      {
+        "time_utc": "2026-06-01 04:30:00",
+        "event": "Retail Sales YoY",
+        "country": "NL",
+        "impact": "low",
+        "prev": 3.2,
+        "estimate": null,
+        "actual": 3.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 05:00:00",
+        "event": "HSBC Manufacturing PMI Final",
+        "country": "IN",
+        "impact": "low",
+        "prev": 54.3,
+        "estimate": 54.3,
+        "actual": 55,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 05:00:00",
+        "event": "NEVI Manufacturing PMI",
+        "country": "NL",
+        "impact": "low",
+        "prev": 54.4,
+        "estimate": null,
+        "actual": 55.9,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "GDP Growth Rate QoQ 2nd Est",
+        "country": "LT",
+        "impact": "low",
+        "prev": 1.9,
+        "estimate": null,
+        "actual": -0.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "GDP Growth Rate YoY 2nd Est",
+        "country": "LT",
+        "impact": "low",
+        "prev": 3.3,
+        "estimate": null,
+        "actual": 2.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "PE",
+        "impact": "low",
+        "prev": 0.52,
+        "estimate": null,
+        "actual": -0.16,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "PE",
+        "impact": "low",
+        "prev": 4,
+        "estimate": null,
+        "actual": 3.9,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Nationwide Housing Prices MoM",
+        "country": "GB",
+        "impact": "medium",
+        "prev": 0.4,
+        "estimate": -0.1,
+        "actual": -0.6,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Nationwide Housing Prices YoY",
+        "country": "GB",
+        "impact": "medium",
+        "prev": 3,
+        "estimate": null,
+        "actual": 1.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Retail Sales MoM",
+        "country": "DE",
+        "impact": "medium",
+        "prev": -0.3,
+        "estimate": -0.4,
+        "actual": -0.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "Retail Sales YoY",
+        "country": "DE",
+        "impact": "medium",
+        "prev": -0.2,
+        "estimate": null,
+        "actual": -0.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:00:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "RU",
+        "impact": "medium",
+        "prev": 48.1,
+        "estimate": null,
+        "actual": 48.8,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 06:30:00",
+        "event": "Commodity Prices YoY",
+        "country": "AU",
+        "impact": "low",
+        "prev": 15.1,
+        "estimate": null,
+        "actual": 16.8,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:30:00",
+        "event": "Retail Sales MoM",
+        "country": "CH",
+        "impact": "low",
+        "prev": 0.3,
+        "estimate": null,
+        "actual": 0.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:30:00",
+        "event": "Retail Sales YoY",
+        "country": "CH",
+        "impact": "medium",
+        "prev": 1.3,
+        "estimate": 0.2,
+        "actual": 1.6,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 06:30:00",
+        "event": "Swedbank Manufacturing PMI",
+        "country": "SE",
+        "impact": "low",
+        "prev": 57,
+        "estimate": null,
+        "actual": 57.3,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "GDP Growth Rate QoQ",
+        "country": "TR",
+        "impact": "medium",
+        "prev": 0.4,
+        "estimate": null,
+        "actual": 0.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "GDP Growth Rate QoQ Final",
+        "country": "CH",
+        "impact": "low",
+        "prev": 0.2,
+        "estimate": 0.5,
+        "actual": 0.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "GDP Growth Rate YoY",
+        "country": "CH",
+        "impact": "medium",
+        "prev": 1.1,
+        "estimate": null,
+        "actual": 0.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "GDP Growth Rate YoY",
+        "country": "TR",
+        "impact": "medium",
+        "prev": 3.4,
+        "estimate": 2.7,
+        "actual": 2.5,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "HALPIM Manufacturing PMI",
+        "country": "HU",
+        "impact": "low",
+        "prev": 50.4,
+        "estimate": null,
+        "actual": 50.2,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "Istanbul Chamber of Industry Manufacturing PMI",
+        "country": "TR",
+        "impact": "low",
+        "prev": 45.7,
+        "estimate": null,
+        "actual": 49.8,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:00:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "PL",
+        "impact": "low",
+        "prev": 48.8,
+        "estimate": 48.6,
+        "actual": 49.4,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:15:00",
+        "event": "Inflation Rate MoM",
+        "country": "KZ",
+        "impact": "low",
+        "prev": 0.8,
+        "estimate": null,
+        "actual": 0.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:15:00",
+        "event": "Inflation Rate YoY",
+        "country": "KZ",
+        "impact": "low",
+        "prev": 10.6,
+        "estimate": null,
+        "actual": 10.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:15:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "ES",
+        "impact": "medium",
+        "prev": 51.7,
+        "estimate": 52,
+        "actual": 51.2,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "GDP Growth Rate QoQ Final",
+        "country": "PL",
+        "impact": "low",
+        "prev": 1,
+        "estimate": 0.5,
+        "actual": 0.6,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "GDP Growth Rate YoY Final",
+        "country": "PL",
+        "impact": "low",
+        "prev": 4.1,
+        "estimate": 3.4,
+        "actual": 3.5,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "procure.ch Manufacturing PMI",
+        "country": "CH",
+        "impact": "medium",
+        "prev": 54.5,
+        "estimate": 54,
+        "actual": 57.3,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "CZ",
+        "impact": "low",
+        "prev": 52.9,
+        "estimate": 51.9,
+        "actual": 52.2,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "Unemployed Persons",
+        "country": "AT",
+        "impact": "low",
+        "prev": 320.3,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:30:00",
+        "event": "Unemployment Rate",
+        "country": "AT",
+        "impact": "low",
+        "prev": 7.5,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:45:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "IT",
+        "impact": "medium",
+        "prev": 52.1,
+        "estimate": 52,
+        "actual": 52.9,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:50:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "FR",
+        "impact": "low",
+        "prev": 52.8,
+        "estimate": 48.9,
+        "actual": 49.7,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:50:00",
+        "event": "Unemployed Persons",
+        "country": "AT",
+        "impact": "low",
+        "prev": 320.3,
+        "estimate": null,
+        "actual": 301.7,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 07:50:00",
+        "event": "Unemployment Rate",
+        "country": "AT",
+        "impact": "low",
+        "prev": 7.5,
+        "estimate": null,
+        "actual": 7.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 07:55:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "DE",
+        "impact": "low",
+        "prev": 51.4,
+        "estimate": 49.9,
+        "actual": 50.1,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "ECB Consumer Inflation Expectations",
+        "country": "EU",
+        "impact": "low",
+        "prev": 4,
+        "estimate": null,
+        "actual": 4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "PE",
+        "impact": "low",
+        "prev": 0.52,
+        "estimate": null,
+        "actual": -0.16,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Inflation Rate MoM Prel",
+        "country": "BG",
+        "impact": "low",
+        "prev": 1.8,
+        "estimate": null,
+        "actual": 0.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "PE",
+        "impact": "low",
+        "prev": 4,
+        "estimate": null,
+        "actual": 3.9,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Inflation Rate YoY Prel",
+        "country": "BG",
+        "impact": "low",
+        "prev": 6.8,
+        "estimate": null,
+        "actual": 7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Loans to Companies YoY",
+        "country": "EU",
+        "impact": "low",
+        "prev": 3.2,
+        "estimate": 3.1,
+        "actual": 3.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "Loans to Households YoY",
+        "country": "EU",
+        "impact": "low",
+        "prev": 3,
+        "estimate": 3,
+        "actual": 3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "M3 Money Supply YoY",
+        "country": "EU",
+        "impact": "low",
+        "prev": 3.2,
+        "estimate": 3.3,
+        "actual": 2.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:00:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "EU",
+        "impact": "low",
+        "prev": 52.2,
+        "estimate": 51.4,
+        "actual": 51.6,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 08:30:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "GB",
+        "impact": "low",
+        "prev": 53.7,
+        "estimate": 53.7,
+        "actual": 53.9,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 08:45:00",
+        "event": "Inflation Rate MoM",
+        "country": "PK",
+        "impact": "low",
+        "prev": 2.5,
+        "estimate": null,
+        "actual": 0.5,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:45:00",
+        "event": "Inflation Rate YoY",
+        "country": "PK",
+        "impact": "low",
+        "prev": 10.9,
+        "estimate": null,
+        "actual": 11.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 08:45:00",
+        "event": "Stanbic IBTC Bank Nigeria PMI",
+        "country": "NG",
+        "impact": "low",
+        "prev": 52.4,
+        "estimate": null,
+        "actual": 54.1,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "ABSA Manufacturing PMI",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 52.6,
+        "estimate": null,
+        "actual": 50.8,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "Foreign Exchange Reserves",
+        "country": "NG",
+        "impact": "low",
+        "prev": 49.37,
+        "estimate": null,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "M3 Money Supply YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 8.2,
+        "estimate": null,
+        "actual": 10,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "Private Bank Lending YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 7.4,
+        "estimate": null,
+        "actual": 7.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "Unemployment Rate",
+        "country": "CY",
+        "impact": "low",
+        "prev": 3.3,
+        "estimate": null,
+        "actual": 3.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:00:00",
+        "event": "Unemployment Rate",
+        "country": "EU",
+        "impact": "medium",
+        "prev": 6.3,
+        "estimate": 6.2,
+        "actual": 6.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:05:00",
+        "event": "12/2026 NTB Auction",
+        "country": "NO",
+        "impact": "low",
+        "prev": 4.36,
+        "estimate": null,
+        "actual": 4.53,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:05:00",
+        "event": "NTB Auction",
+        "country": "NO",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 09:25:00",
+        "event": "Wholesale Prices YoY",
+        "country": "PK",
+        "impact": "low",
+        "prev": 13.6,
+        "estimate": null,
+        "actual": 12.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "182-Day T-Bill Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 7.52,
+        "estimate": null,
+        "actual": 7.55,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "273-Day T-Bill Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 7.76,
+        "estimate": null,
+        "actual": 7.75,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "3-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.125,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "3-Month Bubill Auction",
+        "country": "DE",
+        "impact": "low",
+        "prev": 2.164,
+        "estimate": null,
+        "actual": 2.199,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "364-Day T-Bill Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 7.81,
+        "estimate": null,
+        "actual": 7.81,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "6-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.315,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "9-Month Bubill Auction",
+        "country": "DE",
+        "impact": "low",
+        "prev": 2.488,
+        "estimate": null,
+        "actual": 2.426,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 09:30:00",
+        "event": "91-Day T-Bill Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 7.18,
+        "estimate": null,
+        "actual": 7.26,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "GDP Growth Rate QoQ",
+        "country": "AO",
+        "impact": "low",
+        "prev": 1.9,
+        "estimate": null,
+        "actual": 1.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "GDP Growth Rate YoY",
+        "country": "AO",
+        "impact": "low",
+        "prev": 5.7,
+        "estimate": null,
+        "actual": 5.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "GDP Growth Rate YoY Final",
+        "country": "RS",
+        "impact": "low",
+        "prev": 2.2,
+        "estimate": 3,
+        "actual": 3.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "Industrial Production MoM",
+        "country": "PT",
+        "impact": "low",
+        "prev": 4.3,
+        "estimate": null,
+        "actual": -2.6,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "Industrial Production YoY",
+        "country": "PT",
+        "impact": "low",
+        "prev": 4.1,
+        "estimate": null,
+        "actual": 0,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "M3 Money Supply YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 8.2,
+        "estimate": null,
+        "actual": 10,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "Private Bank Lending YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 7.4,
+        "estimate": null,
+        "actual": 7.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "Retail Sales MoM",
+        "country": "PT",
+        "impact": "low",
+        "prev": 2.4,
+        "estimate": null,
+        "actual": -1.5,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:00:00",
+        "event": "Retail Sales YoY",
+        "country": "PT",
+        "impact": "low",
+        "prev": 5.7,
+        "estimate": null,
+        "actual": 4.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:30:00",
+        "event": "Government Budget Value",
+        "country": "IN",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": -3623,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 10:30:00",
+        "event": "Industrial Production YoY",
+        "country": "IN",
+        "impact": "medium",
+        "prev": 4.1,
+        "estimate": 3.9,
+        "actual": 4.9,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 10:30:00",
+        "event": "Manufacturing Production YoY",
+        "country": "IN",
+        "impact": "medium",
+        "prev": 4.3,
+        "estimate": null,
+        "actual": 6.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 11:00:00",
+        "event": "Industrial Production YoY",
+        "country": "IN",
+        "impact": "medium",
+        "prev": 4.1,
+        "estimate": 3.9,
+        "actual": 4.9,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 11:00:00",
+        "event": "M2 Money Supply YoY",
+        "country": "EG",
+        "impact": "low",
+        "prev": 20,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 11:00:00",
+        "event": "Manufacturing Production YoY",
+        "country": "IN",
+        "impact": "medium",
+        "prev": 4.3,
+        "estimate": null,
+        "actual": 6.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 11:00:00",
+        "event": "New Car Sales YoY",
+        "country": "ES",
+        "impact": "low",
+        "prev": 8.4,
+        "estimate": null,
+        "actual": -0.8,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 11:10:00",
+        "event": "New Car Sales YoY",
+        "country": "ES",
+        "impact": "low",
+        "prev": 8.4,
+        "estimate": null,
+        "actual": -0.8,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 11:30:00",
+        "event": "BCB Focus Market Readout",
+        "country": "BR",
+        "impact": "medium",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 11:30:00",
+        "event": "Government Budget Value",
+        "country": "IN",
+        "impact": "low",
+        "prev": -15191.7,
+        "estimate": null,
+        "actual": -3623,
+        "unit": "INR"
+      },
+      {
+        "time_utc": "2026-06-01 12:00:00",
+        "event": "Business Confidence",
+        "country": "MX",
+        "impact": "medium",
+        "prev": 47.9,
+        "estimate": null,
+        "actual": 47.5,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 12:00:00",
+        "event": "M2 Money Supply YoY",
+        "country": "EG",
+        "impact": "low",
+        "prev": 20,
+        "estimate": null,
+        "actual": 19.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 12:00:00",
+        "event": "New Car Sales YoY",
+        "country": "ES",
+        "impact": "low",
+        "prev": 8.4,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 12:15:00",
+        "event": "Total New Vehicle Sales",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 47.89,
+        "estimate": null,
+        "actual": 51.07,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 12:30:00",
+        "event": "IMACEC Economic Activity YoY",
+        "country": "CL",
+        "impact": "low",
+        "prev": -0.2,
+        "estimate": null,
+        "actual": -1.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 13:00:00",
+        "event": "12-Month BTF Auction",
+        "country": "FR",
+        "impact": "low",
+        "prev": 2.577,
+        "estimate": null,
+        "actual": 2.588,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 13:00:00",
+        "event": "3-Month BTF Auction",
+        "country": "FR",
+        "impact": "low",
+        "prev": 2.277,
+        "estimate": null,
+        "actual": 2.289,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 13:00:00",
+        "event": "6-Month BTF Auction",
+        "country": "FR",
+        "impact": "low",
+        "prev": 2.385,
+        "estimate": null,
+        "actual": 2.44,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 13:00:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "BR",
+        "impact": "low",
+        "prev": 52.6,
+        "estimate": null,
+        "actual": 49.1,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 13:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "CA",
+        "impact": "medium",
+        "prev": 53.3,
+        "estimate": null,
+        "actual": 52.9,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 13:45:00",
+        "event": "S&P Global Manufacturing PMI Final",
+        "country": "US",
+        "impact": "low",
+        "prev": 54.5,
+        "estimate": 55.3,
+        "actual": 55.1,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "Construction Spending MoM",
+        "country": "US",
+        "impact": "low",
+        "prev": 0.2,
+        "estimate": 0.2,
+        "actual": 0.4,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "ISM Manufacturing Employment",
+        "country": "US",
+        "impact": "medium",
+        "prev": 46.4,
+        "estimate": null,
+        "actual": 48.6,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "ISM Manufacturing New Orders",
+        "country": "US",
+        "impact": "low",
+        "prev": 54.1,
+        "estimate": null,
+        "actual": 56.8,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "ISM Manufacturing PMI",
+        "country": "US",
+        "impact": "high",
+        "prev": 52.7,
+        "estimate": 53,
+        "actual": 54,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "ISM Manufacturing Prices",
+        "country": "US",
+        "impact": "low",
+        "prev": 84.6,
+        "estimate": 85.5,
+        "actual": 82.1,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "M3 Money Supply YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 8.2,
+        "estimate": null,
+        "actual": 10,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 14:00:00",
+        "event": "Private Bank Lending YoY",
+        "country": "SA",
+        "impact": "low",
+        "prev": 7.4,
+        "estimate": null,
+        "actual": 7.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 15:00:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "MX",
+        "impact": "low",
+        "prev": 47.7,
+        "estimate": null,
+        "actual": 49.6,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 15:30:00",
+        "event": "3-Month Bill Auction",
+        "country": "US",
+        "impact": "low",
+        "prev": 3.595,
+        "estimate": null,
+        "actual": 3.63,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 15:30:00",
+        "event": "6-Month Bill Auction",
+        "country": "US",
+        "impact": "low",
+        "prev": 3.65,
+        "estimate": null,
+        "actual": 3.665,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 16:45:00",
+        "event": "3-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.125,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 16:45:00",
+        "event": "6-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.315,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 20:00:00",
+        "event": "Tax Revenue",
+        "country": "AR",
+        "impact": "low",
+        "prev": 17400.8,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-01 21:00:00",
+        "event": "Tax Revenue",
+        "country": "AR",
+        "impact": "low",
+        "prev": 17400.8,
+        "estimate": null,
+        "actual": null,
+        "unit": "ARS"
+      },
+      {
+        "time_utc": "2026-06-01 23:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "KR",
+        "impact": "low",
+        "prev": 0.5,
+        "estimate": 0.3,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 23:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "KR",
+        "impact": "medium",
+        "prev": 2.6,
+        "estimate": 3,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-01 23:50:00",
+        "event": "Monetary Base YoY",
+        "country": "JP",
+        "impact": "low",
+        "prev": -11.3,
+        "estimate": -9.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 00:00:00",
+        "event": "RBA Harper Speech",
+        "country": "AU",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 00:00:00",
+        "event": "Republic Day",
+        "country": "IT",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 00:01:00",
+        "event": "AIB Manufacturing PMI",
+        "country": "IE",
+        "impact": "low",
+        "prev": 54.9,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "ID",
+        "impact": "low",
+        "prev": 49.1,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "MY",
+        "impact": "low",
+        "prev": 51.6,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 00:30:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "TH",
+        "impact": "low",
+        "prev": 52.7,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 01:00:00",
+        "event": "TD-MI Inflation Gauge MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.6,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Building Permits MoM Prel",
+        "country": "AU",
+        "impact": "medium",
+        "prev": -10.5,
+        "estimate": -1.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Building Permits YoY Prel",
+        "country": "AU",
+        "impact": "low",
+        "prev": 9,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Business Inventories QoQ",
+        "country": "AU",
+        "impact": "low",
+        "prev": -0.1,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Company Gross Profits QoQ",
+        "country": "AU",
+        "impact": "medium",
+        "prev": 5.8,
+        "estimate": 0.5,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Current Account",
+        "country": "AU",
+        "impact": "low",
+        "prev": -21.1,
+        "estimate": -23,
+        "actual": null,
+        "unit": "A$"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Net Exports Contribution to GDP",
+        "country": "AU",
+        "impact": "low",
+        "prev": -0.1,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 01:30:00",
+        "event": "Private House Approvals MoM Prel",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.9,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 02:30:00",
+        "event": "30-Year KTB Auction",
+        "country": "KR",
+        "impact": "low",
+        "prev": 3.83,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 02:35:00",
+        "event": "1-Year Bill Auction",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 2.98,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 02:35:00",
+        "event": "3-Month Bill Auction",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 2.485,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 02:35:00",
+        "event": "6-Month Bill Auction",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 2.6366,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 03:35:00",
+        "event": "10-Year JGB Auction",
+        "country": "JP",
+        "impact": "low",
+        "prev": 2.54,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      }
+    ],
     "fetch_status": {
-      "earnings": "failed: The read operation timed out",
-      "economic": "failed: The read operation timed out"
+      "earnings": "ok",
+      "economic": "ok"
     }
   },
   "macro": {
@@ -268,45 +1667,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 756.82,
+        "last": 756.81,
         "prev_close": 756.34,
         "change_pct": 0.06,
         "day_high": 757.42,
         "day_low": 754.74,
-        "volume": 616395
+        "volume": 628271
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 741.12,
+        "last": 741.16,
         "prev_close": 738.21,
-        "change_pct": 0.39,
+        "change_pct": 0.4,
         "day_high": 742.27,
         "day_low": 736.07,
-        "volume": 238641
+        "volume": 241074
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 509.6,
+        "last": 509.71,
         "prev_close": 510.74,
-        "change_pct": -0.22,
+        "change_pct": -0.2,
         "day_high": 510.87,
         "day_low": 508.45,
-        "volume": 38523
+        "volume": 38777
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 288.36,
+        "last": 288.2,
         "prev_close": 290.35,
-        "change_pct": -0.69,
+        "change_pct": -0.74,
         "day_high": 289.02,
         "day_low": 286.3,
-        "volume": 611808
+        "volume": 619504
       }
     ],
     "commodities": [
@@ -314,34 +1713,34 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 137.62,
+        "last": 137.93,
         "prev_close": 129.02,
-        "change_pct": 6.67,
+        "change_pct": 6.91,
         "day_high": 138.81,
         "day_low": 135.12,
-        "volume": 85534
+        "volume": 89107
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 11.53,
+        "last": 11.54,
         "prev_close": 11.94,
-        "change_pct": -3.43,
+        "change_pct": -3.35,
         "day_high": 11.65,
         "day_low": 11.49,
-        "volume": 127998
+        "volume": 129715
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 410.66,
+        "last": 410.25,
         "prev_close": 417.18,
-        "change_pct": -1.56,
+        "change_pct": -1.66,
         "day_high": 411.07,
         "day_low": 408.24,
-        "volume": 42622
+        "volume": 42983
       }
     ],
     "vol_and_dollar": [
@@ -354,7 +1753,7 @@
         "change_pct": 2.02,
         "day_high": 23.73,
         "day_low": 23.25,
-        "volume": 25353
+        "volume": 25853
       },
       {
         "symbol": "UUP",
@@ -365,18 +1764,18 @@
         "change_pct": 0.43,
         "day_high": 27.81,
         "day_low": 27.78,
-        "volume": 7108
+        "volume": 7154
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 85.06,
+        "last": 85.03,
         "prev_close": 85.74,
-        "change_pct": -0.79,
+        "change_pct": -0.83,
         "day_high": 85.13,
         "day_low": 84.81,
-        "volume": 437986
+        "volume": 442713
       }
     ],
     "asia": [
@@ -384,12 +1783,12 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 92.7,
+        "last": 92.64,
         "prev_close": 92.96,
-        "change_pct": -0.28,
+        "change_pct": -0.34,
         "day_high": 92.89,
         "day_low": 92.28,
-        "volume": 565600
+        "volume": 568935
       },
       {
         "symbol": "FXI",
@@ -400,29 +1799,29 @@
         "change_pct": 0.68,
         "day_high": 35.34,
         "day_low": 35.04,
-        "volume": 1011062
+        "volume": 1015190
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 213.23,
+        "last": 213.22,
         "prev_close": 205.79,
-        "change_pct": 3.62,
+        "change_pct": 3.61,
         "day_high": 214.06,
         "day_low": 209.15,
-        "volume": 303446
+        "volume": 307571
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 106.4,
+        "last": 106.34,
         "prev_close": 102.74,
-        "change_pct": 3.56,
+        "change_pct": 3.5,
         "day_high": 106.51,
         "day_low": 104.82,
-        "volume": 189742
+        "volume": 189993
       }
     ],
     "europe": [
@@ -430,23 +1829,23 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 43.31,
+        "last": 43.29,
         "prev_close": 43.45,
-        "change_pct": -0.32,
+        "change_pct": -0.37,
         "day_high": 43.45,
         "day_low": 43.13,
-        "volume": 56643
+        "volume": 56943
       },
       {
         "symbol": "EWU",
         "label": "UK",
         "proxy_for": "FTSE 100",
-        "last": 46.62,
+        "last": 46.63,
         "prev_close": 46.93,
-        "change_pct": -0.66,
+        "change_pct": -0.64,
         "day_high": 46.72,
         "day_low": 46.42,
-        "volume": 127866
+        "volume": 127996
       },
       {
         "symbol": "EWQ",
@@ -468,7 +1867,7 @@
         "change_pct": -0.8,
         "day_high": 88.47,
         "day_low": 87.87,
-        "volume": 53920
+        "volume": 59324
       }
     ],
     "sectors_extra": [
@@ -476,12 +1875,12 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 57.36,
+        "last": 57.38,
         "prev_close": 56.31,
-        "change_pct": 1.86,
+        "change_pct": 1.9,
         "day_high": 57.81,
         "day_low": 56.88,
-        "volume": 1756091
+        "volume": 1771701
       },
       {
         "symbol": "XLF",
@@ -492,46 +1891,60 @@
         "change_pct": -0.37,
         "day_high": 51.59,
         "day_low": 51.2,
-        "volume": 894192
+        "volume": 899763
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 171.53,
+        "last": 171.51,
         "prev_close": 173.18,
-        "change_pct": -0.95,
+        "change_pct": -0.96,
         "day_high": 172.0,
         "day_low": 170.43,
-        "volume": 273167
+        "volume": 277303
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 606.32,
+        "last": 607.04,
         "prev_close": 599.06,
-        "change_pct": 1.21,
+        "change_pct": 1.33,
         "day_high": 608.58,
         "day_low": 593.32,
-        "volume": 151204
+        "volume": 152451
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 194.87,
+        "last": 194.91,
         "prev_close": 191.04,
-        "change_pct": 2.0,
+        "change_pct": 2.03,
         "day_high": 195.3,
         "day_low": 191.4,
-        "volume": 435095
+        "volume": 439922
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "JZ",
+        "halt_reason": "",
+        "title": "JZ",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:08:14.746JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:08:14",
+        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "TAVIU",
+        "halt_reason": "",
+        "title": "TAVIU",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:07:24.553TAVIUTavia Acq Cp UtNASDAQLUDP06/01/2026                    12:07:24",
+        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
+      },
       {
         "ticker": "JZ",
         "halt_reason": "",
@@ -634,7 +2047,7 @@
         "ticker": "ORLA",
         "halt_reason": "",
         "title": "ORLA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:51:15.793ORLAOrla Mining Ltd. Common SharesAMEXT106/01/2026                    11:35:00                      11:35:00",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:51:15.793ORLAOrla Mining Ltd. Common SharesAMEXT306/01/2026                    11:35:00                      11:35:00",
         "published": "Mon, 01 Jun 2026 04:00:00 GMT"
       },
       {
