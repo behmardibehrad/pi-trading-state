@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-01T23:55:00.225552+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-06-02T08:00:00.225231+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -1538,7 +1538,7 @@
       }
     ],
     "scanner_file": "scan_20260601_203001.json",
-    "scanner_age_seconds": 12299,
+    "scanner_age_seconds": 41399,
     "market_context": {
       "SPY": {
         "price": 758.65,
@@ -1639,21 +1639,7 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": [],
-    "earnings_today_bmo": [
-      {
-        "symbol": "SAIC",
-        "date": "2026-06-01",
-        "hour": "bmo",
-        "eps_estimate": 2.3237,
-        "eps_actual": 3.23,
-        "rev_estimate": 1856861376,
-        "rev_actual": 1906000000,
-        "year": 2027,
-        "quarter": 1
-      }
-    ],
-    "earnings_today_ah": [
+    "earnings_yesterday_ah": [
       {
         "symbol": "BRID",
         "date": "2026-06-01",
@@ -1732,309 +1718,457 @@
         "quarter": 4
       }
     ],
+    "earnings_today_bmo": [
+      {
+        "symbol": "GOTU",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": -0.0408,
+        "eps_actual": null,
+        "rev_estimate": 1642240800,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "MOMO",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 1.5912,
+        "eps_actual": null,
+        "rev_estimate": 2398999710,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "ODD",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 0.0058,
+        "eps_actual": null,
+        "rev_estimate": 189818895,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "DG",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 1.9416,
+        "eps_actual": null,
+        "rev_estimate": 11138542827,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "VSCO",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 0.305,
+        "eps_actual": null,
+        "rev_estimate": 1551660383,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "SIG",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 1.3691,
+        "eps_actual": null,
+        "rev_estimate": 1567422595,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "DCI",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 1.0576,
+        "eps_actual": null,
+        "rev_estimate": 983384480,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 3
+      },
+      {
+        "symbol": "VSCO",
+        "date": "2026-06-02",
+        "hour": "bmo",
+        "eps_estimate": 0.2999,
+        "eps_actual": null,
+        "rev_estimate": 1551806580,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      }
+    ],
+    "earnings_today_ah": [
+      {
+        "symbol": "PICS",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": 1.1881,
+        "eps_actual": null,
+        "rev_estimate": 3240213600,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "SPWH",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": -0.5508,
+        "eps_actual": null,
+        "rev_estimate": 257348040,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "ULTA",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": 6.998,
+        "eps_actual": null,
+        "rev_estimate": 3154072927,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "GTLB",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": 0.2115,
+        "eps_actual": null,
+        "rev_estimate": 259631248,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "ICLR",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": 2.586,
+        "eps_actual": null,
+        "rev_estimate": 2030215609,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 1
+      },
+      {
+        "symbol": "PANW",
+        "date": "2026-06-02",
+        "hour": "amc",
+        "eps_estimate": 0.8112,
+        "eps_actual": null,
+        "rev_estimate": 3002823186,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 3
+      }
+    ],
     "econ_data_today": [
       {
-        "time_utc": "2026-06-01 04:30:00",
-        "event": "Retail Sales YoY",
-        "country": "NL",
+        "time_utc": "2026-06-02 04:00:00",
+        "event": "Balance of Trade",
+        "country": "ID",
+        "impact": "medium",
+        "prev": 3.32,
+        "estimate": 1.5,
+        "actual": 0.09,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-02 04:00:00",
+        "event": "Core Inflation Rate YoY",
+        "country": "ID",
         "impact": "low",
-        "prev": 3.2,
-        "estimate": null,
-        "actual": 3.4,
+        "prev": 2.44,
+        "estimate": 2.52,
+        "actual": 2.59,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 05:00:00",
-        "event": "HSBC Manufacturing PMI Final",
-        "country": "IN",
+        "time_utc": "2026-06-02 04:00:00",
+        "event": "Exports YoY",
+        "country": "ID",
         "impact": "low",
-        "prev": 54.3,
-        "estimate": 54.3,
-        "actual": 55,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 05:00:00",
-        "event": "NEVI Manufacturing PMI",
-        "country": "NL",
-        "impact": "low",
-        "prev": 54.4,
-        "estimate": null,
-        "actual": 55.9,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "GDP Growth Rate QoQ 2nd Est",
-        "country": "LT",
-        "impact": "low",
-        "prev": 1.9,
-        "estimate": null,
-        "actual": -0.3,
+        "prev": -3.1,
+        "estimate": 8.8,
+        "actual": 21.98,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "GDP Growth Rate YoY 2nd Est",
-        "country": "LT",
+        "time_utc": "2026-06-02 04:00:00",
+        "event": "Imports YoY",
+        "country": "ID",
         "impact": "low",
-        "prev": 3.3,
-        "estimate": null,
-        "actual": 2.3,
+        "prev": 1.51,
+        "estimate": 3.25,
+        "actual": 22.49,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 06:00:00",
+        "time_utc": "2026-06-02 04:00:00",
         "event": "Inflation Rate MoM",
-        "country": "PE",
+        "country": "ID",
         "impact": "low",
-        "prev": 0.52,
-        "estimate": null,
-        "actual": -0.16,
+        "prev": 0.13,
+        "estimate": 0.14,
+        "actual": 0.28,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 06:00:00",
+        "time_utc": "2026-06-02 04:00:00",
         "event": "Inflation Rate YoY",
-        "country": "PE",
+        "country": "ID",
+        "impact": "medium",
+        "prev": 2.42,
+        "estimate": 2.97,
+        "actual": 3.08,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 04:30:00",
+        "event": "Inflation Rate YoY Final",
+        "country": "NL",
         "impact": "low",
-        "prev": 4,
+        "prev": 2.7,
+        "estimate": 2.8,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 04:30:00",
+        "event": "Inflation Rate YoY Prel",
+        "country": "NL",
+        "impact": "medium",
+        "prev": 2.8,
         "estimate": null,
-        "actual": 3.9,
+        "actual": 3.5,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "Nationwide Housing Prices MoM",
-        "country": "GB",
-        "impact": "medium",
-        "prev": 0.4,
-        "estimate": -0.1,
-        "actual": -0.6,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "Nationwide Housing Prices YoY",
-        "country": "GB",
-        "impact": "medium",
-        "prev": 3,
-        "estimate": null,
-        "actual": 1.7,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "Retail Sales MoM",
-        "country": "DE",
-        "impact": "medium",
-        "prev": -0.3,
-        "estimate": -0.4,
-        "actual": -0.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:00:00",
+        "time_utc": "2026-06-02 04:30:00",
         "event": "Retail Sales YoY",
-        "country": "DE",
-        "impact": "medium",
-        "prev": -0.2,
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.9,
         "estimate": null,
-        "actual": -0.3,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 06:00:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "RU",
-        "impact": "medium",
-        "prev": 48.1,
-        "estimate": null,
-        "actual": 48.8,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 06:30:00",
-        "event": "Commodity Prices YoY",
-        "country": "AU",
+        "time_utc": "2026-06-02 05:00:00",
+        "event": "Harmonised Inflation Rate MoM Prel",
+        "country": "FI",
         "impact": "low",
-        "prev": 15.1,
-        "estimate": null,
-        "actual": 16.8,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:30:00",
-        "event": "Retail Sales MoM",
-        "country": "CH",
-        "impact": "low",
-        "prev": 0.3,
-        "estimate": null,
-        "actual": 0.1,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:30:00",
-        "event": "Retail Sales YoY",
-        "country": "CH",
-        "impact": "medium",
-        "prev": 1.3,
-        "estimate": 0.2,
-        "actual": 1.6,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 06:30:00",
-        "event": "Swedbank Manufacturing PMI",
-        "country": "SE",
-        "impact": "low",
-        "prev": 57,
-        "estimate": null,
-        "actual": 57.3,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "GDP Growth Rate QoQ",
-        "country": "TR",
-        "impact": "medium",
-        "prev": 0.4,
-        "estimate": null,
-        "actual": 0.1,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "GDP Growth Rate QoQ Final",
-        "country": "CH",
-        "impact": "low",
-        "prev": 0.2,
-        "estimate": 0.5,
-        "actual": 0.4,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "GDP Growth Rate YoY",
-        "country": "CH",
-        "impact": "medium",
-        "prev": 1.1,
-        "estimate": null,
-        "actual": 0.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "GDP Growth Rate YoY",
-        "country": "TR",
-        "impact": "medium",
-        "prev": 3.4,
-        "estimate": 2.7,
-        "actual": 2.5,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "HALPIM Manufacturing PMI",
-        "country": "HU",
-        "impact": "low",
-        "prev": 50.4,
-        "estimate": null,
-        "actual": 50.2,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "Istanbul Chamber of Industry Manufacturing PMI",
-        "country": "TR",
-        "impact": "low",
-        "prev": 45.7,
-        "estimate": null,
-        "actual": 49.8,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:00:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "PL",
-        "impact": "low",
-        "prev": 48.8,
-        "estimate": 48.6,
-        "actual": 49.4,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:15:00",
-        "event": "Inflation Rate MoM",
-        "country": "KZ",
-        "impact": "low",
-        "prev": 0.8,
+        "prev": 0,
         "estimate": null,
         "actual": 0.7,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 07:15:00",
+        "time_utc": "2026-06-02 05:00:00",
+        "event": "Harmonised Inflation Rate YoY Prel",
+        "country": "FI",
+        "impact": "low",
+        "prev": 2.4,
+        "estimate": null,
+        "actual": 3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 05:00:00",
+        "event": "Tourist Arrivals YoY",
+        "country": "ID",
+        "impact": "low",
+        "prev": 10.5,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 05:30:00",
+        "event": "Tourist Arrivals YoY",
+        "country": "ID",
+        "impact": "low",
+        "prev": 10.5,
+        "estimate": null,
+        "actual": 7.22,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 05:50:00",
+        "event": "Fed Kashkari Speech",
+        "country": "US",
+        "impact": "medium",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 06:00:00",
+        "event": "Balance of Trade",
+        "country": "CH",
+        "impact": "medium",
+        "prev": 2.6,
+        "estimate": null,
+        "actual": 3.2,
+        "unit": "CHF"
+      },
+      {
+        "time_utc": "2026-06-02 06:30:00",
+        "event": "GDP Growth Rate QoQ Final",
+        "country": "HU",
+        "impact": "low",
+        "prev": 0.2,
+        "estimate": 0.8,
+        "actual": 0.8,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 06:30:00",
+        "event": "GDP Growth Rate YoY Final",
+        "country": "HU",
+        "impact": "low",
+        "prev": 0.8,
+        "estimate": 1.7,
+        "actual": 1.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 06:30:00",
+        "event": "Retail Sales MoM",
+        "country": "CH",
+        "impact": "low",
+        "prev": 0.1,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 06:30:00",
+        "event": "Retail Sales YoY",
+        "country": "CH",
+        "impact": "medium",
+        "prev": 0.5,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 06:45:00",
+        "event": "Budget Balance",
+        "country": "FR",
+        "impact": "low",
+        "prev": -42.9,
+        "estimate": null,
+        "actual": -69.6,
+        "unit": "\u20ac"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Harmonised Inflation Rate MoM Prel",
+        "country": "AT",
+        "impact": "low",
+        "prev": 0.5,
+        "estimate": null,
+        "actual": 0.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Harmonised Inflation Rate YoY Prel",
+        "country": "AT",
+        "impact": "low",
+        "prev": 3.4,
+        "estimate": null,
+        "actual": 3.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "KZ",
+        "impact": "low",
+        "prev": 0.8,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Inflation Rate MoM Prel",
+        "country": "AT",
+        "impact": "low",
+        "prev": 0.4,
+        "estimate": null,
+        "actual": 0.1,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
         "event": "Inflation Rate YoY",
         "country": "KZ",
         "impact": "low",
         "prev": 10.6,
         "estimate": null,
-        "actual": 10.4,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 07:15:00",
-        "event": "S&P Global Manufacturing PMI",
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Inflation Rate YoY Prel",
+        "country": "AT",
+        "impact": "low",
+        "prev": 3.4,
+        "estimate": null,
+        "actual": 3.7,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Real Wages YoY",
+        "country": "SK",
+        "impact": "low",
+        "prev": 1.9,
+        "estimate": null,
+        "actual": 2.3,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Tourist Arrivals YoY",
+        "country": "ES",
+        "impact": "low",
+        "prev": 3.3,
+        "estimate": null,
+        "actual": 5.2,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 07:00:00",
+        "event": "Unemployment Change",
         "country": "ES",
         "impact": "medium",
-        "prev": 51.7,
-        "estimate": 52,
-        "actual": 51.2,
+        "prev": -62.7,
+        "estimate": -56.8,
+        "actual": -36.3,
         "unit": ""
       },
       {
-        "time_utc": "2026-06-01 07:30:00",
-        "event": "GDP Growth Rate QoQ Final",
-        "country": "PL",
-        "impact": "low",
-        "prev": 1,
-        "estimate": 0.5,
-        "actual": 0.6,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:30:00",
-        "event": "GDP Growth Rate YoY Final",
-        "country": "PL",
-        "impact": "low",
-        "prev": 4.1,
-        "estimate": 3.4,
-        "actual": 3.5,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:30:00",
-        "event": "procure.ch Manufacturing PMI",
-        "country": "CH",
-        "impact": "medium",
-        "prev": 54.5,
-        "estimate": 54,
-        "actual": 57.3,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:30:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "CZ",
-        "impact": "low",
-        "prev": 52.9,
-        "estimate": 51.9,
-        "actual": 52.2,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:30:00",
+        "time_utc": "2026-06-02 07:30:00",
         "event": "Unemployed Persons",
         "country": "AT",
         "impact": "low",
@@ -2044,7 +2178,7 @@
         "unit": ""
       },
       {
-        "time_utc": "2026-06-01 07:30:00",
+        "time_utc": "2026-06-02 07:30:00",
         "event": "Unemployment Rate",
         "country": "AT",
         "impact": "low",
@@ -2054,259 +2188,179 @@
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 07:45:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "IT",
+        "time_utc": "2026-06-02 08:00:00",
+        "event": "Balance of Trade Prel",
+        "country": "TR",
         "impact": "medium",
-        "prev": 52.1,
-        "estimate": 52,
-        "actual": 52.9,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:50:00",
-        "event": "S&P Global Manufacturing PMI Final",
-        "country": "FR",
-        "impact": "low",
-        "prev": 52.8,
-        "estimate": 48.9,
-        "actual": 49.7,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:50:00",
-        "event": "Unemployed Persons",
-        "country": "AT",
-        "impact": "low",
-        "prev": 320.3,
-        "estimate": null,
-        "actual": 301.7,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 07:50:00",
-        "event": "Unemployment Rate",
-        "country": "AT",
-        "impact": "low",
-        "prev": 7.5,
-        "estimate": null,
-        "actual": 7.1,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 07:55:00",
-        "event": "S&P Global Manufacturing PMI Final",
-        "country": "DE",
-        "impact": "low",
-        "prev": 51.4,
-        "estimate": 49.9,
-        "actual": 50.1,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "ECB Consumer Inflation Expectations",
-        "country": "EU",
-        "impact": "low",
-        "prev": 4,
-        "estimate": null,
-        "actual": 4,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Inflation Rate MoM",
-        "country": "PE",
-        "impact": "low",
-        "prev": 0.52,
-        "estimate": null,
-        "actual": -0.16,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Inflation Rate MoM Prel",
-        "country": "BG",
-        "impact": "low",
-        "prev": 1.8,
-        "estimate": null,
-        "actual": 0.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Inflation Rate YoY",
-        "country": "PE",
-        "impact": "low",
-        "prev": 4,
-        "estimate": null,
-        "actual": 3.9,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Inflation Rate YoY Prel",
-        "country": "BG",
-        "impact": "low",
-        "prev": 6.8,
-        "estimate": null,
-        "actual": 7,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Loans to Companies YoY",
-        "country": "EU",
-        "impact": "low",
-        "prev": 3.2,
-        "estimate": 3.1,
-        "actual": 3.4,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "Loans to Households YoY",
-        "country": "EU",
-        "impact": "low",
-        "prev": 3,
-        "estimate": 3,
-        "actual": 3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "M3 Money Supply YoY",
-        "country": "EU",
-        "impact": "low",
-        "prev": 3.2,
-        "estimate": 3.3,
-        "actual": 2.7,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:00:00",
-        "event": "S&P Global Manufacturing PMI Final",
-        "country": "EU",
-        "impact": "low",
-        "prev": 52.2,
-        "estimate": 51.4,
-        "actual": 51.6,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 08:30:00",
-        "event": "S&P Global Manufacturing PMI Final",
-        "country": "GB",
-        "impact": "low",
-        "prev": 53.7,
-        "estimate": 53.7,
-        "actual": 53.9,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 08:45:00",
-        "event": "Inflation Rate MoM",
-        "country": "PK",
-        "impact": "low",
-        "prev": 2.5,
-        "estimate": null,
-        "actual": 0.5,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:45:00",
-        "event": "Inflation Rate YoY",
-        "country": "PK",
-        "impact": "low",
-        "prev": 10.9,
-        "estimate": null,
-        "actual": 11.7,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 08:45:00",
-        "event": "Stanbic IBTC Bank Nigeria PMI",
-        "country": "NG",
-        "impact": "low",
-        "prev": 52.4,
-        "estimate": null,
-        "actual": 54.1,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "ABSA Manufacturing PMI",
-        "country": "ZA",
-        "impact": "low",
-        "prev": 52.6,
-        "estimate": null,
-        "actual": 50.8,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "Foreign Exchange Reserves",
-        "country": "NG",
-        "impact": "low",
-        "prev": 49.37,
+        "prev": -8.5,
         "estimate": null,
         "actual": null,
         "unit": "$"
       },
       {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "M3 Money Supply YoY",
-        "country": "SA",
+        "time_utc": "2026-06-02 08:00:00",
+        "event": "Exports Prel",
+        "country": "TR",
         "impact": "low",
-        "prev": 8.2,
+        "prev": 25.4,
         "estimate": null,
-        "actual": 10,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-02 08:00:00",
+        "event": "Imports Prel",
+        "country": "TR",
+        "impact": "low",
+        "prev": 33.9,
+        "estimate": null,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-02 08:00:00",
+        "event": "IPC-Fipe Inflation MoM",
+        "country": "BR",
+        "impact": "low",
+        "prev": 0.4,
+        "estimate": null,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "Private Bank Lending YoY",
-        "country": "SA",
+        "time_utc": "2026-06-02 08:00:00",
+        "event": "S&P Global Manufacturing PMI",
+        "country": "GR",
         "impact": "low",
-        "prev": 7.4,
+        "prev": 52.4,
         "estimate": null,
-        "actual": 7.2,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "BoE Consumer Credit",
+        "country": "GB",
+        "impact": "medium",
+        "prev": 1.895,
+        "estimate": 1.7,
+        "actual": null,
+        "unit": "\u00a3"
+      },
+      {
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "M4 Money Supply MoM",
+        "country": "GB",
+        "impact": "low",
+        "prev": 0.8,
+        "estimate": 0.6,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "Unemployment Rate",
-        "country": "CY",
-        "impact": "low",
-        "prev": 3.3,
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "Mortgage Approvals",
+        "country": "GB",
+        "impact": "medium",
+        "prev": 63.53,
+        "estimate": 61.7,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "Mortgage Lending",
+        "country": "GB",
+        "impact": "medium",
+        "prev": 6.15,
         "estimate": null,
-        "actual": 3.2,
+        "actual": null,
+        "unit": "\u00a3"
+      },
+      {
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "Net Lending to Individuals MoM",
+        "country": "GB",
+        "impact": "low",
+        "prev": 8,
+        "estimate": 7.1,
+        "actual": null,
+        "unit": "\u00a3"
+      },
+      {
+        "time_utc": "2026-06-02 08:30:00",
+        "event": "Retail Sales YoY",
+        "country": "HK",
+        "impact": "low",
+        "prev": 9.8,
+        "estimate": null,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:00:00",
-        "event": "Unemployment Rate",
+        "time_utc": "2026-06-02 08:40:00",
+        "event": "12-Month Letras Auction",
+        "country": "ES",
+        "impact": "low",
+        "prev": 2.635,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 08:40:00",
+        "event": "6-Month Letras Auction",
+        "country": "ES",
+        "impact": "low",
+        "prev": 2.357,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Core Inflation Rate YoY Flash",
         "country": "EU",
         "impact": "medium",
-        "prev": 6.3,
-        "estimate": 6.2,
-        "actual": 6.3,
+        "prev": 2.2,
+        "estimate": 2.4,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:05:00",
-        "event": "12/2026 NTB Auction",
-        "country": "NO",
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "CPI Flash",
+        "country": "EU",
         "impact": "low",
-        "prev": 4.36,
+        "prev": 103.04,
         "estimate": null,
-        "actual": 4.53,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "GDP Growth Rate QoQ Final",
+        "country": "CY",
+        "impact": "low",
+        "prev": 1.2,
+        "estimate": null,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:05:00",
-        "event": "NTB Auction",
-        "country": "NO",
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "GDP Growth Rate YoY Final",
+        "country": "CY",
+        "impact": "low",
+        "prev": 4.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Green Gilt 2037 Auction",
+        "country": "GB",
         "impact": "low",
         "prev": null,
         "estimate": null,
@@ -2314,589 +2368,269 @@
         "unit": ""
       },
       {
-        "time_utc": "2026-06-01 09:25:00",
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Inflation Rate MoM Flash",
+        "country": "EU",
+        "impact": "medium",
+        "prev": 1,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Inflation Rate MoM Prel",
+        "country": "HR",
+        "impact": "low",
+        "prev": 1.6,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Inflation Rate YoY Flash",
+        "country": "EU",
+        "impact": "high",
+        "prev": 3,
+        "estimate": 3.2,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Inflation Rate YoY Prel",
+        "country": "HR",
+        "impact": "low",
+        "prev": 5.8,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "M2 Money Supply YoY",
+        "country": "MA",
+        "impact": "low",
+        "prev": 11,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 09:00:00",
+        "event": "Retail Sales YoY",
+        "country": "CY",
+        "impact": "low",
+        "prev": 5.8,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "2-Year Schatz Auction",
+        "country": "DE",
+        "impact": "low",
+        "prev": 2.7,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "2033 Bond Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 8.549,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "2038 Bond Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 9.196,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "2042 Bond Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": 9.246,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "3-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.125,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "3-Month DTB Auction",
+        "country": "HU",
+        "impact": "low",
+        "prev": 5.68,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "6-Month Bill Auction",
+        "country": "NL",
+        "impact": "low",
+        "prev": 2.315,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 09:30:00",
+        "event": "Weekly Bond Auction",
+        "country": "ZA",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Business Confidence",
+        "country": "ZA",
+        "impact": "medium",
+        "prev": 47,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Industrial Production YoY",
+        "country": "MK",
+        "impact": "low",
+        "prev": 3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "PK",
+        "impact": "low",
+        "prev": 2.5,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "PK",
+        "impact": "low",
+        "prev": 10.9,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "LMI Logistics Managers Index",
+        "country": "US",
+        "impact": "low",
+        "prev": 69.9,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Long TC Auction",
+        "country": "BE",
+        "impact": "low",
+        "prev": 2.647,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Medium TC Auction",
+        "country": "BE",
+        "impact": "low",
+        "prev": 2.406,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Short TC Auction",
+        "country": "BE",
+        "impact": "low",
+        "prev": 2.2,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
+        "event": "Total Credit YoY",
+        "country": "GR",
+        "impact": "low",
+        "prev": 4.4,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 10:00:00",
         "event": "Wholesale Prices YoY",
         "country": "PK",
         "impact": "low",
         "prev": 13.6,
         "estimate": null,
-        "actual": 12.7,
+        "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "182-Day T-Bill Auction",
-        "country": "ZA",
+        "time_utc": "2026-06-02 10:20:00",
+        "event": "12-Month RFTB Auction",
+        "country": "FI",
         "impact": "low",
-        "prev": 7.52,
-        "estimate": null,
-        "actual": 7.55,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "273-Day T-Bill Auction",
-        "country": "ZA",
-        "impact": "low",
-        "prev": 7.76,
-        "estimate": null,
-        "actual": 7.75,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "3-Month Bill Auction",
-        "country": "NL",
-        "impact": "low",
-        "prev": 2.125,
+        "prev": 2.25,
         "estimate": null,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "3-Month Bubill Auction",
-        "country": "DE",
+        "time_utc": "2026-06-02 10:20:00",
+        "event": "9-Month RFTB Auction",
+        "country": "FI",
         "impact": "low",
-        "prev": 2.164,
-        "estimate": null,
-        "actual": 2.199,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "364-Day T-Bill Auction",
-        "country": "ZA",
-        "impact": "low",
-        "prev": 7.81,
-        "estimate": null,
-        "actual": 7.81,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "6-Month Bill Auction",
-        "country": "NL",
-        "impact": "low",
-        "prev": 2.315,
+        "prev": 2.55,
         "estimate": null,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "9-Month Bubill Auction",
-        "country": "DE",
-        "impact": "low",
-        "prev": 2.488,
-        "estimate": null,
-        "actual": 2.426,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 09:30:00",
-        "event": "91-Day T-Bill Auction",
-        "country": "ZA",
-        "impact": "low",
-        "prev": 7.18,
-        "estimate": null,
-        "actual": 7.26,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "GDP Growth Rate QoQ",
-        "country": "AO",
-        "impact": "low",
-        "prev": 1.9,
-        "estimate": null,
-        "actual": 1.4,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "GDP Growth Rate YoY",
-        "country": "AO",
-        "impact": "low",
-        "prev": 5.7,
-        "estimate": null,
-        "actual": 5.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "GDP Growth Rate YoY Final",
-        "country": "RS",
-        "impact": "low",
-        "prev": 2.2,
-        "estimate": 3,
-        "actual": 3.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "Industrial Production MoM",
-        "country": "PT",
-        "impact": "low",
-        "prev": 4.3,
-        "estimate": null,
-        "actual": -2.6,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "Industrial Production YoY",
-        "country": "PT",
-        "impact": "low",
-        "prev": 4.1,
-        "estimate": null,
-        "actual": 0,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "M3 Money Supply YoY",
-        "country": "SA",
-        "impact": "low",
-        "prev": 8.2,
-        "estimate": null,
-        "actual": 10,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "Private Bank Lending YoY",
-        "country": "SA",
-        "impact": "low",
-        "prev": 7.4,
-        "estimate": null,
-        "actual": 7.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "Retail Sales MoM",
-        "country": "PT",
-        "impact": "low",
-        "prev": 2.4,
-        "estimate": null,
-        "actual": -1.5,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:00:00",
-        "event": "Retail Sales YoY",
-        "country": "PT",
-        "impact": "low",
-        "prev": 5.7,
-        "estimate": null,
-        "actual": 4.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:30:00",
-        "event": "Government Budget Value",
-        "country": "IN",
-        "impact": "low",
-        "prev": null,
-        "estimate": null,
-        "actual": -3623,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 10:30:00",
-        "event": "Industrial Production YoY",
-        "country": "IN",
-        "impact": "medium",
-        "prev": 4.1,
-        "estimate": 3.9,
-        "actual": 4.9,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 10:30:00",
-        "event": "Manufacturing Production YoY",
-        "country": "IN",
-        "impact": "medium",
-        "prev": 4.3,
-        "estimate": null,
-        "actual": 6.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 11:00:00",
-        "event": "Industrial Production YoY",
-        "country": "IN",
-        "impact": "medium",
-        "prev": 4.1,
-        "estimate": 3.9,
-        "actual": 4.9,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 11:00:00",
-        "event": "M2 Money Supply YoY",
-        "country": "EG",
-        "impact": "low",
-        "prev": 20,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 11:00:00",
-        "event": "Manufacturing Production YoY",
-        "country": "IN",
-        "impact": "medium",
-        "prev": 4.3,
-        "estimate": null,
-        "actual": 6.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 11:00:00",
-        "event": "New Car Sales YoY",
-        "country": "ES",
-        "impact": "low",
-        "prev": 8.4,
-        "estimate": null,
-        "actual": -0.8,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 11:10:00",
-        "event": "New Car Sales YoY",
-        "country": "ES",
-        "impact": "low",
-        "prev": 8.4,
-        "estimate": null,
-        "actual": -0.8,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 11:30:00",
-        "event": "BCB Focus Market Readout",
-        "country": "BR",
-        "impact": "medium",
-        "prev": null,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 11:30:00",
-        "event": "Government Budget Value",
-        "country": "IN",
-        "impact": "low",
-        "prev": -15191.7,
-        "estimate": null,
-        "actual": -3623,
-        "unit": "INR"
-      },
-      {
-        "time_utc": "2026-06-01 12:00:00",
-        "event": "Business Confidence",
-        "country": "MX",
-        "impact": "medium",
-        "prev": 47.9,
-        "estimate": null,
-        "actual": 47.5,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 12:00:00",
-        "event": "M2 Money Supply YoY",
-        "country": "EG",
-        "impact": "low",
-        "prev": 20,
-        "estimate": null,
-        "actual": 19.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 12:00:00",
-        "event": "New Car Sales YoY",
-        "country": "ES",
-        "impact": "low",
-        "prev": 8.4,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 12:15:00",
-        "event": "Total New Vehicle Sales",
-        "country": "ZA",
-        "impact": "low",
-        "prev": 47.89,
-        "estimate": null,
-        "actual": 51.07,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 12:30:00",
-        "event": "IMACEC Economic Activity YoY",
-        "country": "CL",
-        "impact": "low",
-        "prev": -0.2,
-        "estimate": null,
-        "actual": -1.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 13:00:00",
-        "event": "12-Month BTF Auction",
-        "country": "FR",
-        "impact": "low",
-        "prev": 2.577,
-        "estimate": null,
-        "actual": 2.588,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 13:00:00",
-        "event": "3-Month BTF Auction",
-        "country": "FR",
-        "impact": "low",
-        "prev": 2.277,
-        "estimate": null,
-        "actual": 2.289,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 13:00:00",
-        "event": "6-Month BTF Auction",
-        "country": "FR",
-        "impact": "low",
-        "prev": 2.385,
-        "estimate": null,
-        "actual": 2.44,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 13:00:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "BR",
-        "impact": "low",
-        "prev": 52.6,
-        "estimate": null,
-        "actual": 49.1,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 13:30:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "CA",
-        "impact": "medium",
-        "prev": 53.3,
-        "estimate": null,
-        "actual": 52.9,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 13:45:00",
-        "event": "S&P Global Manufacturing PMI Final",
-        "country": "US",
-        "impact": "low",
-        "prev": 54.5,
-        "estimate": 55.3,
-        "actual": 55.1,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "Construction Spending MoM",
-        "country": "US",
-        "impact": "low",
-        "prev": 0.2,
-        "estimate": 0.2,
-        "actual": 0.4,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "ISM Manufacturing Employment",
-        "country": "US",
-        "impact": "medium",
-        "prev": 46.4,
-        "estimate": null,
-        "actual": 48.6,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "ISM Manufacturing New Orders",
-        "country": "US",
-        "impact": "low",
-        "prev": 54.1,
-        "estimate": null,
-        "actual": 56.8,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "ISM Manufacturing PMI",
-        "country": "US",
-        "impact": "high",
-        "prev": 52.7,
-        "estimate": 53,
-        "actual": 54,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "ISM Manufacturing Prices",
-        "country": "US",
-        "impact": "low",
-        "prev": 84.6,
-        "estimate": 85.5,
-        "actual": 82.1,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "M3 Money Supply YoY",
-        "country": "SA",
-        "impact": "low",
-        "prev": 8.2,
-        "estimate": null,
-        "actual": 10,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 14:00:00",
-        "event": "Private Bank Lending YoY",
-        "country": "SA",
-        "impact": "low",
-        "prev": 7.4,
-        "estimate": null,
-        "actual": 7.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 15:00:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "MX",
-        "impact": "low",
-        "prev": 47.7,
-        "estimate": null,
-        "actual": 49.6,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 15:30:00",
-        "event": "3-Month Bill Auction",
-        "country": "US",
-        "impact": "low",
-        "prev": 3.595,
-        "estimate": null,
-        "actual": 3.63,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 15:30:00",
-        "event": "6-Month Bill Auction",
-        "country": "US",
-        "impact": "low",
-        "prev": 3.65,
-        "estimate": null,
-        "actual": 3.665,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 15:30:00",
-        "event": "M2 Money Supply YoY",
-        "country": "EG",
-        "impact": "low",
-        "prev": 20,
-        "estimate": null,
-        "actual": 19.3,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 16:45:00",
-        "event": "3-Month Bill Auction",
-        "country": "NL",
-        "impact": "low",
-        "prev": 2.125,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 16:45:00",
-        "event": "6-Month Bill Auction",
-        "country": "NL",
-        "impact": "low",
-        "prev": 2.315,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 20:00:00",
-        "event": "Tax Revenue",
-        "country": "AR",
-        "impact": "low",
-        "prev": 17400.8,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-01 21:00:00",
-        "event": "Tax Revenue",
-        "country": "AR",
-        "impact": "low",
-        "prev": 17400.8,
-        "estimate": null,
-        "actual": 21513.6,
-        "unit": "ARS"
-      },
-      {
-        "time_utc": "2026-06-01 21:50:00",
-        "event": "Tax Revenue",
-        "country": "AR",
-        "impact": "low",
-        "prev": 17400.8,
-        "estimate": null,
-        "actual": 21513.6,
-        "unit": "ARS"
-      },
-      {
-        "time_utc": "2026-06-01 23:00:00",
-        "event": "Inflation Rate MoM",
-        "country": "KR",
-        "impact": "low",
-        "prev": 0.5,
-        "estimate": 0.3,
-        "actual": 0.5,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 23:00:00",
-        "event": "Inflation Rate YoY",
-        "country": "KR",
-        "impact": "medium",
-        "prev": 2.6,
-        "estimate": 3,
-        "actual": 3.1,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-01 23:50:00",
-        "event": "Monetary Base YoY",
-        "country": "JP",
-        "impact": "low",
-        "prev": -11.3,
-        "estimate": -9.5,
-        "actual": -12.2,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 00:00:00",
-        "event": "RBA Harper Speech",
-        "country": "AU",
+        "time_utc": "2026-06-02 10:20:00",
+        "event": "RFTB Auction",
+        "country": "FI",
         "impact": "low",
         "prev": null,
         "estimate": null,
@@ -2904,184 +2638,434 @@
         "unit": ""
       },
       {
-        "time_utc": "2026-06-02 00:00:00",
-        "event": "Republic Day",
-        "country": "IT",
-        "impact": "low",
+        "time_utc": "2026-06-02 12:30:00",
+        "event": "Fed Hammack Speech",
+        "country": "US",
+        "impact": "medium",
         "prev": null,
         "estimate": null,
         "actual": null,
         "unit": ""
       },
       {
-        "time_utc": "2026-06-02 00:01:00",
-        "event": "AIB Manufacturing PMI",
-        "country": "IE",
-        "impact": "low",
-        "prev": 54.9,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-02 00:30:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "ID",
-        "impact": "low",
-        "prev": 49.1,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-02 00:30:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "MY",
-        "impact": "low",
-        "prev": 51.6,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-02 00:30:00",
-        "event": "S&P Global Manufacturing PMI",
-        "country": "TH",
-        "impact": "low",
-        "prev": 52.7,
-        "estimate": null,
-        "actual": null,
-        "unit": ""
-      },
-      {
-        "time_utc": "2026-06-02 01:00:00",
-        "event": "TD-MI Inflation Gauge MoM",
-        "country": "AU",
-        "impact": "low",
-        "prev": 0.6,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Building Permits MoM Prel",
-        "country": "AU",
-        "impact": "medium",
-        "prev": -10.5,
-        "estimate": -1.5,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Building Permits YoY Prel",
-        "country": "AU",
+        "time_utc": "2026-06-02 12:55:00",
+        "event": "Redbook YoY",
+        "country": "US",
         "impact": "low",
         "prev": 9,
         "estimate": null,
         "actual": null,
-        "unit": "%"
+        "unit": ""
       },
       {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Business Inventories QoQ",
-        "country": "AU",
+        "time_utc": "2026-06-02 13:00:00",
+        "event": "Global Dairy Trade Price Index",
+        "country": "NZ",
         "impact": "low",
-        "prev": -0.1,
+        "prev": 0.6,
         "estimate": null,
         "actual": null,
         "unit": ""
       },
       {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Company Gross Profits QoQ",
+        "time_utc": "2026-06-02 13:00:00",
+        "event": "Interest Rate Decision",
+        "country": "PL",
+        "impact": "medium",
+        "prev": 3.75,
+        "estimate": 3.75,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 13:00:00",
+        "event": "SIPMM Manufacturing PMI",
+        "country": "SG",
+        "impact": "low",
+        "prev": 50.7,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 13:35:00",
+        "event": "ECB Vuj\u010di\u0107 Speech",
+        "country": "EU",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 14:00:00",
+        "event": "JOLTs Job Openings",
+        "country": "US",
+        "impact": "high",
+        "prev": 6.866,
+        "estimate": 6.82,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 14:00:00",
+        "event": "JOLTs Job Quits",
+        "country": "US",
+        "impact": "low",
+        "prev": 3.171,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 14:01:00",
+        "event": "Cotality Dwelling Prices MoM",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 14:10:00",
+        "event": "RCM/TIPP Economic Optimism Index",
+        "country": "US",
+        "impact": "low",
+        "prev": 42.6,
+        "estimate": 44.5,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 15:00:00",
+        "event": "BoE Greene Speech",
+        "country": "GB",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 15:00:00",
+        "event": "Foreign Exchange Reserves",
+        "country": "DK",
+        "impact": "low",
+        "prev": 687,
+        "estimate": null,
+        "actual": null,
+        "unit": "DKK"
+      },
+      {
+        "time_utc": "2026-06-02 15:30:00",
+        "event": "6-Week Bill Auction",
+        "country": "US",
+        "impact": "low",
+        "prev": 3.62,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 16:00:00",
+        "event": "New Car Registrations YoY",
+        "country": "FR",
+        "impact": "low",
+        "prev": -0.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 17:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "PY",
+        "impact": "low",
+        "prev": 2.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 20:30:00",
+        "event": "API Crude Oil Stock Change",
+        "country": "US",
+        "impact": "medium",
+        "prev": -2.8,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 22:45:00",
+        "event": "Building Permits MoM",
+        "country": "NZ",
+        "impact": "low",
+        "prev": -1.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 22:45:00",
+        "event": "Export Prices QoQ",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 5.3,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 22:45:00",
+        "event": "Import Prices QoQ",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 1.5,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 22:45:00",
+        "event": "Terms of Trade QoQ",
+        "country": "NZ",
+        "impact": "low",
+        "prev": 3.7,
+        "estimate": -1.2,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-02 23:00:00",
+        "event": "Ai Group Construction Index",
+        "country": "AU",
+        "impact": "low",
+        "prev": -19.3,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 23:00:00",
+        "event": "Ai Group Industry Index",
         "country": "AU",
         "impact": "medium",
-        "prev": 5.8,
+        "prev": -24.4,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 23:00:00",
+        "event": "Ai Group Manufacturing Index",
+        "country": "AU",
+        "impact": "low",
+        "prev": -27.9,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 23:00:00",
+        "event": "S&P Global Composite PMI Final",
+        "country": "AU",
+        "impact": "low",
+        "prev": 50.4,
+        "estimate": 47.8,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-02 23:00:00",
+        "event": "S&P Global Services PMI Final",
+        "country": "AU",
+        "impact": "low",
+        "prev": 50.7,
+        "estimate": 47.7,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 00:00:00",
+        "event": "Birthday of H.M. Queen Suthida",
+        "country": "TH",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 00:00:00",
+        "event": "Martyrs\u2019 Day",
+        "country": "UG",
+        "impact": "low",
+        "prev": null,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 00:30:00",
+        "event": "S&P Global Composite PMI Final",
+        "country": "JP",
+        "impact": "low",
+        "prev": 52.2,
+        "estimate": 51.1,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 00:30:00",
+        "event": "S&P Global PMI",
+        "country": "HK",
+        "impact": "low",
+        "prev": 48.6,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 00:30:00",
+        "event": "S&P Global Services PMI Final",
+        "country": "JP",
+        "impact": "low",
+        "prev": 51,
+        "estimate": 50,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 01:30:00",
+        "event": "GDP Capital Expenditure QoQ",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.7,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-03 01:30:00",
+        "event": "GDP Chain Price Index QoQ",
+        "country": "AU",
+        "impact": "low",
+        "prev": 1.4,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 01:30:00",
+        "event": "GDP Final Consumption QoQ",
+        "country": "AU",
+        "impact": "low",
+        "prev": 0.5,
+        "estimate": null,
+        "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-03 01:30:00",
+        "event": "GDP Growth Rate QoQ",
+        "country": "AU",
+        "impact": "high",
+        "prev": 0.8,
         "estimate": 0.5,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Current Account",
+        "time_utc": "2026-06-03 01:30:00",
+        "event": "GDP Growth Rate YoY",
         "country": "AU",
-        "impact": "low",
-        "prev": -21.1,
-        "estimate": -23,
+        "impact": "medium",
+        "prev": 2.6,
+        "estimate": 2.7,
         "actual": null,
-        "unit": "A$"
+        "unit": "%"
       },
       {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Net Exports Contribution to GDP",
-        "country": "AU",
+        "time_utc": "2026-06-03 01:45:00",
+        "event": "RatingDog Composite PMI",
+        "country": "CN",
         "impact": "low",
-        "prev": -0.1,
+        "prev": 53.1,
+        "estimate": null,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 01:45:00",
+        "event": "RatingDog Services PMI",
+        "country": "CN",
+        "impact": "medium",
+        "prev": 52.6,
+        "estimate": 52.3,
+        "actual": null,
+        "unit": ""
+      },
+      {
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Balance of Trade",
+        "country": "VN",
+        "impact": "low",
+        "prev": -3.28,
+        "estimate": null,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Foreign Direct Investment",
+        "country": "VN",
+        "impact": "low",
+        "prev": 7.4,
+        "estimate": null,
+        "actual": null,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Industrial Production YoY",
+        "country": "VN",
+        "impact": "low",
+        "prev": 9.9,
         "estimate": null,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-02 01:30:00",
-        "event": "Private House Approvals MoM Prel",
-        "country": "AU",
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "VN",
         "impact": "low",
-        "prev": 0.9,
+        "prev": 5.46,
         "estimate": null,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-02 02:30:00",
-        "event": "30-Year KTB Auction",
-        "country": "KR",
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Retail Sales YoY",
+        "country": "VN",
         "impact": "low",
-        "prev": 3.83,
+        "prev": 12.1,
         "estimate": null,
         "actual": null,
         "unit": "%"
       },
       {
-        "time_utc": "2026-06-02 02:35:00",
-        "event": "1-Year Bill Auction",
-        "country": "NZ",
+        "time_utc": "2026-06-03 02:00:00",
+        "event": "Tourist Arrivals YoY",
+        "country": "VN",
         "impact": "low",
-        "prev": 2.98,
+        "prev": 22.8,
         "estimate": null,
         "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 02:35:00",
-        "event": "3-Month Bill Auction",
-        "country": "NZ",
-        "impact": "low",
-        "prev": 2.485,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 02:35:00",
-        "event": "6-Month Bill Auction",
-        "country": "NZ",
-        "impact": "low",
-        "prev": 2.6366,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
-      },
-      {
-        "time_utc": "2026-06-02 03:35:00",
-        "event": "10-Year JGB Auction",
-        "country": "JP",
-        "impact": "low",
-        "prev": 2.54,
-        "estimate": null,
-        "actual": null,
-        "unit": "%"
+        "unit": ""
       }
     ],
     "fetch_status": {
@@ -3410,900 +3394,11 @@
         "published": "Mon, 01 Jun 2026 04:00:00 GMT"
       },
       {
-        "ticker": "PRAX",
-        "halt_reason": "",
-        "title": "PRAX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    16:10:00.000PRAXPraxis Precision Med Cm StNASDAQT306/01/2026                    16:40:00                      16:45:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ABVX",
-        "halt_reason": "",
-        "title": "ABVX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    16:01:00.000ABVXAbivax SA American Dep ShsNASDAQT306/01/2026                    16:20:00                      16:25:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "QH",
-        "halt_reason": "",
-        "title": "QH",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:59:10.016QHQuhuo Limited ADSNASDAQLUDP06/01/2026                    15:59:10                      16:00:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILAV",
-        "halt_reason": "",
-        "title": "LILAV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:56:57.526LILAVLiberty Latin Cl A Ex Dist WINASDAQLUDP06/01/2026                    15:56:57                      16:00:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:49:53.136JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:49:53                      16:00:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILKV",
-        "halt_reason": "",
-        "title": "LILKV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:48:48.093LILKVLiberty Latin Cl C Ex Dist WINASDAQLUDP06/01/2026                    15:48:48                      16:00:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:38:43.406JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:38:43                      15:43:43",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILKV",
-        "halt_reason": "",
-        "title": "LILKV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:32:54.830LILKVLiberty Latin Cl C Ex Dist WINASDAQLUDP06/01/2026                    15:32:54                      15:37:54",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:27:46.843JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:27:46                      15:37:46",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILKV",
-        "halt_reason": "",
-        "title": "LILKV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:27:39.830LILKVLiberty Latin Cl C Ex Dist WINASDAQLUDP06/01/2026                    15:27:39                      15:32:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:17:24.346JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:17:24                      15:27:24",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILKV",
-        "halt_reason": "",
-        "title": "LILKV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:15:38.133LILKVLiberty Latin Cl C Ex Dist WINASDAQLUDP06/01/2026                    15:15:38                      15:20:38",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILAV",
-        "halt_reason": "",
-        "title": "LILAV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:15:03.520LILAVLiberty Latin Cl A Ex Dist WINASDAQLUDP06/01/2026                    15:15:03                      15:20:03",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:12:01.976JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:12:01                      15:17:01",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DGZ",
-        "halt_reason": "",
-        "title": "DGZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:11:33.463DGZDB Gold Short ETN due February 15, 2038NYSE ArcaM06/01/2026                    15:21:33                      15:21:33",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    15:01:45.070JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    15:01:45                      15:11:45",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:51:12.080JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:51:12                      15:01:12",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:40:46.463JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:40:46                      14:50:46",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILAV",
-        "halt_reason": "",
-        "title": "LILAV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:38:59.246LILAVLiberty Latin Cl A Ex Dist WINASDAQLUDP06/01/2026                    14:38:59                      15:09:31",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:35:10.830JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:35:10                      14:40:10",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:29:40.886JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:29:40                      14:34:40",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LILAV",
-        "halt_reason": "",
-        "title": "LILAV",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:25:19.026LILAVLiberty Latin Cl A Ex Dist WINASDAQLUDP06/01/2026                    14:25:19                      14:30:19",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SIXP",
-        "halt_reason": "",
-        "title": "SIXP",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:22:34.646SIXPAllianzIM U.S. Large Cap 6 Month Buffer10 Mar/Sep ETFNon NASDAQM06/01/2026                    14:27:34                      14:27:34",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:19:22.033JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:19:22                      14:29:22",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:11:57.953JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:11:57                      14:16:57",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    14:01:39.483JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    14:01:39                      14:11:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:56:18.143JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:56:18                      14:01:18",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:46:02.953JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:46:02                      13:56:02",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:40:45.066JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:40:45                      13:45:45",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:34:16.746JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:34:16                      13:39:16",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:25:10.750JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:25:10                      13:30:10",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:13:24.573JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:13:24                      13:23:24",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:08:05.050JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:08:05                      13:13:05",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    13:00:39.063JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    13:00:39                      13:05:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:55:16.596JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:55:16                      13:00:16",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:50:01.400JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:50:01                      12:55:01",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:43:00.070JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:43:00                      12:48:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:37:22.986JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:37:22                      12:42:22",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ATGL",
-        "halt_reason": "",
-        "title": "ATGL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:30:46.186ATGLAlpha Technology Group Cl A OSNASDAQLUDP06/01/2026                    12:30:46                      12:35:46",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "AIM",
-        "halt_reason": "",
-        "title": "AIM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:23:13.176AIMAIM ImmunoTech Inc. Common StockAMEXM06/01/2026                    12:28:13                      12:28:13",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:22:54.930TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    12:22:54                      12:27:54",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:18:13.793JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:18:13                      12:23:13",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "AIM",
-        "halt_reason": "",
-        "title": "AIM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:14:00.556AIMAIM ImmunoTech Inc. Common StockAMEXM06/01/2026                    12:19:00                      12:19:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:08:14.746JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    12:08:14                      12:13:14",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TAVIU",
-        "halt_reason": "",
-        "title": "TAVIU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    12:07:24.553TAVIUTavia Acq Cp UtNASDAQLUDP06/01/2026                    12:07:24                      12:12:24",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:58:19.370JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    11:58:19                      12:03:19",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:52:42.596JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    11:52:42                      11:57:42",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "INLF",
-        "halt_reason": "",
-        "title": "INLF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:49:52.610INLFINLIF LIMITED Cl A OSNASDAQLUDP06/01/2026                    11:49:52                      11:54:52",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:47:26.320JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    11:47:26                      11:52:26",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:41:20.166JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    11:41:20                      11:46:20",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DGZ",
-        "halt_reason": "",
-        "title": "DGZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:35:16.366DGZDB Gold Short ETN due February 15, 2038NYSE ArcaM06/01/2026                    11:45:16                      11:45:16",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CMND",
-        "halt_reason": "",
-        "title": "CMND",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:27:46.546CMNDClearmind Medicine Inc. CmnNASDAQLUDP06/01/2026                    11:27:46                      11:32:46",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FEDU",
-        "halt_reason": "",
-        "title": "FEDU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:25:05.626FEDUFour Seasons Education (Cayman) Inc. American Depositary Shares, each ADS representing 10 ordinary sharesNYSEM06/01/2026                    11:41:49                      11:41:49",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HKIT",
-        "halt_reason": "",
-        "title": "HKIT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:08:27.726HKITHitek Global A OSNASDAQLUDP06/01/2026                    11:08:27                      11:13:27",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:04:18.656TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    11:04:18                      11:09:18",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CDTG",
-        "halt_reason": "",
-        "title": "CDTG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    11:01:18.703CDTGCDT Environmental Technology INASDAQLUDP06/01/2026                    11:01:18                      11:06:18",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "KNRX",
-        "halt_reason": "",
-        "title": "KNRX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:59:23.573KNRXKNOREX LTD. Class A Ordinary SharesAMEXM06/01/2026                    11:04:23                      11:04:23",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:58:23.036TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:58:23                      11:03:23",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:51:53.790TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:51:53                      10:56:53",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ORLA",
-        "halt_reason": "",
-        "title": "ORLA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:51:15.793ORLAOrla Mining Ltd. Common SharesAMEXT306/01/2026                    11:35:00                      11:35:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:51:03.683JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:51:03                      10:56:03",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:46:18.236TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:46:18                      10:51:18",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
         "ticker": "ASD",
         "halt_reason": "",
         "title": "ASD",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:43:01.520ASDDefiance Autism Impact ETFNASDAQT1",
         "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DTSQU",
-        "halt_reason": "",
-        "title": "DTSQU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:38:05.620DTSQUDT Cloud Star Acq Corp UnitsNASDAQLUDP06/01/2026                    10:38:05                      10:48:05",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "NBCE",
-        "halt_reason": "",
-        "title": "NBCE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:37:00.820NBCENeuberger China Equity ETFNYSE ArcaM06/01/2026                    10:42:00                      10:42:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZXN",
-        "halt_reason": "",
-        "title": "JZXN",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:35:49.976JZXNJiuzi Holdings, Inc. Ord ShsNASDAQLUDP06/01/2026                    10:35:49                      10:40:49",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ABTS",
-        "halt_reason": "",
-        "title": "ABTS",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:34:30.450ABTSAbits Group Inc Ord ShsNASDAQLUDP06/01/2026                    10:34:30                      10:39:30",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:33:23.956TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:33:23                      10:43:23",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:32:22.083JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:32:22                      10:37:22",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DGZ",
-        "halt_reason": "",
-        "title": "DGZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:31:42.320DGZDB Gold Short ETN due February 15, 2038NYSE ArcaM06/01/2026                    10:36:42                      10:36:42",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:28:04.533TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:28:04                      10:33:04",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HKIT",
-        "halt_reason": "",
-        "title": "HKIT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:25:21.326HKITHitek Global A OSNASDAQLUDP06/01/2026                    10:25:21                      10:35:21",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZXN",
-        "halt_reason": "",
-        "title": "JZXN",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:22:58.110JZXNJiuzi Holdings, Inc. Ord ShsNASDAQLUDP06/01/2026                    10:22:58                      10:27:58",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:21:44.480JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:21:44                      10:31:44",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HKIT",
-        "halt_reason": "",
-        "title": "HKIT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:20:00.153HKITHitek Global A OSNASDAQLUDP06/01/2026                    10:20:00                      10:25:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:18:58.490TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:18:58                      10:23:58",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:16:26.523JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:16:26                      10:21:26",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SPCE",
-        "halt_reason": "",
-        "title": "SPCE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:15:14.486SPCEVirgin Galactic Holdings, Inc. Common StockNYSEM06/01/2026                    10:20:17                      10:20:17",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:13:02.843TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:13:02                      10:18:02",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HKIT",
-        "halt_reason": "",
-        "title": "HKIT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:12:56.106HKITHitek Global A OSNASDAQLUDP06/01/2026                    10:12:56                      10:17:56",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:10:38.593JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:10:38                      10:15:38",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:07:47.026TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    10:07:47                      10:12:47",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:05:22.146JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    10:05:22                      10:10:22",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FDXF",
-        "halt_reason": "",
-        "title": "FDXF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    10:00:00.896FDXFFedEx Freight Holding Company, Inc. Common StockNYSEM06/01/2026                    10:05:20                      10:05:20",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JZ",
-        "halt_reason": "",
-        "title": "JZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:59:34.433JZJianzhi Education Tech ADSNASDAQLUDP06/01/2026                    09:59:34                      10:04:34",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:57:02.356TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    09:57:02                      10:07:02",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DGZ",
-        "halt_reason": "",
-        "title": "DGZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:56:59.150DGZDB Gold Short ETN due February 15, 2038NYSE ArcaM06/01/2026                    10:01:59                      10:01:59",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HKIT",
-        "halt_reason": "",
-        "title": "HKIT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:56:34.413HKITHitek Global A OSNASDAQLUDP06/01/2026                    09:56:34                      10:01:34",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MASK",
-        "halt_reason": "",
-        "title": "MASK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:49:42.260MASK3 E Ntwk Tech Gp Ord ANASDAQLUDP06/01/2026                    09:49:42                      09:54:42",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FDXF",
-        "halt_reason": "",
-        "title": "FDXF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:49:23.966FDXFFedEx Freight Holding Company, Inc. Common StockNYSEM06/01/2026                    09:54:47                      09:54:47",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:46:39.776TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    09:46:39                      09:56:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ATPC",
-        "halt_reason": "",
-        "title": "ATPC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:46:32.816ATPCAgape ATP Corporation CSNASDAQLUDP06/01/2026                    09:46:32                      09:51:32",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MASK",
-        "halt_reason": "",
-        "title": "MASK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:42:28.266MASK3 E Ntwk Tech Gp Ord ANASDAQLUDP06/01/2026                    09:42:28                      09:47:28",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "NBCE",
-        "halt_reason": "",
-        "title": "NBCE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:41:44.103NBCENeuberger China Equity ETFNYSE ArcaM06/01/2026                    09:46:44                      09:46:44",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:41:09.860TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    09:41:09                      09:46:09",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FDXF",
-        "halt_reason": "",
-        "title": "FDXF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:40:40.993FDXFFedEx Freight Holding Company, Inc. Common StockNYSEM06/01/2026                    09:45:50                      09:45:50",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ASTC",
-        "halt_reason": "",
-        "title": "ASTC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:38:29.446ASTCAstrotech CorporationNASDAQLUDP06/01/2026                    09:38:29                      09:43:29",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DAIC",
-        "halt_reason": "",
-        "title": "DAIC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:38:25.383DAICCID HoldCo, Inc. Common StockNASDAQLUDP06/01/2026                    09:38:25                      09:43:25",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:35:43.716TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    09:35:43                      09:40:43",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VSECU",
-        "halt_reason": "",
-        "title": "VSECU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:33:07.623VSECUVSE CorporationNASDAQLUDP06/01/2026                    09:33:07                      09:38:07",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ABVE",
-        "halt_reason": "",
-        "title": "ABVE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:32:52.836ABVEAbove Food Ingredients CmnNASDAQLUDP06/01/2026                    09:32:52                      09:37:52",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MSST",
-        "halt_reason": "",
-        "title": "MSST",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:32:48.776MSSTYieldMax MSTR Performance & Distribution Target 25 ETFNon NASDAQM06/01/2026                    09:37:48                      09:37:48",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MASK",
-        "halt_reason": "",
-        "title": "MASK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:31:39.320MASK3 E Ntwk Tech Gp Ord ANASDAQLUDP06/01/2026                    09:31:39                      09:36:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "REPL",
-        "halt_reason": "",
-        "title": "REPL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:38.546REPLReplimune Group, Inc. CMNASDAQLUDP06/01/2026                    09:30:38                      09:35:38",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "STG",
-        "halt_reason": "",
-        "title": "STG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:22.630STGSunlands Technology Group American Depositary Shares, representing Class A ordinary sharesNYSEM06/01/2026                    09:35:39                      09:35:39",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MLACU",
-        "halt_reason": "",
-        "title": "MLACU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:21.766MLACUMountain Lake Acq Corp UnitsNASDAQLUDP06/01/2026                    09:30:21                      09:48:44",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TGHL",
-        "halt_reason": "",
-        "title": "TGHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:20.313TGHLThe GrowHub Limited Cl A OSNASDAQLUDP06/01/2026                    09:30:20                      09:35:20",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ARKD",
-        "halt_reason": "",
-        "title": "ARKD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:16.383ARKDARK DIET Q1 Buffer ETFNon NASDAQM06/01/2026                    09:40:16                      09:40:16",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MBSX",
-        "halt_reason": "",
-        "title": "MBSX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    09:30:15.523MBSXRegan Fixed Rate MBS ETFNYSE ArcaM06/01/2026                    09:40:15                      09:40:15",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HCACR",
-        "halt_reason": "",
-        "title": "HCACR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    08:48:00.520HCACRHall Chadwick Acq RightsNASDAQT306/01/2026                    13:35:00                      13:40:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HCAC",
-        "halt_reason": "",
-        "title": "HCAC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    08:48:00.520HCACHall Chadwick Acq Cl A Ord ShNASDAQT306/01/2026                    13:30:00                      13:35:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HCACU",
-        "halt_reason": "",
-        "title": "HCACU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    08:48:00.520HCACUHall Chadwick Acq UnitNASDAQT306/01/2026                    13:35:00                      13:40:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "OPTU",
-        "halt_reason": "",
-        "title": "OPTU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    07:56:37.622OPTUOptimum Communications, Inc. Class A common stockNYSET306/01/2026                    08:14:25                      08:14:25",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "RLYB",
-        "halt_reason": "",
-        "title": "RLYB",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    07:55:00.000RLYBRallybio Corp Cmn StkNASDAQT306/01/2026                    08:25:00                      08:30:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "NCSM",
-        "halt_reason": "",
-        "title": "NCSM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    06:55:00.000NCSMNCS Multistage Holdings CMNASDAQT306/01/2026                    07:25:00                      07:30:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BRHY",
-        "halt_reason": "",
-        "title": "BRHY",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/01/2026                    03:58:05.033BRHYiShares High Yield Active ETFNASDAQT306/01/2026                    10:40:00                      10:45:00",
-        "published": "Mon, 01 Jun 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "JDZG",
-        "halt_reason": "",
-        "title": "JDZG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000JDZGJIADE LIMITED CL A OSNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TBH",
-        "halt_reason": "",
-        "title": "TBH",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000TBHBrag House Holdings, Inc. CSNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SBFMW",
-        "halt_reason": "",
-        "title": "SBFMW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000SBFMWSunshine Biopharma Inc. WtNASDAQT306/01/2026                    09:00:00                      09:05:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DAICW",
-        "halt_reason": "",
-        "title": "DAICW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000DAICWCID HoldCo, Inc. WarrantsNASDAQT306/01/2026                    09:00:00                      09:05:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SBFM",
-        "halt_reason": "",
-        "title": "SBFM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000SBFMSunshine Biopharma Inc. CmNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ZOOZ",
-        "halt_reason": "",
-        "title": "ZOOZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000ZOOZZOOZ Strategy Ltd Ord ShNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "DAIC",
-        "halt_reason": "",
-        "title": "DAIC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000DAICCID HoldCo, Inc. Common StockNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SCYX",
-        "halt_reason": "",
-        "title": "SCYX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000SCYXSCYNEXIS Inc Cmn StkNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SMX",
-        "halt_reason": "",
-        "title": "SMX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000SMXSMX Sc Mtr PLC OrdNASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SMXWW",
-        "halt_reason": "",
-        "title": "SMXWW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000SMXWWSMX Sec Mtrs PLC WarrantsNASDAQT306/01/2026                    09:00:00                      09:05:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ZOOZW",
-        "halt_reason": "",
-        "title": "ZOOZW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000ZOOZWZOOZ Strategy WtNASDAQT306/01/2026                    09:00:00                      09:05:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CDTG",
-        "halt_reason": "",
-        "title": "CDTG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/29/2026                    19:50:00.000CDTGCDT Environmental Technology INASDAQT306/01/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 29 May 2026 04:00:00 GMT"
       },
       {
         "ticker": "TJGC",
