@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-03T12:25:00.228210+00:00",
+    "generated_at": "2026-06-03T12:30:00.235718+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -1100,7 +1100,7 @@
       }
     ],
     "scanner_file": "scan_20260603_113001.json",
-    "scanner_age_seconds": 3299,
+    "scanner_age_seconds": 3599,
     "market_context": {
       "SPY": {
         "price": 760.0,
@@ -1275,9 +1275,9 @@
         "date": "2026-06-03",
         "hour": "bmo",
         "eps_estimate": null,
-        "eps_actual": null,
+        "eps_actual": -0.57,
         "rev_estimate": null,
-        "rev_actual": null,
+        "rev_actual": 89900000,
         "year": 2027,
         "quarter": 1
       },
@@ -2934,9 +2934,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 758.72,
+        "last": 758.54,
         "prev_close": 758.44,
-        "change_pct": 0.04,
+        "change_pct": 0.01,
         "day_high": 760.4,
         "day_low": 756.75,
         "volume": 1164371
@@ -3199,10 +3199,17 @@
     "fetch_status": "ok",
     "halts_today": [
       {
-        "ticker": "NVAWW",
+        "ticker": "DAIC",
         "halt_reason": "",
-        "title": "NVAWW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/03/2026                    07:03:41.486NVAWWNova Minerals Limited WarrantNASDAQT1",
+        "title": "DAIC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/03/2026                    08:26:55.486DAICCID HoldCo, Inc. Common StockNASDAQT1",
+        "published": "Wed, 03 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "DAICW",
+        "halt_reason": "",
+        "title": "DAICW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/03/2026                    08:26:55.486DAICWCID HoldCo, Inc. WarrantsNASDAQT1",
         "published": "Wed, 03 Jun 2026 04:00:00 GMT"
       },
       {
@@ -3213,17 +3220,24 @@
         "published": "Wed, 03 Jun 2026 04:00:00 GMT"
       },
       {
-        "ticker": "SILO",
+        "ticker": "NVAWW",
         "halt_reason": "",
-        "title": "SILO",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/02/2026                    19:50:00.000SILOSilo Pharma Cmn stkNASDAQT306/03/2026                    08:55:00                      09:00:00",
-        "published": "Tue, 02 Jun 2026 04:00:00 GMT"
+        "title": "NVAWW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/03/2026                    07:03:41.486NVAWWNova Minerals Limited WarrantNASDAQT1",
+        "published": "Wed, 03 Jun 2026 04:00:00 GMT"
       },
       {
         "ticker": "FONR",
         "halt_reason": "",
         "title": "FONR",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/02/2026                    19:50:00.000FONRFonar CorporationNASDAQT12",
+        "published": "Tue, 02 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "SILO",
+        "halt_reason": "",
+        "title": "SILO",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/02/2026                    19:50:00.000SILOSilo Pharma Cmn stkNASDAQT306/03/2026                    08:55:00                      09:00:00",
         "published": "Tue, 02 Jun 2026 04:00:00 GMT"
       },
       {
