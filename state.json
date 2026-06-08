@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-08T13:15:00.194041+00:00",
+    "generated_at": "2026-06-08T13:20:00.192136+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -2049,7 +2049,7 @@
       }
     ],
     "scanner_file": "scan_20260608_130001.json",
-    "scanner_age_seconds": 899,
+    "scanner_age_seconds": 1199,
     "market_context": {
       "SPY": {
         "price": 743.76,
@@ -2752,9 +2752,19 @@
         "event": "Balance of Trade",
         "country": "CL",
         "impact": "low",
-        "prev": 1.91,
+        "prev": 1910,
         "estimate": null,
-        "actual": 2.44,
+        "actual": 2440,
+        "unit": "$"
+      },
+      {
+        "time_utc": "2026-06-08 12:30:00",
+        "event": "Current Account",
+        "country": "IN",
+        "impact": "medium",
+        "prev": -15.5,
+        "estimate": -15,
+        "actual": 7.1,
         "unit": "$"
       },
       {
@@ -3111,9 +3121,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 719.0,
+        "last": 718.59,
         "prev_close": 740.5,
-        "change_pct": -2.9,
+        "change_pct": -2.96,
         "day_high": 731.62,
         "day_low": 704.33,
         "volume": 1816869
