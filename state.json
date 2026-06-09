@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-09T12:15:00.191918+00:00",
+    "generated_at": "2026-06-09T12:20:00.195407+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -370,7 +370,7 @@
       }
     ],
     "scanner_file": "scan_20260609_113000.json",
-    "scanner_age_seconds": 2699,
+    "scanner_age_seconds": 2999,
     "market_context": {
       "SPY": {
         "price": 739.24,
@@ -1411,12 +1411,32 @@
       },
       {
         "time_utc": "2026-06-09 11:00:00",
+        "event": "Inflation Rate MoM",
+        "country": "UA",
+        "impact": "low",
+        "prev": 1.4,
+        "estimate": null,
+        "actual": 0.9,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-09 11:00:00",
         "event": "Inflation Rate YoY",
         "country": "TZ",
         "impact": "low",
         "prev": 4,
         "estimate": null,
         "actual": null,
+        "unit": "%"
+      },
+      {
+        "time_utc": "2026-06-09 11:00:00",
+        "event": "Inflation Rate YoY",
+        "country": "UA",
+        "impact": "low",
+        "prev": 8.6,
+        "estimate": null,
+        "actual": 8.2,
         "unit": "%"
       },
       {
@@ -1486,7 +1506,7 @@
         "impact": "medium",
         "prev": 35.75,
         "estimate": null,
-        "actual": null,
+        "actual": 29,
         "unit": ""
       },
       {
@@ -1940,9 +1960,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 397.19,
+        "last": 398.53,
         "prev_close": 396.24,
-        "change_pct": 0.24,
+        "change_pct": 0.58,
         "day_high": 398.94,
         "day_low": 396.06,
         "volume": 190143
