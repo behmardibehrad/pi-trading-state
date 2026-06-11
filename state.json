@@ -1,16 +1,16 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-11T13:00:00.242561+00:00",
+    "generated_at": "2026-06-11T13:05:00.222102+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
       {
         "symbol": "SMCI",
-        "price": 29.28,
+        "price": 29.3,
         "prev_close": 40.62,
-        "change_pct": -27.92,
+        "change_pct": -27.87,
         "today_volume": 7837571,
         "avg_daily_volume": 41896052,
         "volume_ratio": 5.05,
@@ -23,16 +23,16 @@
           "close": 40.62,
           "volume": 1553505
         },
-        "score": 62.74,
+        "score": 62.63,
         "technicals": {
           "atr_14": 4.0056,
-          "atr_pct": 13.68,
+          "atr_pct": 13.67,
           "20d_high": 51.4,
-          "pct_from_20d_high": -43.04,
+          "pct_from_20d_high": -43.0,
           "20d_low": 29.14,
-          "pct_from_20d_low": 0.48,
+          "pct_from_20d_low": 0.55,
           "50d_ma": 31.92,
-          "pct_from_50d_ma": -8.27,
+          "pct_from_50d_ma": -8.2,
           "above_50d_ma": false,
           "5d_change_pct": -38.27,
           "recent_bars": [
@@ -586,26 +586,99 @@
             }
           ]
         }
+      },
+      {
+        "symbol": "KIM",
+        "price": 25.6,
+        "prev_close": 25.18,
+        "change_pct": 1.65,
+        "today_volume": 872278,
+        "avg_daily_volume": 5817533,
+        "volume_ratio": 2.35,
+        "day_high": 25.7,
+        "day_low": 25.14,
+        "yesterday": {
+          "open": 24.42,
+          "high": 25.29,
+          "low": 24.42,
+          "close": 25.18,
+          "volume": 370988
+        },
+        "score": 2.53,
+        "technicals": {
+          "atr_14": 0.4472,
+          "atr_pct": 1.75,
+          "20d_high": 25.71,
+          "pct_from_20d_high": -0.43,
+          "20d_low": 22.93,
+          "pct_from_20d_low": 11.64,
+          "50d_ma": 23.62,
+          "pct_from_50d_ma": 8.37,
+          "above_50d_ma": true,
+          "5d_change_pct": 6.77,
+          "recent_bars": [
+            {
+              "date": "2026-06-04",
+              "open": 24.05,
+              "high": 24.15,
+              "low": 23.72,
+              "close": 24.01,
+              "volume": 3556284
+            },
+            {
+              "date": "2026-06-05",
+              "open": 23.74,
+              "high": 24.32,
+              "low": 23.74,
+              "close": 24.23,
+              "volume": 4259853
+            },
+            {
+              "date": "2026-06-08",
+              "open": 24.21,
+              "high": 24.31,
+              "low": 24.07,
+              "close": 24.24,
+              "volume": 5151699
+            },
+            {
+              "date": "2026-06-09",
+              "open": 24.44,
+              "high": 25.29,
+              "low": 24.41,
+              "close": 25.19,
+              "volume": 6317160
+            },
+            {
+              "date": "2026-06-10",
+              "open": 25.25,
+              "high": 25.71,
+              "low": 25.13,
+              "close": 25.38,
+              "volume": 8148067
+            }
+          ]
+        }
       }
     ],
-    "scanner_file": "scan_20260611_123001.json",
-    "scanner_age_seconds": 1799,
+    "scanner_file": "scan_20260611_130001.json",
+    "scanner_age_seconds": 299,
     "market_context": {
       "SPY": {
-        "price": 728.91,
-        "change_pct": -1.11,
+        "price": 729.24,
+        "change_pct": -1.06,
         "day_high": 738.38,
         "day_low": 725.37
       },
       "QQQ": {
-        "price": 699.73,
-        "change_pct": -1.15,
+        "price": 698.7,
+        "change_pct": -1.29,
         "day_high": 711.17,
         "day_low": 693.0
       },
       "IWM": {
-        "price": 284.02,
-        "change_pct": -0.33,
+        "price": 285.01,
+        "change_pct": 0.02,
         "day_high": 289.0,
         "day_low": 281.76
       },
@@ -874,9 +947,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 698.7,
+        "last": 700.13,
         "prev_close": 707.86,
-        "change_pct": -1.29,
+        "change_pct": -1.09,
         "day_high": 711.17,
         "day_low": 693.0,
         "volume": 1291363
@@ -896,9 +969,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 285.01,
+        "last": 284.56,
         "prev_close": 284.95,
-        "change_pct": 0.02,
+        "change_pct": -0.14,
         "day_high": 289.0,
         "day_low": 281.76,
         "volume": 2874773
