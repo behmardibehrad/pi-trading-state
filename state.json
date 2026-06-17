@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-17T12:25:00.212822+00:00",
+    "generated_at": "2026-06-17T12:30:00.236284+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -297,7 +297,7 @@
       }
     ],
     "scanner_file": "scan_20260617_113000.json",
-    "scanner_age_seconds": 3299,
+    "scanner_age_seconds": 3599,
     "market_context": {
       "SPY": {
         "price": 751.18,
@@ -483,9 +483,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 750.9,
+        "last": 750.78,
         "prev_close": 754.83,
-        "change_pct": -0.52,
+        "change_pct": -0.54,
         "day_high": 755.44,
         "day_low": 749.88,
         "volume": 67210550
@@ -494,9 +494,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 733.9,
+        "last": 733.82,
         "prev_close": 744.0,
-        "change_pct": -1.36,
+        "change_pct": -1.37,
         "day_high": 744.22,
         "day_low": 729.64,
         "volume": 45537235
@@ -505,7 +505,7 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 521.16,
+        "last": 521.11,
         "prev_close": 518.44,
         "change_pct": 0.52,
         "day_high": 523.3,
@@ -529,9 +529,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 115.1,
+        "last": 115.12,
         "prev_close": 121.21,
-        "change_pct": -5.04,
+        "change_pct": -5.02,
         "day_high": 116.99,
         "day_low": 113.31,
         "volume": 7730863
@@ -540,9 +540,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 11.66,
+        "last": 11.67,
         "prev_close": 11.43,
-        "change_pct": 2.01,
+        "change_pct": 2.1,
         "day_high": 11.83,
         "day_low": 11.44,
         "volume": 5390829
@@ -551,9 +551,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 397.05,
+        "last": 396.78,
         "prev_close": 396.55,
-        "change_pct": 0.13,
+        "change_pct": 0.06,
         "day_high": 398.96,
         "day_low": 395.82,
         "volume": 6044541
@@ -586,9 +586,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 86.23,
+        "last": 86.19,
         "prev_close": 85.72,
-        "change_pct": 0.59,
+        "change_pct": 0.55,
         "day_high": 86.38,
         "day_low": 85.92,
         "volume": 27606050
@@ -610,9 +610,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 34.13,
+        "last": 34.12,
         "prev_close": 35.11,
-        "change_pct": -2.79,
+        "change_pct": -2.82,
         "day_high": 34.61,
         "day_low": 34.41,
         "volume": 29820787
@@ -621,9 +621,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 209.42,
+        "last": 209.86,
         "prev_close": 211.45,
-        "change_pct": -0.96,
+        "change_pct": -0.75,
         "day_high": 213.78,
         "day_low": 204.49,
         "volume": 19038999
@@ -724,9 +724,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 629.48,
+        "last": 628.99,
         "prev_close": 647.1,
-        "change_pct": -2.72,
+        "change_pct": -2.8,
         "day_high": 648.31,
         "day_low": 616.0,
         "volume": 10974033
@@ -735,9 +735,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 188.21,
+        "last": 188.19,
         "prev_close": 191.79,
-        "change_pct": -1.87,
+        "change_pct": -1.88,
         "day_high": 192.25,
         "day_low": 186.43,
         "volume": 10079976
@@ -747,6 +747,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "ALOT",
+        "halt_reason": "",
+        "title": "ALOT",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/17/2026                    08:25:00.000ALOTAstroNova, Inc.NASDAQT1",
+        "published": "Wed, 17 Jun 2026 04:00:00 GMT"
+      },
       {
         "ticker": "FTHM",
         "halt_reason": "",
