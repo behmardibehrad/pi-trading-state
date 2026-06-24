@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-24T12:50:00.222730+00:00",
+    "generated_at": "2026-06-24T12:55:00.221383+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -443,7 +443,7 @@
       }
     ],
     "scanner_file": "scan_20260624_123000.json",
-    "scanner_age_seconds": 1199,
+    "scanner_age_seconds": 1499,
     "market_context": {
       "SPY": {
         "price": 736.91,
@@ -673,9 +673,9 @@
         "date": "2026-06-24",
         "hour": "bmo",
         "eps_estimate": 1.3301,
-        "eps_actual": null,
+        "eps_actual": 1.32,
         "rev_estimate": 1632588815,
-        "rev_actual": null,
+        "rev_actual": 1605500000,
         "year": 2026,
         "quarter": 4
       },
@@ -794,7 +794,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 735.54,
+        "last": 735.52,
         "prev_close": 744.39,
         "change_pct": -1.19,
         "day_high": 739.63,
@@ -805,9 +805,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 717.0,
+        "last": 716.81,
         "prev_close": 737.95,
-        "change_pct": -2.84,
+        "change_pct": -2.86,
         "day_high": 723.61,
         "day_low": 712.11,
         "volume": 53550280
@@ -816,9 +816,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 516.55,
+        "last": 516.34,
         "prev_close": 517.08,
-        "change_pct": -0.1,
+        "change_pct": -0.14,
         "day_high": 518.72,
         "day_low": 512.97,
         "volume": 5042382
@@ -827,7 +827,7 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 295.99,
+        "last": 296.01,
         "prev_close": 298.18,
         "change_pct": -0.73,
         "day_high": 297.75,
@@ -840,9 +840,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 107.91,
+        "last": 107.92,
         "prev_close": 112.69,
-        "change_pct": -4.24,
+        "change_pct": -4.23,
         "day_high": 111.53,
         "day_low": 110.06,
         "volume": 3154861
@@ -851,9 +851,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 11.6,
+        "last": 11.58,
         "prev_close": 11.77,
-        "change_pct": -1.44,
+        "change_pct": -1.61,
         "day_high": 11.66,
         "day_low": 11.41,
         "volume": 5614900
@@ -862,9 +862,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 367.44,
+        "last": 367.47,
         "prev_close": 384.59,
-        "change_pct": -4.46,
+        "change_pct": -4.45,
         "day_high": 380.35,
         "day_low": 377.17,
         "volume": 7531039
@@ -875,9 +875,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 22.8,
+        "last": 22.84,
         "prev_close": 21.85,
-        "change_pct": 4.35,
+        "change_pct": 4.53,
         "day_high": 23.26,
         "day_low": 22.54,
         "volume": 3341015
@@ -897,9 +897,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 86.92,
+        "last": 86.99,
         "prev_close": 86.09,
-        "change_pct": 0.96,
+        "change_pct": 1.05,
         "day_high": 86.42,
         "day_low": 86.1,
         "volume": 19154031
@@ -932,9 +932,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 199.58,
+        "last": 199.61,
         "prev_close": 219.02,
-        "change_pct": -8.88,
+        "change_pct": -8.86,
         "day_high": 201.05,
         "day_low": 191.33,
         "volume": 43564891
@@ -943,9 +943,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 104.9,
+        "last": 104.75,
         "prev_close": 111.53,
-        "change_pct": -5.94,
+        "change_pct": -6.08,
         "day_high": 106.74,
         "day_low": 105.0,
         "volume": 8978426
@@ -1002,9 +1002,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 53.88,
+        "last": 53.87,
         "prev_close": 54.06,
-        "change_pct": -0.33,
+        "change_pct": -0.35,
         "day_high": 54.56,
         "day_low": 53.87,
         "volume": 38692652
@@ -1013,9 +1013,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 53.96,
+        "last": 53.9,
         "prev_close": 53.7,
-        "change_pct": 0.48,
+        "change_pct": 0.37,
         "day_high": 54.02,
         "day_low": 53.49,
         "volume": 33376042
@@ -1024,9 +1024,9 @@
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 178.65,
+        "last": 178.64,
         "prev_close": 181.8,
-        "change_pct": -1.73,
+        "change_pct": -1.74,
         "day_high": 180.01,
         "day_low": 177.23,
         "volume": 8928735
@@ -1035,9 +1035,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 626.27,
+        "last": 625.7,
         "prev_close": 668.91,
-        "change_pct": -6.37,
+        "change_pct": -6.46,
         "day_high": 636.88,
         "day_low": 617.27,
         "volume": 19157973
@@ -1062,7 +1062,7 @@
         "ticker": "CTM",
         "halt_reason": "",
         "title": "CTM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/24/2026                    08:20:14.137CTMCastellum, Inc.NYSET1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/24/2026                    08:20:14.137CTMCastellum, Inc.NYSET306/24/2026                    08:50:00                      08:50:00",
         "published": "Wed, 24 Jun 2026 04:00:00 GMT"
       },
       {
