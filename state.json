@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-06-26T23:50:00.221261+00:00",
+    "generated_at": "2026-06-26T23:55:00.222223+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -2195,7 +2195,7 @@
       }
     ],
     "scanner_file": "scan_20260626_203001.json",
-    "scanner_age_seconds": 11999,
+    "scanner_age_seconds": 12299,
     "market_context": {
       "SPY": {
         "price": 732.45,
@@ -2358,45 +2358,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 731.2,
+        "last": 731.25,
         "prev_close": 734.3,
         "change_pct": -0.42,
         "day_high": 736.53,
         "day_low": 716.58,
-        "volume": 71090643
+        "volume": 71095111
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 706.55,
+        "last": 706.44,
         "prev_close": 716.38,
-        "change_pct": -1.37,
+        "change_pct": -1.39,
         "day_high": 715.55,
         "day_low": 702.81,
-        "volume": 47249890
+        "volume": 47256401
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 517.51,
+        "last": 517.66,
         "prev_close": 519.26,
-        "change_pct": -0.34,
+        "change_pct": -0.31,
         "day_high": 521.28,
         "day_low": 516.1,
-        "volume": 3825547
+        "volume": 3825880
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 299.16,
+        "last": 298.86,
         "prev_close": 298.91,
-        "change_pct": 0.08,
+        "change_pct": -0.02,
         "day_high": 300.03,
         "day_low": 295.73,
-        "volume": 39831443
+        "volume": 39831820
       }
     ],
     "commodities": [
@@ -2409,7 +2409,7 @@
         "change_pct": -2.3,
         "day_high": 106.17,
         "day_low": 104.07,
-        "volume": 9605624
+        "volume": 9609691
       },
       {
         "symbol": "UNG",
@@ -2431,7 +2431,7 @@
         "change_pct": 1.5,
         "day_high": 375.85,
         "day_low": 371.18,
-        "volume": 5640636
+        "volume": 5640776
       }
     ],
     "vol_and_dollar": [
@@ -2466,7 +2466,7 @@
         "change_pct": -0.24,
         "day_high": 87.37,
         "day_low": 87.0,
-        "volume": 21661869
+        "volume": 21662943
       }
     ],
     "asia": [
@@ -2479,7 +2479,7 @@
         "change_pct": -0.55,
         "day_high": 93.28,
         "day_low": 92.32,
-        "volume": 4061218
+        "volume": 4061233
       },
       {
         "symbol": "FXI",
@@ -2496,12 +2496,12 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 197.37,
+        "last": 197.95,
         "prev_close": 205.0,
-        "change_pct": -3.72,
+        "change_pct": -3.44,
         "day_high": 202.0,
         "day_low": 194.09,
-        "volume": 17109734
+        "volume": 17110249
       },
       {
         "symbol": "EWT",
@@ -2566,12 +2566,12 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 54.21,
+        "last": 54.25,
         "prev_close": 54.09,
-        "change_pct": 0.22,
+        "change_pct": 0.3,
         "day_high": 54.15,
         "day_low": 53.67,
-        "volume": 19024173
+        "volume": 19025740
       },
       {
         "symbol": "XLF",
@@ -2582,7 +2582,7 @@
         "change_pct": 0.45,
         "day_high": 53.94,
         "day_low": 53.2,
-        "volume": 26669872
+        "volume": 26671372
       },
       {
         "symbol": "XLI",
@@ -2593,35 +2593,91 @@
         "change_pct": -1.47,
         "day_high": 183.07,
         "day_low": 180.91,
-        "volume": 8889285
+        "volume": 8889288
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 609.9,
+        "last": 609.75,
         "prev_close": 636.88,
-        "change_pct": -4.24,
+        "change_pct": -4.26,
         "day_high": 621.71,
         "day_low": 609.0,
-        "volume": 12744495
+        "volume": 12745031
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 181.2,
+        "last": 181.3,
         "prev_close": 184.57,
-        "change_pct": -1.83,
+        "change_pct": -1.77,
         "day_high": 183.11,
         "day_low": 179.76,
-        "volume": 13434457
+        "volume": 13435514
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "HON",
+        "halt_reason": "",
+        "title": "HON",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000HONHoneywell International CmnNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GIBO",
+        "halt_reason": "",
+        "title": "GIBO",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000GIBOGIBO Holdings Limited Cl A OSNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "PAVS",
+        "halt_reason": "",
+        "title": "PAVS",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000PAVSParanovus Entrmt Tech Cl A OrdNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "MNDR",
+        "halt_reason": "",
+        "title": "MNDR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000MNDRMobile-health Ntwk Sltn Ord ANASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GIBOW",
+        "halt_reason": "",
+        "title": "GIBOW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000GIBOWGIBO Holdings Limited WTSNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "HONIV",
+        "halt_reason": "",
+        "title": "HONIV",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000HONIVHoneywell Ex Dist When IssuedNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GDC",
+        "halt_reason": "",
+        "title": "GDC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000GDCGD Culture Group LimitedNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ZCMD",
+        "halt_reason": "",
+        "title": "ZCMD",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/26/2026                    19:50:00.000ZCMDZhongchao Cl A Ordinary ShsNASDAQT1",
+        "published": "Fri, 26 Jun 2026 04:00:00 GMT"
+      },
       {
         "ticker": "ARL",
         "halt_reason": "",
