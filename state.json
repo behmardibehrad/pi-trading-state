@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-07-01T23:50:00.217382+00:00",
+    "generated_at": "2026-07-01T23:55:00.190091+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -512,7 +512,7 @@
       }
     ],
     "scanner_file": "scan_20260701_203001.json",
-    "scanner_age_seconds": 11999,
+    "scanner_age_seconds": 12299,
     "market_context": {
       "SPY": {
         "price": 744.8,
@@ -753,23 +753,23 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 744.71,
+        "last": 744.99,
         "prev_close": 746.77,
-        "change_pct": -0.28,
+        "change_pct": -0.24,
         "day_high": 749.43,
         "day_low": 742.38,
-        "volume": 47233330
+        "volume": 47236773
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 723.9,
+        "last": 724.52,
         "prev_close": 736.4,
-        "change_pct": -1.7,
+        "change_pct": -1.61,
         "day_high": 731.92,
         "day_low": 724.6,
-        "volume": 40984095
+        "volume": 40995078
       },
       {
         "symbol": "DIA",
@@ -780,18 +780,18 @@
         "change_pct": -0.08,
         "day_high": 526.72,
         "day_low": 519.62,
-        "volume": 3441680
+        "volume": 3441720
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 298.71,
+        "last": 298.89,
         "prev_close": 300.45,
-        "change_pct": -0.58,
+        "change_pct": -0.52,
         "day_high": 302.72,
         "day_low": 298.92,
-        "volume": 20605660
+        "volume": 20609516
       }
     ],
     "commodities": [
@@ -804,7 +804,7 @@
         "change_pct": -2.99,
         "day_high": 105.0,
         "day_low": 103.14,
-        "volume": 3111881
+        "volume": 3112096
       },
       {
         "symbol": "UNG",
@@ -815,18 +815,18 @@
         "change_pct": -1.45,
         "day_high": 11.71,
         "day_low": 11.51,
-        "volume": 3681236
+        "volume": 3684337
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 370.2,
+        "last": 370.3,
         "prev_close": 368.38,
-        "change_pct": 0.49,
+        "change_pct": 0.52,
         "day_high": 377.78,
         "day_low": 370.21,
-        "volume": 9101924
+        "volume": 9102318
       }
     ],
     "vol_and_dollar": [
@@ -834,12 +834,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 21.6,
+        "last": 21.58,
         "prev_close": 21.29,
-        "change_pct": 1.46,
+        "change_pct": 1.36,
         "day_high": 21.72,
         "day_low": 21.21,
-        "volume": 1982207
+        "volume": 1982307
       },
       {
         "symbol": "UUP",
@@ -850,18 +850,18 @@
         "change_pct": 0.28,
         "day_high": 28.49,
         "day_low": 28.42,
-        "volume": 1996546
+        "volume": 1996561
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 85.58,
+        "last": 85.6,
         "prev_close": 86.42,
-        "change_pct": -0.97,
+        "change_pct": -0.95,
         "day_high": 85.79,
         "day_low": 85.42,
-        "volume": 28117609
+        "volume": 28118114
       }
     ],
     "asia": [
@@ -874,7 +874,7 @@
         "change_pct": -0.08,
         "day_high": 93.74,
         "day_low": 93.01,
-        "volume": 8459509
+        "volume": 8459547
       },
       {
         "symbol": "FXI",
@@ -891,12 +891,12 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 185.6,
+        "last": 185.0,
         "prev_close": 201.9,
-        "change_pct": -8.07,
+        "change_pct": -8.37,
         "day_high": 192.16,
         "day_low": 184.81,
-        "volume": 28527595
+        "volume": 28564497
       },
       {
         "symbol": "EWT",
@@ -994,12 +994,12 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 621.1,
+        "last": 621.5,
         "prev_close": 655.89,
-        "change_pct": -5.3,
+        "change_pct": -5.24,
         "day_high": 639.89,
         "day_low": 618.62,
-        "volume": 13449251
+        "volume": 13450606
       },
       {
         "symbol": "XLK",
@@ -1010,13 +1010,20 @@
         "change_pct": -2.64,
         "day_high": 187.98,
         "day_low": 185.38,
-        "volume": 9962757
+        "volume": 9963285
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "GMEX",
+        "halt_reason": "",
+        "title": "GMEX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/01/2026                    19:50:00.000GMEXGMEX ROBOTICS CORP Cl A OSNASDAQT1",
+        "published": "Wed, 01 Jul 2026 04:00:00 GMT"
+      },
       {
         "ticker": "EVGOW",
         "halt_reason": "",
