@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-07-02T11:55:00.188162+00:00",
+    "generated_at": "2026-07-02T12:00:00.219532+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -585,7 +585,7 @@
       }
     ],
     "scanner_file": "scan_20260702_113000.json",
-    "scanner_age_seconds": 1499,
+    "scanner_age_seconds": 1799,
     "market_context": {
       "SPY": {
         "price": 746.23,
@@ -781,9 +781,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 746.31,
+        "last": 746.27,
         "prev_close": 746.77,
-        "change_pct": -0.06,
+        "change_pct": -0.07,
         "day_high": 749.43,
         "day_low": 742.38,
         "volume": 47244589
@@ -792,9 +792,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 724.55,
+        "last": 724.44,
         "prev_close": 736.4,
-        "change_pct": -1.61,
+        "change_pct": -1.62,
         "day_high": 731.92,
         "day_low": 724.6,
         "volume": 41000437
@@ -827,9 +827,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 102.25,
+        "last": 102.0,
         "prev_close": 106.44,
-        "change_pct": -3.94,
+        "change_pct": -4.17,
         "day_high": 105.0,
         "day_low": 103.14,
         "volume": 3112281
@@ -849,9 +849,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 373.43,
+        "last": 373.0,
         "prev_close": 368.38,
-        "change_pct": 1.37,
+        "change_pct": 1.25,
         "day_high": 377.78,
         "day_low": 370.21,
         "volume": 9102510
@@ -862,9 +862,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 21.51,
+        "last": 21.5,
         "prev_close": 21.29,
-        "change_pct": 1.03,
+        "change_pct": 0.99,
         "day_high": 21.72,
         "day_low": 21.21,
         "volume": 1982407
@@ -919,9 +919,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 182.25,
+        "last": 181.99,
         "prev_close": 201.9,
-        "change_pct": -9.73,
+        "change_pct": -9.86,
         "day_high": 192.16,
         "day_low": 184.81,
         "volume": 28571419
@@ -930,9 +930,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 106.31,
+        "last": 106.4,
         "prev_close": 108.61,
-        "change_pct": -2.12,
+        "change_pct": -2.03,
         "day_high": 107.64,
         "day_low": 105.36,
         "volume": 4323930
@@ -1022,9 +1022,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 619.98,
+        "last": 619.45,
         "prev_close": 655.89,
-        "change_pct": -5.48,
+        "change_pct": -5.56,
         "day_high": 639.89,
         "day_low": 618.62,
         "volume": 13452123
@@ -1045,6 +1045,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "CLRO",
+        "halt_reason": "",
+        "title": "CLRO",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/02/2026                    07:55:00.000CLROCLEARONE INC. Cmn StkNASDAQT1",
+        "published": "Thu, 02 Jul 2026 04:00:00 GMT"
+      },
       {
         "ticker": "GMEX",
         "halt_reason": "",
