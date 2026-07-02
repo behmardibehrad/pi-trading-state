@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-07-02T10:35:00.219078+00:00",
+    "generated_at": "2026-07-02T10:40:00.223010+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -585,7 +585,7 @@
       }
     ],
     "scanner_file": "scan_20260702_103000.json",
-    "scanner_age_seconds": 299,
+    "scanner_age_seconds": 599,
     "market_context": {
       "SPY": {
         "price": 745.55,
@@ -781,9 +781,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 746.15,
+        "last": 746.26,
         "prev_close": 746.77,
-        "change_pct": -0.08,
+        "change_pct": -0.07,
         "day_high": 749.43,
         "day_low": 742.38,
         "volume": 47244589
@@ -792,9 +792,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 723.15,
+        "last": 723.63,
         "prev_close": 736.4,
-        "change_pct": -1.8,
+        "change_pct": -1.73,
         "day_high": 731.92,
         "day_low": 724.6,
         "volume": 41000437
@@ -803,9 +803,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 523.35,
+        "last": 523.67,
         "prev_close": 522.39,
-        "change_pct": 0.18,
+        "change_pct": 0.25,
         "day_high": 526.72,
         "day_low": 519.62,
         "volume": 3441815
@@ -814,9 +814,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 299.99,
+        "last": 300.05,
         "prev_close": 300.45,
-        "change_pct": -0.15,
+        "change_pct": -0.13,
         "day_high": 302.72,
         "day_low": 298.92,
         "volume": 20609760
@@ -838,9 +838,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 11.48,
+        "last": 11.46,
         "prev_close": 11.72,
-        "change_pct": -2.05,
+        "change_pct": -2.22,
         "day_high": 11.71,
         "day_low": 11.51,
         "volume": 3685367
@@ -849,9 +849,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 373.04,
+        "last": 373.14,
         "prev_close": 368.38,
-        "change_pct": 1.26,
+        "change_pct": 1.29,
         "day_high": 377.78,
         "day_low": 370.21,
         "volume": 9102510
@@ -884,9 +884,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 85.45,
+        "last": 85.43,
         "prev_close": 86.42,
-        "change_pct": -1.12,
+        "change_pct": -1.15,
         "day_high": 85.79,
         "day_low": 85.42,
         "volume": 28118930
@@ -919,9 +919,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 181.41,
+        "last": 181.63,
         "prev_close": 201.9,
-        "change_pct": -10.15,
+        "change_pct": -10.04,
         "day_high": 192.16,
         "day_low": 184.81,
         "volume": 28571419
@@ -989,9 +989,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 53.03,
+        "last": 53.09,
         "prev_close": 53.11,
-        "change_pct": -0.15,
+        "change_pct": -0.04,
         "day_high": 53.44,
         "day_low": 52.62,
         "volume": 33665222
@@ -1000,9 +1000,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 55.11,
+        "last": 55.12,
         "prev_close": 53.61,
-        "change_pct": 2.8,
+        "change_pct": 2.82,
         "day_high": 55.08,
         "day_low": 53.75,
         "volume": 47823860
@@ -1022,9 +1022,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 613.9,
+        "last": 614.2,
         "prev_close": 655.89,
-        "change_pct": -6.4,
+        "change_pct": -6.36,
         "day_high": 639.89,
         "day_low": 618.62,
         "volume": 13452123
@@ -1043,8 +1043,184 @@
     ]
   },
   "halts": {
-    "fetch_status": "failed: The read operation timed out",
-    "halts_today": null,
+    "fetch_status": "ok",
+    "halts_today": [
+      {
+        "ticker": "GMEX",
+        "halt_reason": "",
+        "title": "GMEX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/01/2026                    19:50:00.000GMEXGMEX ROBOTICS CORP Cl A OSNASDAQT1",
+        "published": "Wed, 01 Jul 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "EVGOW",
+        "halt_reason": "",
+        "title": "EVGOW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/01/2026                    16:05:00.000EVGOWEVgo Inc. WarrantsNASDAQD07/02/2026                    00:00:01                      00:00:01",
+        "published": "Wed, 01 Jul 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ILLR",
+        "halt_reason": "",
+        "title": "ILLR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/30/2026                    12:57:08.853ILLRTriller Group Inc Common StockNASDAQT12",
+        "published": "Tue, 30 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ILLRW",
+        "halt_reason": "",
+        "title": "ILLRW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/30/2026                    12:57:08.853ILLRWTriller Group Inc. WarrantNASDAQT12",
+        "published": "Tue, 30 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NCL",
+        "halt_reason": "",
+        "title": "NCL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/24/2026                    18:46:11.118NCLNorthann Corp. Common StockAMEXH11",
+        "published": "Wed, 24 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "SRXH",
+        "halt_reason": "",
+        "title": "SRXH",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/23/2026                    16:13:37.528SRXHSRX Health Solutions, Inc.AMEXT1",
+        "published": "Tue, 23 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "HCHL",
+        "halt_reason": "",
+        "title": "HCHL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/11/2026                    19:50:00.000HCHLHappy City Holdings LimitedNASDAQT12",
+        "published": "Thu, 11 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "INHD",
+        "halt_reason": "",
+        "title": "INHD",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/08/2026                    17:18:58.540INHDInno Holdings Inc.NASDAQT12",
+        "published": "Mon, 08 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "JDZG",
+        "halt_reason": "",
+        "title": "JDZG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time06/04/2026                    17:15:41.963JDZGJIADE LIMITED CL A OSNASDAQT12",
+        "published": "Thu, 04 Jun 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "SRL",
+        "halt_reason": "",
+        "title": "SRL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time05/12/2026                    10:29:37.918SRLScully Royalty Ltd.NYSEH11",
+        "published": "Tue, 12 May 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "MAGH",
+        "halt_reason": "",
+        "title": "MAGH",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time12/04/2025                    19:50:00MAGHMagnitude International Ltd OSNASDAQT12",
+        "published": "Thu, 04 Dec 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "MAMK",
+        "halt_reason": "",
+        "title": "MAMK",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/14/2025                    19:50:00MAMKMaxsMaking Inc.NASDAQT12",
+        "published": "Fri, 14 Nov 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "MCTA",
+        "halt_reason": "",
+        "title": "MCTA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/11/2025                    19:50:00MCTACharming Medical Limit Cl A OSNASDAQT12",
+        "published": "Tue, 11 Nov 2025 05:00:00 GMT"
+      },
+      {
+        "ticker": "LAWR",
+        "halt_reason": "",
+        "title": "LAWR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/22/2025                    19:50:00LAWRRobot Consulting ADSNASDAQT12",
+        "published": "Wed, 22 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PC",
+        "halt_reason": "",
+        "title": "PC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/16/2025                    19:50:00PCPremium Catering Hold Ltd OSNASDAQT12",
+        "published": "Thu, 16 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "NUTR",
+        "halt_reason": "",
+        "title": "NUTR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/08/2025                    19:50:00NUTRNusatrip Incorporated Comm StkNASDAQT12",
+        "published": "Wed, 08 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "EMPG",
+        "halt_reason": "",
+        "title": "EMPG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/08/2025                    19:50:00EMPGEmpro Group Inc.NASDAQT12",
+        "published": "Wed, 08 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PTNM",
+        "halt_reason": "",
+        "title": "PTNM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00PTNMPitanium Ltd Ord ANASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "PLTS",
+        "halt_reason": "",
+        "title": "PLTS",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00PLTSPlatinum Analytics Cymn Ord ANASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "EFTY",
+        "halt_reason": "",
+        "title": "EFTY",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/03/2025                    19:50:00EFTYEtoiles Capital Group Cl A OSNASDAQT12",
+        "published": "Fri, 03 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "UCFI",
+        "halt_reason": "",
+        "title": "UCFI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/01/2025                    11:28:10UCFICN Healthy Food Tech Group CS NASDAQT12",
+        "published": "Wed, 01 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "UCFIW",
+        "halt_reason": "",
+        "title": "UCFIW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/01/2025                    11:28:10UCFIWCN Healthy Food Tech WarrantNASDAQT12",
+        "published": "Wed, 01 Oct 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "QMMM",
+        "halt_reason": "",
+        "title": "QMMM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/26/2025                    19:50:00QMMMQMMM Hldgs Ord Shs ANASDAQT12",
+        "published": "Fri, 26 Sep 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "OST",
+        "halt_reason": "",
+        "title": "OST",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/12/2025                    12:24:23OSTOstin Tech Grp Co Ord Cl A OrdNASDAQT12",
+        "published": "Fri, 12 Sep 2025 04:00:00 GMT"
+      },
+      {
+        "ticker": "SVA",
+        "halt_reason": "",
+        "title": "SVA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time02/22/2019                    16:02:01SVASinovac Biotech, Ltd Ord ShrsNASDAQT12",
+        "published": "Fri, 22 Feb 2019 05:00:00 GMT"
+      }
+    ],
     "feed_pubdate": null
   }
 }
