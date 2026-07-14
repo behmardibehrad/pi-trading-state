@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-07-13T23:55:00.218372+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-07-14T08:00:00.232511+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -1532,7 +1532,7 @@
       }
     ],
     "scanner_file": "scan_20260713_203001.json",
-    "scanner_age_seconds": 12299,
+    "scanner_age_seconds": 41399,
     "market_context": {
       "SPY": {
         "price": 748.45,
@@ -1633,9 +1633,7 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": [],
-    "earnings_today_bmo": [],
-    "earnings_today_ah": [
+    "earnings_yesterday_ah": [
       {
         "symbol": "BTCY",
         "date": "2026-07-13",
@@ -1670,6 +1668,153 @@
         "quarter": 3
       }
     ],
+    "earnings_today_bmo": [
+      {
+        "symbol": "ANGO",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": -0.0918,
+        "eps_actual": null,
+        "rev_estimate": 82008000,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "BAC",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": 1.129,
+        "eps_actual": null,
+        "rev_estimate": 30728693389,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "C",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": 2.7565,
+        "eps_actual": null,
+        "rev_estimate": 23973454230,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "GS",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": 14.4615,
+        "eps_actual": null,
+        "rev_estimate": 16427391853,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "JPM",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": 5.7433,
+        "eps_actual": null,
+        "rev_estimate": 49948022587,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "WFC",
+        "date": "2026-07-14",
+        "hour": "bmo",
+        "eps_estimate": 1.7279,
+        "eps_actual": null,
+        "rev_estimate": 22009730190,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      }
+    ],
+    "earnings_today_ah": [
+      {
+        "symbol": "AEHR",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": -0.0077,
+        "eps_actual": null,
+        "rev_estimate": 19059210,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "AIR",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": 1.3938,
+        "eps_actual": null,
+        "rev_estimate": 902704094,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "EQBK",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": 1.2396,
+        "eps_actual": null,
+        "rev_estimate": 87021708,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "KMTS",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "rev_estimate": null,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "KMTS",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": -0.6076,
+        "eps_actual": null,
+        "rev_estimate": 27008580,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "LOOP",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": -0.051,
+        "eps_actual": null,
+        "rev_estimate": 918000,
+        "rev_actual": null,
+        "year": 2027,
+        "quarter": 1
+      },
+      {
+        "symbol": "PXED",
+        "date": "2026-07-14",
+        "hour": "amc",
+        "eps_estimate": 1.3464,
+        "eps_actual": null,
+        "rev_estimate": 276556384,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 3
+      }
+    ],
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "ok",
@@ -1683,45 +1828,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 747.8,
+        "last": 748.9,
         "prev_close": 754.95,
-        "change_pct": -0.95,
+        "change_pct": -0.8,
         "day_high": 753.91,
         "day_low": 748.0,
-        "volume": 44093180
+        "volume": 44096966
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 709.74,
+        "last": 709.75,
         "prev_close": 725.51,
         "change_pct": -2.17,
         "day_high": 718.74,
         "day_low": 710.08,
-        "volume": 36801655
+        "volume": 36818162
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 523.3,
+        "last": 524.47,
         "prev_close": 525.78,
-        "change_pct": -0.47,
+        "change_pct": -0.25,
         "day_high": 527.86,
         "day_low": 522.9,
-        "volume": 2727578
+        "volume": 2727580
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 292.8,
+        "last": 293.48,
         "prev_close": 295.99,
-        "change_pct": -1.08,
+        "change_pct": -0.85,
         "day_high": 295.78,
         "day_low": 292.6,
-        "volume": 19381705
+        "volume": 19384231
       }
     ],
     "commodities": [
@@ -1729,34 +1874,34 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 120.02,
+        "last": 121.26,
         "prev_close": 108.7,
-        "change_pct": 10.41,
+        "change_pct": 11.55,
         "day_high": 119.05,
         "day_low": 111.71,
-        "volume": 13010823
+        "volume": 13027428
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.42,
+        "last": 10.4,
         "prev_close": 10.6,
-        "change_pct": -1.7,
+        "change_pct": -1.89,
         "day_high": 10.5,
         "day_low": 10.26,
-        "volume": 11573194
+        "volume": 11573699
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 366.91,
+        "last": 369.12,
         "prev_close": 377.01,
-        "change_pct": -2.68,
+        "change_pct": -2.09,
         "day_high": 372.89,
         "day_low": 365.77,
-        "volume": 7204247
+        "volume": 7206500
       }
     ],
     "vol_and_dollar": [
@@ -1764,20 +1909,20 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 21.13,
+        "last": 21.02,
         "prev_close": 20.34,
-        "change_pct": 3.88,
+        "change_pct": 3.34,
         "day_high": 21.14,
         "day_low": 20.35,
-        "volume": 2770166
+        "volume": 2771053
       },
       {
         "symbol": "UUP",
         "label": "US Dollar",
         "proxy_for": "DXY",
-        "last": 28.5,
+        "last": 28.47,
         "prev_close": 28.39,
-        "change_pct": 0.39,
+        "change_pct": 0.28,
         "day_high": 28.5,
         "day_low": 28.37,
         "volume": 3188126
@@ -1786,12 +1931,12 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 83.99,
+        "last": 83.97,
         "prev_close": 84.47,
-        "change_pct": -0.57,
+        "change_pct": -0.59,
         "day_high": 84.28,
         "day_low": 83.93,
-        "volume": 18752419
+        "volume": 18752433
       }
     ],
     "asia": [
@@ -1799,20 +1944,20 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 92.32,
+        "last": 92.72,
         "prev_close": 94.55,
-        "change_pct": -2.36,
+        "change_pct": -1.94,
         "day_high": 93.37,
         "day_low": 92.5,
-        "volume": 3742139
+        "volume": 3742144
       },
       {
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 33.48,
+        "last": 33.44,
         "prev_close": 33.48,
-        "change_pct": 0.0,
+        "change_pct": -0.12,
         "day_high": 33.72,
         "day_low": 33.35,
         "volume": 13257825
@@ -1821,23 +1966,23 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 167.43,
+        "last": 168.7,
         "prev_close": 183.52,
-        "change_pct": -8.77,
+        "change_pct": -8.08,
         "day_high": 172.2,
         "day_low": 167.44,
-        "volume": 35904560
+        "volume": 35914073
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 101.6,
+        "last": 101.88,
         "prev_close": 106.19,
-        "change_pct": -4.32,
+        "change_pct": -4.06,
         "day_high": 103.82,
         "day_low": 101.8,
-        "volume": 8317948
+        "volume": 8318134
       }
     ],
     "europe": [
@@ -1845,9 +1990,9 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 41.23,
+        "last": 40.77,
         "prev_close": 41.49,
-        "change_pct": -0.63,
+        "change_pct": -1.74,
         "day_high": 41.57,
         "day_low": 41.17,
         "volume": 519475
@@ -1861,7 +2006,7 @@
         "change_pct": -0.52,
         "day_high": 46.51,
         "day_low": 46.2,
-        "volume": 1163008
+        "volume": 1163009
       },
       {
         "symbol": "EWQ",
@@ -1878,12 +2023,12 @@
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 87.75,
+        "last": 87.86,
         "prev_close": 88.57,
-        "change_pct": -0.93,
+        "change_pct": -0.8,
         "day_high": 88.61,
         "day_low": 87.76,
-        "volume": 2072532
+        "volume": 2072533
       }
     ],
     "sectors_extra": [
@@ -1891,31 +2036,31 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 56.96,
+        "last": 57.0,
         "prev_close": 55.08,
-        "change_pct": 3.41,
+        "change_pct": 3.49,
         "day_high": 56.97,
         "day_low": 55.86,
-        "volume": 41201098
+        "volume": 41203135
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 56.06,
+        "last": 56.0,
         "prev_close": 55.71,
-        "change_pct": 0.63,
+        "change_pct": 0.52,
         "day_high": 56.16,
         "day_low": 55.6,
-        "volume": 33391655
+        "volume": 33391805
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 179.66,
+        "last": 180.37,
         "prev_close": 181.92,
-        "change_pct": -1.24,
+        "change_pct": -0.85,
         "day_high": 182.18,
         "day_low": 179.8,
         "volume": 5385784
@@ -1924,23 +2069,23 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 583.3,
+        "last": 594.75,
         "prev_close": 611.03,
-        "change_pct": -4.54,
+        "change_pct": -2.66,
         "day_high": 599.36,
         "day_low": 583.09,
-        "volume": 8919123
+        "volume": 8921855
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 180.18,
+        "last": 182.46,
         "prev_close": 185.78,
-        "change_pct": -3.01,
+        "change_pct": -1.79,
         "day_high": 183.9,
         "day_low": 180.54,
-        "volume": 8597383
+        "volume": 8598205
       }
     ]
   },
@@ -1990,220 +2135,10 @@
         "published": "Mon, 13 Jul 2026 04:00:00 GMT"
       },
       {
-        "ticker": "SLMT",
-        "halt_reason": "",
-        "title": "SLMT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    15:52:36.880SLMTBrera Holdings PLC Class B OSNASDAQLUDP07/13/2026                    15:52:36                      16:00:00",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "APPC",
-        "halt_reason": "",
-        "title": "APPC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    15:36:49.216APPCCorgi APP 2x Daily ETFNon NASDAQM07/13/2026                    15:41:49                      15:41:49",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "STLR",
-        "halt_reason": "",
-        "title": "STLR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    15:23:18.980STLRStellar ETFNon NASDAQM07/13/2026                    15:28:18                      15:28:18",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FAC",
-        "halt_reason": "",
-        "title": "FAC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    14:06:09.436FACFactorial Energy Inc. Cl A CSNASDAQLUDP07/13/2026                    14:06:09                      14:11:09",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SOBR",
-        "halt_reason": "",
-        "title": "SOBR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    14:02:28.333SOBRSOBR Safe, Inc. Cm StNASDAQLUDP07/13/2026                    14:02:28                      14:07:28",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GFUZ",
-        "halt_reason": "",
-        "title": "GFUZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:58:38.740GFUZGnl Fus Grp Ltd. CmnNASDAQLUDP07/13/2026                    13:58:38                      14:03:38",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SOBR",
-        "halt_reason": "",
-        "title": "SOBR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:49:07.926SOBRSOBR Safe, Inc. Cm StNASDAQLUDP07/13/2026                    13:49:07                      13:54:07",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:48:28.000VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    13:48:28                      13:53:28",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "NVVE",
-        "halt_reason": "",
-        "title": "NVVE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:45:35.140NVVENuvve Holding Corp. Cmn StkNASDAQLUDP07/13/2026                    13:45:35                      13:55:35",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SOBR",
-        "halt_reason": "",
-        "title": "SOBR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:34:26.413SOBRSOBR Safe, Inc. Cm StNASDAQLUDP07/13/2026                    13:34:26                      13:39:26",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:33:39.640VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    13:33:39                      13:38:39",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LBTYB",
-        "halt_reason": "",
-        "title": "LBTYB",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    13:09:30.836LBTYBLiberty Global Ltd Cl B Cmn ShNASDAQLUDP07/13/2026                    13:09:30                      13:14:30",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CIFC",
-        "halt_reason": "",
-        "title": "CIFC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:50:30.160CIFCCorgi CIFR 2x Daily ETFNon NASDAQM07/13/2026                    12:55:30                      12:55:30",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:42:24.226VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    12:42:24                      12:52:24",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:21:24.600MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    12:26:24                      12:26:24",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:08:07.810MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    12:13:07                      12:13:07",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "PDC",
-        "halt_reason": "",
-        "title": "PDC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:05:33.006PDCPerpetuals.com Ltd ADSNASDAQLUDP07/13/2026                    12:05:33                      12:15:33",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
         "ticker": "AMZE",
         "halt_reason": "",
         "title": "AMZE",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    12:04:31.713AMZEAmaze Holdings, Inc.AMEXH11",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ALA",
-        "halt_reason": "",
-        "title": "ALA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:53:15.056ALACorgi ALAB 2x Daily ETFNon NASDAQM07/13/2026                    11:58:15                      11:58:15",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SOBR",
-        "halt_reason": "",
-        "title": "SOBR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:42:19.916SOBRSOBR Safe, Inc. Cm StNASDAQLUDP07/13/2026                    11:42:19                      11:47:19",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "UBXG",
-        "halt_reason": "",
-        "title": "UBXG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:14:15.403UBXGU-BX Tech Ltd Ord ANASDAQLUDP07/13/2026                    11:14:15                      11:19:15",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:06:51.583VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    11:06:51                      11:16:51",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:01:09.333MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    11:06:09                      11:06:09",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    11:00:59.476VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    11:00:59                      11:05:59",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:55:06.123VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    10:55:06                      11:00:06",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "APPC",
-        "halt_reason": "",
-        "title": "APPC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:53:02.963APPCCorgi APP 2x Daily ETFNon NASDAQM07/13/2026                    10:58:02                      10:58:02",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:51:12.043MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:56:12                      10:56:12",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:48:33.603VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    10:48:33                      10:53:33",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GLU-A",
-        "halt_reason": "",
-        "title": "GLU-A",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:47:50.303GLU-AAMEXM07/13/2026                    10:52:50                      10:52:50",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:42:29.370MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:47:29                      10:47:29",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:31:28.610MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:41:28                      10:41:28",
         "published": "Mon, 13 Jul 2026 04:00:00 GMT"
       },
       {
@@ -2214,227 +2149,10 @@
         "published": "Mon, 13 Jul 2026 04:00:00 GMT"
       },
       {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:25:10.506MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:30:10                      10:30:10",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:24:41.346VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    10:24:41                      10:29:41",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:19:08.500VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    10:19:08                      10:24:08",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:18:51.380MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:23:51                      10:23:51",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GFUZ",
-        "halt_reason": "",
-        "title": "GFUZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:07:22.850GFUZGnl Fus Grp Ltd. CmnNASDAQLUDP07/13/2026                    10:07:22                      10:12:22",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MI",
-        "halt_reason": "",
-        "title": "MI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    10:02:10.873MINFT Limited Class A Ordinary ShareAMEXM07/13/2026                    10:07:10                      10:07:10",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:56:56.090VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    09:56:56                      10:01:56",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "AXTC",
-        "halt_reason": "",
-        "title": "AXTC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:55:12.766AXTCCorgi AXTI 2x Daily ETFNon NASDAQM07/13/2026                    10:00:12                      10:00:12",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:47:13.566VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    09:47:13                      09:52:13",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "ANTA",
-        "halt_reason": "",
-        "title": "ANTA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:45:59.446ANTAAntalpha Platform Holding A OSNASDAQLUDP07/13/2026                    09:45:59                      09:50:59",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BVC",
-        "halt_reason": "",
-        "title": "BVC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:44:08.366BVCBitVentures Limited Ordinary SNASDAQLUDP07/13/2026                    09:44:08                      09:54:08",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CLRO",
-        "halt_reason": "",
-        "title": "CLRO",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:43:09.570CLROCLEARONE INC. Cmn StkNASDAQLUDP07/13/2026                    09:43:09                      09:48:09",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:41:39.756VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    09:41:39                      09:46:39",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "YSXT",
-        "halt_reason": "",
-        "title": "YSXT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:41:32.690YSXTYSX Tech. Co., Ltd NASDAQLUDP07/13/2026                    09:41:32                      09:46:32",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MPWC",
-        "halt_reason": "",
-        "title": "MPWC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:36:11.380MPWCCorgi MPWR 2x Daily ETFNon NASDAQM07/13/2026                    09:41:11                      09:41:11",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "YSXT",
-        "halt_reason": "",
-        "title": "YSXT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:36:07.870YSXTYSX Tech. Co., Ltd NASDAQLUDP07/13/2026                    09:36:07                      09:41:07",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CLRO",
-        "halt_reason": "",
-        "title": "CLRO",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:31:26.543CLROCLEARONE INC. Cmn StkNASDAQLUDP07/13/2026                    09:31:26                      09:36:26",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BNZI",
-        "halt_reason": "",
-        "title": "BNZI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:31:23.643BNZIBanzai International CL A CSNASDAQLUDP07/13/2026                    09:31:23                      09:36:23",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    09:31:13.716VEEETwin Vee PowerCats Co. Cm StNASDAQLUDP07/13/2026                    09:31:13                      09:36:13",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VEEE",
-        "halt_reason": "",
-        "title": "VEEE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    08:25:00.000VEEETwin Vee PowerCats Co. Cm StNASDAQT307/13/2026                    08:45:00                      08:50:00",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "MTNB",
-        "halt_reason": "",
-        "title": "MTNB",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    07:34:26.886MTNBMatinas BioPharma Holdings, Inc.AMEXT307/13/2026                    08:20:00                      08:20:00",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TCBK",
-        "halt_reason": "",
-        "title": "TCBK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/13/2026                    06:55:00.000TCBKTriCo BancsharesNASDAQT307/13/2026                    07:15:00                      07:20:00",
-        "published": "Mon, 13 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "EDBL",
-        "halt_reason": "",
-        "title": "EDBL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000EDBLEdible Garden AG Inc CmnNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "YHC",
-        "halt_reason": "",
-        "title": "YHC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000YHCLQR House Inc. cmNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CCHH",
-        "halt_reason": "",
-        "title": "CCHH",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000CCHHCCH Holdings Lt Class A Ord ShNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "XAIR",
-        "halt_reason": "",
-        "title": "XAIR",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000XAIRBeyond Air, Inc. NASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
         "ticker": "ESPR",
         "halt_reason": "",
         "title": "ESPR",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000ESPREsperion Therapeutics CmnNASDAQT12",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "LMFA",
-        "halt_reason": "",
-        "title": "LMFA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000LMFALM Funding America Cmn StkNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BIYA",
-        "halt_reason": "",
-        "title": "BIYA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000BIYABaiya International Group OSNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "CPOP",
-        "halt_reason": "",
-        "title": "CPOP",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000CPOPPop Culture Group Cl A Or ShNASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FTFT",
-        "halt_reason": "",
-        "title": "FTFT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000FTFTFuture FinTech Group Inc.NASDAQT307/13/2026                    08:55:00                      09:00:00",
-        "published": "Fri, 10 Jul 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "EDBLW",
-        "halt_reason": "",
-        "title": "EDBLW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/10/2026                    19:50:00.000EDBLWEdible Garden AG Inc WtNASDAQT307/13/2026                    09:00:00                      09:05:00",
         "published": "Fri, 10 Jul 2026 04:00:00 GMT"
       },
       {
