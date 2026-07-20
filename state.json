@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-07-20T14:25:01.216623+00:00",
+    "generated_at": "2026-07-20T14:30:01.034489+00:00",
     "session_phase": "rth"
   },
   "scanner": {
@@ -28,7 +28,7 @@
       }
     ],
     "scanner_file": "scan_20260720_140004.json",
-    "scanner_age_seconds": 1497,
+    "scanner_age_seconds": 1797,
     "market_context": {
       "SPY": {
         "price": 745.66,
@@ -400,45 +400,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 745.1,
+        "last": 745.61,
         "prev_close": 743.29,
-        "change_pct": 0.24,
+        "change_pct": 0.31,
         "day_high": 748.73,
         "day_low": 744.26,
-        "volume": 7962313
+        "volume": 8319341
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 700.61,
+        "last": 701.87,
         "prev_close": 695.33,
-        "change_pct": 0.76,
+        "change_pct": 0.94,
         "day_high": 705.8,
         "day_low": 698.91,
-        "volume": 8446949
+        "volume": 8751275
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 519.57,
+        "last": 519.5,
         "prev_close": 520.81,
-        "change_pct": -0.24,
+        "change_pct": -0.25,
         "day_high": 523.4,
         "day_low": 519.23,
-        "volume": 827422
+        "volume": 841157
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 294.01,
+        "last": 294.13,
         "prev_close": 294.04,
-        "change_pct": -0.01,
+        "change_pct": 0.03,
         "day_high": 295.99,
         "day_low": 293.47,
-        "volume": 4056874
+        "volume": 4260193
       }
     ],
     "commodities": [
@@ -446,34 +446,34 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 124.29,
+        "last": 124.1,
         "prev_close": 123.96,
-        "change_pct": 0.27,
+        "change_pct": 0.11,
         "day_high": 124.8,
         "day_low": 123.44,
-        "volume": 2177300
+        "volume": 2216072
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.34,
+        "last": 10.31,
         "prev_close": 10.51,
-        "change_pct": -1.62,
+        "change_pct": -1.9,
         "day_high": 10.38,
         "day_low": 10.3,
-        "volume": 1441088
+        "volume": 1550787
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 367.23,
+        "last": 367.57,
         "prev_close": 368.41,
-        "change_pct": -0.32,
+        "change_pct": -0.23,
         "day_high": 368.59,
         "day_low": 366.8,
-        "volume": 885981
+        "volume": 980184
       }
     ],
     "vol_and_dollar": [
@@ -481,12 +481,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 21.09,
+        "last": 21.07,
         "prev_close": 21.65,
-        "change_pct": -2.59,
+        "change_pct": -2.68,
         "day_high": 21.21,
         "day_low": 20.8,
-        "volume": 550849
+        "volume": 581152
       },
       {
         "symbol": "UUP",
@@ -497,18 +497,18 @@
         "change_pct": 0.21,
         "day_high": 28.4,
         "day_low": 28.38,
-        "volume": 145867
+        "volume": 147632
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 84.14,
+        "last": 84.16,
         "prev_close": 84.52,
-        "change_pct": -0.45,
+        "change_pct": -0.43,
         "day_high": 84.34,
         "day_low": 84.1,
-        "volume": 3594316
+        "volume": 3855753
       }
     ],
     "asia": [
@@ -516,45 +516,45 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 91.08,
+        "last": 91.09,
         "prev_close": 90.49,
-        "change_pct": 0.65,
+        "change_pct": 0.66,
         "day_high": 91.2,
         "day_low": 90.81,
-        "volume": 901532
+        "volume": 921565
       },
       {
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 35.05,
+        "last": 35.08,
         "prev_close": 34.13,
-        "change_pct": 2.7,
+        "change_pct": 2.78,
         "day_high": 35.12,
         "day_low": 34.92,
-        "volume": 5663591
+        "volume": 5761392
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 164.73,
+        "last": 165.15,
         "prev_close": 162.54,
-        "change_pct": 1.35,
+        "change_pct": 1.61,
         "day_high": 167.56,
         "day_low": 163.73,
-        "volume": 5481101
+        "volume": 5650943
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 96.68,
+        "last": 96.78,
         "prev_close": 97.33,
-        "change_pct": -0.67,
+        "change_pct": -0.57,
         "day_high": 97.13,
         "day_low": 96.36,
-        "volume": 1216934
+        "volume": 1300861
       }
     ],
     "europe": [
@@ -562,45 +562,45 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 40.99,
+        "last": 41.04,
         "prev_close": 41.16,
-        "change_pct": -0.41,
+        "change_pct": -0.29,
         "day_high": 41.08,
         "day_low": 40.93,
-        "volume": 79027
+        "volume": 81739
       },
       {
         "symbol": "EWU",
         "label": "UK",
         "proxy_for": "FTSE 100",
-        "last": 46.7,
+        "last": 46.69,
         "prev_close": 46.94,
-        "change_pct": -0.51,
+        "change_pct": -0.53,
         "day_high": 46.97,
         "day_low": 46.66,
-        "volume": 108454
+        "volume": 111673
       },
       {
         "symbol": "EWQ",
         "label": "France",
         "proxy_for": "CAC 40",
-        "last": 45.03,
+        "last": 45.08,
         "prev_close": 45.14,
-        "change_pct": -0.24,
+        "change_pct": -0.13,
         "day_high": 45.13,
         "day_low": 44.89,
-        "volume": 20381
+        "volume": 22393
       },
       {
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 88.22,
+        "last": 88.26,
         "prev_close": 88.59,
-        "change_pct": -0.42,
+        "change_pct": -0.37,
         "day_high": 88.62,
         "day_low": 88.13,
-        "volume": 180378
+        "volume": 192574
       }
     ],
     "sectors_extra": [
@@ -608,23 +608,23 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 58.0,
+        "last": 57.98,
         "prev_close": 57.68,
-        "change_pct": 0.55,
+        "change_pct": 0.52,
         "day_high": 58.09,
         "day_low": 57.41,
-        "volume": 5232440
+        "volume": 5543047
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 56.01,
+        "last": 55.95,
         "prev_close": 56.26,
-        "change_pct": -0.44,
+        "change_pct": -0.55,
         "day_high": 56.38,
         "day_low": 55.94,
-        "volume": 8482451
+        "volume": 8828898
       },
       {
         "symbol": "XLI",
@@ -635,29 +635,29 @@
         "change_pct": -0.08,
         "day_high": 181.26,
         "day_low": 178.98,
-        "volume": 1230612
+        "volume": 1267710
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 565.31,
+        "last": 567.27,
         "prev_close": 556.53,
-        "change_pct": 1.58,
+        "change_pct": 1.93,
         "day_high": 572.77,
         "day_low": 561.5,
-        "volume": 1776255
+        "volume": 1837034
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 176.72,
+        "last": 177.23,
         "prev_close": 175.59,
-        "change_pct": 0.64,
+        "change_pct": 0.93,
         "day_high": 178.7,
         "day_low": 175.93,
-        "volume": 1840886
+        "volume": 1893084
       }
     ]
   },
@@ -668,7 +668,7 @@
         "ticker": "ZYBT",
         "halt_reason": "",
         "title": "ZYBT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/20/2026                    10:21:22.030ZYBTZhengye Biotch Hldg Ord ANASDAQLUDP07/20/2026                    10:21:22",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time07/20/2026                    10:21:22.030ZYBTZhengye Biotch Hldg Ord ANASDAQLUDP07/20/2026                    10:21:22                      10:26:22",
         "published": "Mon, 20 Jul 2026 04:00:00 GMT"
       },
       {
