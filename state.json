@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-06T10:55:00.230205+00:00",
+    "generated_at": "2026-08-06T11:00:00.215320+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -977,7 +977,7 @@
       }
     ],
     "scanner_file": "scan_20260806_103000.json",
-    "scanner_age_seconds": 1499,
+    "scanner_age_seconds": 1799,
     "market_context": {
       "SPY": {
         "price": 771.56,
@@ -8775,9 +8775,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 771.05,
+        "last": 771.11,
         "prev_close": 771.33,
-        "change_pct": -0.04,
+        "change_pct": -0.03,
         "day_high": 776.85,
         "day_low": 769.51,
         "volume": 44781890
@@ -8786,9 +8786,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 714.23,
+        "last": 714.08,
         "prev_close": 723.85,
-        "change_pct": -1.33,
+        "change_pct": -1.35,
         "day_high": 728.54,
         "day_low": 716.92,
         "volume": 33791511
@@ -8797,7 +8797,7 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 544.39,
+        "last": 544.4,
         "prev_close": 540.43,
         "change_pct": 0.73,
         "day_high": 546.75,
@@ -8821,9 +8821,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 116.2,
+        "last": 116.1,
         "prev_close": 115.78,
-        "change_pct": 0.36,
+        "change_pct": 0.28,
         "day_high": 116.01,
         "day_low": 113.86,
         "volume": 5348999
@@ -8832,9 +8832,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 9.76,
+        "last": 9.74,
         "prev_close": 9.77,
-        "change_pct": -0.1,
+        "change_pct": -0.31,
         "day_high": 9.83,
         "day_low": 9.7,
         "volume": 7819259
@@ -8843,9 +8843,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 391.68,
+        "last": 391.74,
         "prev_close": 374.16,
-        "change_pct": 4.68,
+        "change_pct": 4.7,
         "day_high": 391.51,
         "day_low": 384.32,
         "volume": 14872984
@@ -8913,9 +8913,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 162.44,
+        "last": 162.55,
         "prev_close": 171.14,
-        "change_pct": -5.08,
+        "change_pct": -5.02,
         "day_high": 171.73,
         "day_low": 168.64,
         "volume": 14362962
@@ -8983,9 +8983,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 57.81,
+        "last": 57.79,
         "prev_close": 58.52,
-        "change_pct": -1.21,
+        "change_pct": -1.25,
         "day_high": 58.98,
         "day_low": 57.2,
         "volume": 33233142
@@ -9016,7 +9016,7 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 567.18,
+        "last": 567.17,
         "prev_close": 575.71,
         "change_pct": -1.48,
         "day_high": 585.0,
@@ -9027,9 +9027,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 184.52,
+        "last": 184.45,
         "prev_close": 186.9,
-        "change_pct": -1.27,
+        "change_pct": -1.31,
         "day_high": 188.62,
         "day_low": 185.71,
         "volume": 7578423
@@ -9039,6 +9039,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "VISN",
+        "halt_reason": "",
+        "title": "VISN",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/06/2026                    06:55:00.000VISNVistance Networks, Inc. CmnNASDAQT1",
+        "published": "Thu, 06 Aug 2026 04:00:00 GMT"
+      },
       {
         "ticker": "BYAH",
         "halt_reason": "",
