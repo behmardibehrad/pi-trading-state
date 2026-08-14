@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-14T11:25:00.195808+00:00",
+    "generated_at": "2026-08-14T11:30:00.240644+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -977,7 +977,7 @@
       }
     ],
     "scanner_file": "scan_20260814_103001.json",
-    "scanner_age_seconds": 3299,
+    "scanner_age_seconds": 3599,
     "market_context": {
       "SPY": {
         "price": 778.46,
@@ -1139,9 +1139,9 @@
         "date": "2026-08-13",
         "hour": "amc",
         "eps_estimate": null,
-        "eps_actual": null,
+        "eps_actual": 0.02,
         "rev_estimate": null,
-        "rev_actual": null,
+        "rev_actual": 40420000,
         "year": 2026,
         "quarter": 2
       },
@@ -2109,9 +2109,9 @@
         "date": "2026-08-14",
         "hour": "bmo",
         "eps_estimate": -0.0952,
-        "eps_actual": null,
+        "eps_actual": -0.09,
         "rev_estimate": 5406000,
-        "rev_actual": null,
+        "rev_actual": 10000,
         "year": 2026,
         "quarter": 3
       },
@@ -2120,9 +2120,9 @@
         "date": "2026-08-14",
         "hour": "bmo",
         "eps_estimate": -3.57,
-        "eps_actual": null,
+        "eps_actual": -5.26,
         "rev_estimate": 2346000,
-        "rev_actual": null,
+        "rev_actual": 2120000,
         "year": 2026,
         "quarter": 2
       },
@@ -2175,9 +2175,9 @@
         "date": "2026-08-14",
         "hour": "bmo",
         "eps_estimate": null,
-        "eps_actual": null,
+        "eps_actual": -0.11,
         "rev_estimate": null,
-        "rev_actual": null,
+        "rev_actual": 148660000,
         "year": 2026,
         "quarter": 2
       }
@@ -2307,9 +2307,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 778.5,
+        "last": 778.44,
         "prev_close": 772.49,
-        "change_pct": 0.78,
+        "change_pct": 0.77,
         "day_high": 779.37,
         "day_low": 774.11,
         "volume": 35713979
@@ -2318,7 +2318,7 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 733.63,
+        "last": 733.6,
         "prev_close": 723.7,
         "change_pct": 1.37,
         "day_high": 733.96,
@@ -2329,9 +2329,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 537.05,
+        "last": 536.97,
         "prev_close": 537.15,
-        "change_pct": -0.02,
+        "change_pct": -0.03,
         "day_high": 539.97,
         "day_low": 535.69,
         "volume": 2035717
@@ -2340,9 +2340,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 303.39,
+        "last": 303.36,
         "prev_close": 302.71,
-        "change_pct": 0.22,
+        "change_pct": 0.21,
         "day_high": 305.05,
         "day_low": 302.72,
         "volume": 15663077
@@ -2353,9 +2353,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 125.3,
+        "last": 125.29,
         "prev_close": 127.3,
-        "change_pct": -1.57,
+        "change_pct": -1.58,
         "day_high": 126.96,
         "day_low": 123.19,
         "volume": 5061005
@@ -2364,9 +2364,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.0,
+        "last": 10.03,
         "prev_close": 10.2,
-        "change_pct": -1.96,
+        "change_pct": -1.67,
         "day_high": 10.12,
         "day_low": 9.89,
         "volume": 11802964
@@ -2375,9 +2375,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 399.35,
+        "last": 399.59,
         "prev_close": 404.92,
-        "change_pct": -1.38,
+        "change_pct": -1.32,
         "day_high": 402.58,
         "day_low": 398.28,
         "volume": 8894483
@@ -2410,9 +2410,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.32,
+        "last": 82.3,
         "prev_close": 82.11,
-        "change_pct": 0.26,
+        "change_pct": 0.23,
         "day_high": 83.0,
         "day_low": 82.49,
         "volume": 26927454
@@ -2445,9 +2445,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 182.64,
+        "last": 182.86,
         "prev_close": 175.87,
-        "change_pct": 3.85,
+        "change_pct": 3.97,
         "day_high": 180.99,
         "day_low": 174.99,
         "volume": 18483461
@@ -2515,9 +2515,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 61.28,
+        "last": 61.3,
         "prev_close": 61.03,
-        "change_pct": 0.41,
+        "change_pct": 0.44,
         "day_high": 61.12,
         "day_low": 60.23,
         "volume": 20704102
@@ -2548,9 +2548,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 590.55,
+        "last": 590.5,
         "prev_close": 584.83,
-        "change_pct": 0.98,
+        "change_pct": 0.97,
         "day_high": 597.95,
         "day_low": 585.01,
         "volume": 6783672
@@ -2559,9 +2559,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 191.37,
+        "last": 191.29,
         "prev_close": 188.86,
-        "change_pct": 1.33,
+        "change_pct": 1.29,
         "day_high": 191.74,
         "day_low": 188.86,
         "volume": 4905299
