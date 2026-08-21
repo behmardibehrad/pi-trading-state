@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-21T23:50:00.221837+00:00",
+    "generated_at": "2026-08-21T23:55:00.197977+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -539,7 +539,7 @@
       }
     ],
     "scanner_file": "scan_20260821_203001.json",
-    "scanner_age_seconds": 11998,
+    "scanner_age_seconds": 12298,
     "market_context": {
       "SPY": {
         "price": 765.26,
@@ -735,23 +735,23 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 766.8,
+        "last": 766.77,
         "prev_close": 762.6,
         "change_pct": 0.55,
         "day_high": 767.85,
         "day_low": 764.17,
-        "volume": 39242567
+        "volume": 39243142
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 714.05,
+        "last": 714.12,
         "prev_close": 710.93,
-        "change_pct": 0.44,
+        "change_pct": 0.45,
         "day_high": 715.67,
         "day_low": 709.2,
-        "volume": 33557022
+        "volume": 33560821
       },
       {
         "symbol": "DIA",
@@ -762,7 +762,7 @@
         "change_pct": 0.91,
         "day_high": 532.91,
         "day_low": 529.43,
-        "volume": 3039692
+        "volume": 3039702
       },
       {
         "symbol": "IWM",
@@ -781,34 +781,34 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.39,
+        "last": 134.46,
         "prev_close": 134.54,
-        "change_pct": -0.11,
+        "change_pct": -0.06,
         "day_high": 135.91,
         "day_low": 133.89,
-        "volume": 3543020
+        "volume": 3546140
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.03,
+        "last": 10.05,
         "prev_close": 10.01,
-        "change_pct": 0.2,
+        "change_pct": 0.4,
         "day_high": 10.13,
         "day_low": 9.99,
-        "volume": 7255379
+        "volume": 7255993
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 423.01,
+        "last": 423.1,
         "prev_close": 415.26,
-        "change_pct": 1.87,
+        "change_pct": 1.89,
         "day_high": 424.89,
         "day_low": 419.42,
-        "volume": 14601483
+        "volume": 14602570
       }
     ],
     "vol_and_dollar": [
@@ -816,12 +816,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 18.16,
+        "last": 18.2,
         "prev_close": 18.44,
-        "change_pct": -1.52,
+        "change_pct": -1.3,
         "day_high": 18.3,
         "day_low": 18.14,
-        "volume": 1658206
+        "volume": 1658306
       },
       {
         "symbol": "UUP",
@@ -843,7 +843,7 @@
         "change_pct": -0.35,
         "day_high": 82.27,
         "day_low": 81.9,
-        "volume": 24263287
+        "volume": 24271988
       }
     ],
     "asia": [
@@ -867,18 +867,18 @@
         "change_pct": 0.78,
         "day_high": 36.12,
         "day_low": 35.82,
-        "volume": 13730339
+        "volume": 13730384
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 178.21,
+        "last": 178.3,
         "prev_close": 178.16,
-        "change_pct": 0.03,
+        "change_pct": 0.08,
         "day_high": 180.65,
         "day_low": 177.89,
-        "volume": 10131406
+        "volume": 10131512
       },
       {
         "symbol": "EWT",
@@ -948,7 +948,7 @@
         "change_pct": -0.2,
         "day_high": 64.3,
         "day_low": 63.35,
-        "volume": 27796957
+        "volume": 27800049
       },
       {
         "symbol": "XLF",
@@ -959,7 +959,7 @@
         "change_pct": 0.93,
         "day_high": 57.7,
         "day_low": 57.24,
-        "volume": 27277029
+        "volume": 27277041
       },
       {
         "symbol": "XLI",
@@ -976,12 +976,12 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 560.07,
+        "last": 560.08,
         "prev_close": 562.65,
         "change_pct": -0.46,
         "day_high": 569.44,
         "day_low": 556.1,
-        "volume": 9628977
+        "volume": 9629792
       },
       {
         "symbol": "XLK",
@@ -999,6 +999,62 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "SKYE",
+        "halt_reason": "",
+        "title": "SKYE",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000SKYESkye Bioscience, Inc. CSNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "INCR",
+        "halt_reason": "",
+        "title": "INCR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000INCRIntercure Ltd. OsNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "BIAF",
+        "halt_reason": "",
+        "title": "BIAF",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000BIAFbioAffinity Technologies, CmNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GRML",
+        "halt_reason": "",
+        "title": "GRML",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000GRMLGreenland Mines Ltd Cmn StkNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "VCIG",
+        "halt_reason": "",
+        "title": "VCIG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000VCIGVCI Global Ltd OrdNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GRMLW",
+        "halt_reason": "",
+        "title": "GRMLW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000GRMLWGreenland Mines Ltd WarrantNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "BIAFW",
+        "halt_reason": "",
+        "title": "BIAFW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000BIAFWbioAffinity Technologies, WtNASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "GAME",
+        "halt_reason": "",
+        "title": "GAME",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/21/2026                    19:50:00.000GAMEGameSquare Holdings,  NASDAQT1",
+        "published": "Fri, 21 Aug 2026 04:00:00 GMT"
+      },
       {
         "ticker": "AMCI",
         "halt_reason": "",
