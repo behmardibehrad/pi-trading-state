@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-23T23:55:00.212426+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-08-24T08:00:00.233277+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -539,7 +539,7 @@
       }
     ],
     "scanner_file": "scan_20260821_203001.json",
-    "scanner_age_seconds": 185098,
+    "scanner_age_seconds": 214198,
     "market_context": {
       "SPY": {
         "price": 765.26,
@@ -641,8 +641,76 @@
   },
   "calendar": {
     "earnings_yesterday_ah": [],
-    "earnings_today_bmo": [],
-    "earnings_today_ah": [],
+    "earnings_today_bmo": [
+      {
+        "symbol": "GGR",
+        "date": "2026-08-24",
+        "hour": "bmo",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "rev_estimate": null,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "NSSC",
+        "date": "2026-08-24",
+        "hour": "bmo",
+        "eps_estimate": 0.3953,
+        "eps_actual": null,
+        "rev_estimate": 53558843,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 4
+      },
+      {
+        "symbol": "PDD",
+        "date": "2026-08-24",
+        "hour": "bmo",
+        "eps_estimate": 18.3978,
+        "eps_actual": null,
+        "rev_estimate": 117513190788,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "XPEV",
+        "date": "2026-08-24",
+        "hour": "bmo",
+        "eps_estimate": -0.5663,
+        "eps_actual": null,
+        "rev_estimate": 20937051807,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      }
+    ],
+    "earnings_today_ah": [
+      {
+        "symbol": "PICS",
+        "date": "2026-08-24",
+        "hour": "amc",
+        "eps_estimate": 1.9965,
+        "eps_actual": null,
+        "rev_estimate": 3773163600,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      },
+      {
+        "symbol": "TUYA",
+        "date": "2026-08-24",
+        "hour": "amc",
+        "eps_estimate": 0.0306,
+        "eps_actual": null,
+        "rev_estimate": 89590680,
+        "rev_actual": null,
+        "year": 2026,
+        "quarter": 2
+      }
+    ],
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "ok",
@@ -656,9 +724,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 765.72,
+        "last": 763.72,
         "prev_close": 762.6,
-        "change_pct": 0.41,
+        "change_pct": 0.15,
         "day_high": 767.85,
         "day_low": 764.17,
         "volume": 39251930
@@ -667,9 +735,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 714.25,
+        "last": 707.49,
         "prev_close": 710.93,
-        "change_pct": 0.47,
+        "change_pct": -0.48,
         "day_high": 715.67,
         "day_low": 709.2,
         "volume": 33572673
@@ -689,9 +757,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 299.96,
+        "last": 299.55,
         "prev_close": 297.67,
-        "change_pct": 0.77,
+        "change_pct": 0.63,
         "day_high": 300.33,
         "day_low": 298.17,
         "volume": 22945493
@@ -702,9 +770,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.64,
+        "last": 133.11,
         "prev_close": 134.54,
-        "change_pct": 0.07,
+        "change_pct": -1.06,
         "day_high": 135.91,
         "day_low": 133.89,
         "volume": 3551260
@@ -724,9 +792,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 423.36,
+        "last": 425.36,
         "prev_close": 415.26,
-        "change_pct": 1.95,
+        "change_pct": 2.43,
         "day_high": 424.89,
         "day_low": 419.42,
         "volume": 14607541
@@ -759,9 +827,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.02,
+        "last": 82.28,
         "prev_close": 82.34,
-        "change_pct": -0.39,
+        "change_pct": -0.07,
         "day_high": 82.27,
         "day_low": 81.9,
         "volume": 24276665
@@ -783,9 +851,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 35.86,
+        "last": 35.34,
         "prev_close": 35.67,
-        "change_pct": 0.53,
+        "change_pct": -0.93,
         "day_high": 36.12,
         "day_low": 35.82,
         "volume": 13730384
@@ -794,9 +862,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 178.34,
+        "last": 176.77,
         "prev_close": 178.16,
-        "change_pct": 0.1,
+        "change_pct": -0.78,
         "day_high": 180.65,
         "day_low": 177.89,
         "volume": 10131546
@@ -864,9 +932,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 63.64,
+        "last": 63.5,
         "prev_close": 63.75,
-        "change_pct": -0.17,
+        "change_pct": -0.39,
         "day_high": 64.3,
         "day_low": 63.35,
         "volume": 27800293
@@ -897,9 +965,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 559.6,
+        "last": 553.0,
         "prev_close": 562.65,
-        "change_pct": -0.54,
+        "change_pct": -1.72,
         "day_high": 569.44,
         "day_low": 556.1,
         "volume": 9630138
@@ -908,9 +976,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 183.31,
+        "last": 181.59,
         "prev_close": 183.1,
-        "change_pct": 0.11,
+        "change_pct": -0.82,
         "day_high": 184.56,
         "day_low": 181.9,
         "volume": 5802668
