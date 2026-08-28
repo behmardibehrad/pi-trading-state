@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-28T13:05:00.223016+00:00",
+    "generated_at": "2026-08-28T13:10:00.199019+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -1269,7 +1269,7 @@
       }
     ],
     "scanner_file": "scan_20260828_130001.json",
-    "scanner_age_seconds": 299,
+    "scanner_age_seconds": 599,
     "market_context": {
       "SPY": {
         "price": 772.08,
@@ -1597,9 +1597,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 772.32,
+        "last": 772.17,
         "prev_close": 766.08,
-        "change_pct": 0.81,
+        "change_pct": 0.79,
         "day_high": 772.36,
         "day_low": 767.16,
         "volume": 34600074
@@ -1608,9 +1608,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 720.73,
+        "last": 720.42,
         "prev_close": 711.37,
-        "change_pct": 1.32,
+        "change_pct": 1.27,
         "day_high": 721.35,
         "day_low": 714.52,
         "volume": 29081901
@@ -1619,9 +1619,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 536.52,
+        "last": 536.45,
         "prev_close": 534.23,
-        "change_pct": 0.43,
+        "change_pct": 0.42,
         "day_high": 536.63,
         "day_low": 532.92,
         "volume": 2509096
@@ -1643,9 +1643,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 128.1,
+        "last": 128.31,
         "prev_close": 127.35,
-        "change_pct": 0.59,
+        "change_pct": 0.75,
         "day_high": 130.96,
         "day_low": 127.48,
         "volume": 3059437
@@ -1654,9 +1654,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.3,
+        "last": 10.34,
         "prev_close": 10.41,
-        "change_pct": -1.06,
+        "change_pct": -0.67,
         "day_high": 10.73,
         "day_low": 10.41,
         "volume": 10397160
@@ -1665,9 +1665,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 421.75,
+        "last": 421.8,
         "prev_close": 421.32,
-        "change_pct": 0.1,
+        "change_pct": 0.11,
         "day_high": 423.35,
         "day_low": 418.43,
         "volume": 7120026
@@ -1678,9 +1678,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 17.58,
+        "last": 17.56,
         "prev_close": 17.83,
-        "change_pct": -1.4,
+        "change_pct": -1.51,
         "day_high": 17.8,
         "day_low": 17.35,
         "volume": 1997573
@@ -1700,9 +1700,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 83.05,
+        "last": 83.03,
         "prev_close": 83.3,
-        "change_pct": -0.3,
+        "change_pct": -0.32,
         "day_high": 83.35,
         "day_low": 83.0,
         "volume": 17366019
@@ -1735,9 +1735,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 181.91,
+        "last": 181.59,
         "prev_close": 179.18,
-        "change_pct": 1.52,
+        "change_pct": 1.35,
         "day_high": 183.05,
         "day_low": 179.07,
         "volume": 10181474
@@ -1805,9 +1805,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 62.38,
+        "last": 62.29,
         "prev_close": 62.43,
-        "change_pct": -0.08,
+        "change_pct": -0.22,
         "day_high": 62.72,
         "day_low": 61.55,
         "volume": 29601447
@@ -1816,9 +1816,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 57.93,
+        "last": 57.94,
         "prev_close": 58.26,
-        "change_pct": -0.57,
+        "change_pct": -0.55,
         "day_high": 58.23,
         "day_low": 57.73,
         "volume": 26087444
@@ -1838,9 +1838,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 569.2,
+        "last": 568.81,
         "prev_close": 555.77,
-        "change_pct": 2.42,
+        "change_pct": 2.35,
         "day_high": 573.21,
         "day_low": 562.54,
         "volume": 6572051
@@ -1861,6 +1861,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "BAK",
+        "halt_reason": "",
+        "title": "BAK",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    09:03:04.656BAKBraskem S.A. American Depositary Shares (Each representing Two Class A Preferred Shares)NYSET1",
+        "published": "Fri, 28 Aug 2026 04:00:00 GMT"
+      },
       {
         "ticker": "CYCU",
         "halt_reason": "",
