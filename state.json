@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-31T09:35:00.224764+00:00",
+    "generated_at": "2026-08-31T09:40:00.234033+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -393,7 +393,7 @@
       }
     ],
     "scanner_file": "scan_20260828_203001.json",
-    "scanner_age_seconds": 219899,
+    "scanner_age_seconds": 220199,
     "market_context": {
       "SPY": {
         "price": 769.1,
@@ -494,70 +494,13 @@
     "universe_size": 446
   },
   "calendar": {
-    "earnings_yesterday_ah": [],
-    "earnings_today_bmo": [
-      {
-        "symbol": "FRO",
-        "date": "2026-08-31",
-        "hour": "bmo",
-        "eps_estimate": 2.6231,
-        "eps_actual": null,
-        "rev_estimate": 766476375,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 2
-      },
-      {
-        "symbol": "LX",
-        "date": "2026-08-31",
-        "hour": "bmo",
-        "eps_estimate": null,
-        "eps_actual": null,
-        "rev_estimate": null,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 2
-      },
-      {
-        "symbol": "SAIC",
-        "date": "2026-08-31",
-        "hour": "bmo",
-        "eps_estimate": 2.3546,
-        "eps_actual": null,
-        "rev_estimate": 1801506211,
-        "rev_actual": null,
-        "year": 2027,
-        "quarter": 2
-      }
-    ],
-    "earnings_today_ah": [
-      {
-        "symbol": "CANG",
-        "date": "2026-08-31",
-        "hour": "amc",
-        "eps_estimate": -0.918,
-        "eps_actual": null,
-        "rev_estimate": 104009400,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 2
-      },
-      {
-        "symbol": "PXS",
-        "date": "2026-08-31",
-        "hour": "amc",
-        "eps_estimate": 0.202,
-        "eps_actual": null,
-        "rev_estimate": 11493800,
-        "rev_actual": null,
-        "year": 2026,
-        "quarter": 2
-      }
-    ],
+    "earnings_yesterday_ah": null,
+    "earnings_today_bmo": null,
+    "earnings_today_ah": null,
     "econ_data_today": null,
     "fetch_status": {
-      "earnings": "ok",
-      "economic": "failed: forbidden: {\"error\":\"You don't have access to this resource.\"}"
+      "earnings": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <",
+      "economic": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <"
     }
   },
   "macro": {
@@ -567,9 +510,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 768.47,
+        "last": 768.42,
         "prev_close": 771.1,
-        "change_pct": -0.34,
+        "change_pct": -0.35,
         "day_high": 775.3,
         "day_low": 768.31,
         "volume": 36806160
@@ -578,9 +521,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 716.27,
+        "last": 716.02,
         "prev_close": 721.11,
-        "change_pct": -0.67,
+        "change_pct": -0.71,
         "day_high": 724.12,
         "day_low": 715.09,
         "volume": 34446932
@@ -613,9 +556,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.05,
+        "last": 133.93,
         "prev_close": 130.01,
-        "change_pct": 3.11,
+        "change_pct": 3.02,
         "day_high": 130.14,
         "day_low": 128.0,
         "volume": 2122395
@@ -624,9 +567,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.32,
+        "last": 10.34,
         "prev_close": 10.43,
-        "change_pct": -1.05,
+        "change_pct": -0.86,
         "day_high": 10.41,
         "day_low": 10.25,
         "volume": 8629543
@@ -635,9 +578,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 407.57,
+        "last": 407.44,
         "prev_close": 422.6,
-        "change_pct": -3.56,
+        "change_pct": -3.59,
         "day_high": 424.79,
         "day_low": 407.62,
         "volume": 25057406
@@ -648,9 +591,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 17.74,
+        "last": 17.77,
         "prev_close": 17.35,
-        "change_pct": 2.25,
+        "change_pct": 2.42,
         "day_high": 18.46,
         "day_low": 17.51,
         "volume": 2746224
@@ -670,9 +613,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.91,
+        "last": 82.9,
         "prev_close": 83.13,
-        "change_pct": -0.26,
+        "change_pct": -0.28,
         "day_high": 83.6,
         "day_low": 82.78,
         "volume": 35812003
@@ -775,9 +718,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 63.47,
+        "last": 63.45,
         "prev_close": 62.29,
-        "change_pct": 1.89,
+        "change_pct": 1.86,
         "day_high": 62.74,
         "day_low": 62.12,
         "volume": 20626192
@@ -786,9 +729,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 57.95,
+        "last": 57.94,
         "prev_close": 57.88,
-        "change_pct": 0.12,
+        "change_pct": 0.1,
         "day_high": 58.41,
         "day_low": 57.92,
         "volume": 25102106
@@ -819,9 +762,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 185.87,
+        "last": 185.83,
         "prev_close": 188.61,
-        "change_pct": -1.45,
+        "change_pct": -1.47,
         "day_high": 188.67,
         "day_low": 185.51,
         "volume": 6302263
