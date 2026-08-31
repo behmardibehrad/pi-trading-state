@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-31T10:55:00.194651+00:00",
+    "generated_at": "2026-08-31T11:00:00.192882+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -393,7 +393,7 @@
       }
     ],
     "scanner_file": "scan_20260831_103000.json",
-    "scanner_age_seconds": 1499,
+    "scanner_age_seconds": 1799,
     "market_context": {
       "SPY": {
         "price": 768.14,
@@ -557,7 +557,7 @@
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "ok",
-      "economic": "failed: forbidden: {\"error\":\"You don't have access to this resource.\"}"
+      "economic": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <"
     }
   },
   "macro": {
@@ -567,7 +567,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 768.18,
+        "last": 768.15,
         "prev_close": 771.1,
         "change_pct": -0.38,
         "day_high": 775.3,
@@ -578,9 +578,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 715.78,
+        "last": 715.6,
         "prev_close": 721.11,
-        "change_pct": -0.74,
+        "change_pct": -0.76,
         "day_high": 724.12,
         "day_low": 715.09,
         "volume": 34446932
@@ -600,7 +600,7 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 295.68,
+        "last": 295.66,
         "prev_close": 299.81,
         "change_pct": -1.38,
         "day_high": 300.39,
@@ -613,7 +613,7 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.06,
+        "last": 134.07,
         "prev_close": 130.01,
         "change_pct": 3.12,
         "day_high": 130.14,
@@ -624,9 +624,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.41,
+        "last": 10.4,
         "prev_close": 10.43,
-        "change_pct": -0.19,
+        "change_pct": -0.29,
         "day_high": 10.41,
         "day_low": 10.25,
         "volume": 8629543
@@ -635,9 +635,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 408.4,
+        "last": 408.37,
         "prev_close": 422.6,
-        "change_pct": -3.36,
+        "change_pct": -3.37,
         "day_high": 424.79,
         "day_low": 407.62,
         "volume": 25057406
@@ -648,9 +648,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 17.78,
+        "last": 17.76,
         "prev_close": 17.35,
-        "change_pct": 2.48,
+        "change_pct": 2.36,
         "day_high": 18.46,
         "day_low": 17.51,
         "volume": 2746224
@@ -670,9 +670,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.8,
+        "last": 82.79,
         "prev_close": 83.13,
-        "change_pct": -0.4,
+        "change_pct": -0.41,
         "day_high": 83.6,
         "day_low": 82.78,
         "volume": 35812003
@@ -705,9 +705,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 181.32,
+        "last": 181.22,
         "prev_close": 182.14,
-        "change_pct": -0.45,
+        "change_pct": -0.51,
         "day_high": 183.49,
         "day_low": 179.58,
         "volume": 11260027
@@ -808,9 +808,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 556.14,
+        "last": 555.51,
         "prev_close": 573.0,
-        "change_pct": -2.94,
+        "change_pct": -3.05,
         "day_high": 570.12,
         "day_low": 552.3,
         "volume": 6469606
@@ -819,9 +819,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 185.69,
+        "last": 185.77,
         "prev_close": 188.61,
-        "change_pct": -1.55,
+        "change_pct": -1.51,
         "day_high": 188.67,
         "day_low": 185.51,
         "volume": 6302263
@@ -831,6 +831,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "RDHL",
+        "halt_reason": "",
+        "title": "RDHL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/31/2026                    06:57:27.503RDHLRedhill Biopharma ADRNASDAQT1",
+        "published": "Mon, 31 Aug 2026 04:00:00 GMT"
+      },
       {
         "ticker": "VBIO",
         "halt_reason": "",
