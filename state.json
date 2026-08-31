@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-31T10:40:00.218198+00:00",
+    "generated_at": "2026-08-31T10:45:00.229835+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -393,7 +393,7 @@
       }
     ],
     "scanner_file": "scan_20260831_103000.json",
-    "scanner_age_seconds": 599,
+    "scanner_age_seconds": 899,
     "market_context": {
       "SPY": {
         "price": 768.14,
@@ -557,7 +557,7 @@
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "ok",
-      "economic": "failed: forbidden: {\"error\":\"You don't have access to this resource.\"}"
+      "economic": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <"
     }
   },
   "macro": {
@@ -567,7 +567,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 768.01,
+        "last": 768.0,
         "prev_close": 771.1,
         "change_pct": -0.4,
         "day_high": 775.3,
@@ -578,9 +578,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 715.62,
+        "last": 715.56,
         "prev_close": 721.11,
-        "change_pct": -0.76,
+        "change_pct": -0.77,
         "day_high": 724.12,
         "day_low": 715.09,
         "volume": 34446932
@@ -600,7 +600,7 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 295.59,
+        "last": 295.58,
         "prev_close": 299.81,
         "change_pct": -1.41,
         "day_high": 300.39,
@@ -613,9 +613,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.31,
+        "last": 134.41,
         "prev_close": 130.01,
-        "change_pct": 3.31,
+        "change_pct": 3.38,
         "day_high": 130.14,
         "day_low": 128.0,
         "volume": 2122395
@@ -624,9 +624,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.42,
+        "last": 10.43,
         "prev_close": 10.43,
-        "change_pct": -0.1,
+        "change_pct": 0.0,
         "day_high": 10.41,
         "day_low": 10.25,
         "volume": 8629543
@@ -635,9 +635,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 408.1,
+        "last": 408.23,
         "prev_close": 422.6,
-        "change_pct": -3.43,
+        "change_pct": -3.4,
         "day_high": 424.79,
         "day_low": 407.62,
         "volume": 25057406
@@ -670,9 +670,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.79,
+        "last": 82.78,
         "prev_close": 83.13,
-        "change_pct": -0.41,
+        "change_pct": -0.42,
         "day_high": 83.6,
         "day_low": 82.78,
         "volume": 35812003
@@ -797,9 +797,9 @@
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 177.14,
+        "last": 176.62,
         "prev_close": 178.8,
-        "change_pct": -0.93,
+        "change_pct": -1.22,
         "day_high": 179.52,
         "day_low": 176.65,
         "volume": 8236244
