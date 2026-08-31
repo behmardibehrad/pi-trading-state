@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-08-31T11:05:00.196909+00:00",
+    "generated_at": "2026-08-31T11:10:00.225190+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
@@ -393,7 +393,7 @@
       }
     ],
     "scanner_file": "scan_20260831_103000.json",
-    "scanner_age_seconds": 2099,
+    "scanner_age_seconds": 2399,
     "market_context": {
       "SPY": {
         "price": 768.14,
@@ -500,7 +500,7 @@
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <",
-      "economic": "failed: http_503: <!doctype html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <"
+      "economic": "failed: forbidden: {\"error\":\"You don't have access to this resource.\"}"
     }
   },
   "macro": {
@@ -510,7 +510,7 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 768.06,
+        "last": 768.11,
         "prev_close": 771.1,
         "change_pct": -0.39,
         "day_high": 775.3,
@@ -521,9 +521,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 715.33,
+        "last": 715.55,
         "prev_close": 721.11,
-        "change_pct": -0.8,
+        "change_pct": -0.77,
         "day_high": 724.12,
         "day_low": 715.09,
         "volume": 34446932
@@ -543,9 +543,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 295.66,
+        "last": 295.77,
         "prev_close": 299.81,
-        "change_pct": -1.38,
+        "change_pct": -1.35,
         "day_high": 300.39,
         "day_low": 295.67,
         "volume": 19100250
@@ -556,9 +556,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 134.07,
+        "last": 134.14,
         "prev_close": 130.01,
-        "change_pct": 3.12,
+        "change_pct": 3.18,
         "day_high": 130.14,
         "day_low": 128.0,
         "volume": 2122395
@@ -578,9 +578,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 408.58,
+        "last": 408.62,
         "prev_close": 422.6,
-        "change_pct": -3.32,
+        "change_pct": -3.31,
         "day_high": 424.79,
         "day_low": 407.62,
         "volume": 25057406
@@ -591,9 +591,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 17.75,
+        "last": 17.73,
         "prev_close": 17.35,
-        "change_pct": 2.31,
+        "change_pct": 2.19,
         "day_high": 18.46,
         "day_low": 17.51,
         "volume": 2746224
@@ -613,9 +613,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 82.8,
+        "last": 82.81,
         "prev_close": 83.13,
-        "change_pct": -0.4,
+        "change_pct": -0.38,
         "day_high": 83.6,
         "day_low": 82.78,
         "volume": 35812003
@@ -626,9 +626,9 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 96.45,
+        "last": 96.37,
         "prev_close": 95.84,
-        "change_pct": 0.64,
+        "change_pct": 0.55,
         "day_high": 97.16,
         "day_low": 95.56,
         "volume": 10512095
@@ -648,9 +648,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 181.11,
+        "last": 181.09,
         "prev_close": 182.14,
-        "change_pct": -0.57,
+        "change_pct": -0.58,
         "day_high": 183.49,
         "day_low": 179.58,
         "volume": 11260027
@@ -659,9 +659,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 108.4,
+        "last": 108.06,
         "prev_close": 108.63,
-        "change_pct": -0.21,
+        "change_pct": -0.52,
         "day_high": 109.79,
         "day_low": 107.61,
         "volume": 3434663
@@ -718,9 +718,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 63.53,
+        "last": 63.57,
         "prev_close": 62.29,
-        "change_pct": 1.99,
+        "change_pct": 2.05,
         "day_high": 62.74,
         "day_low": 62.12,
         "volume": 20626192
@@ -751,9 +751,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 555.09,
+        "last": 554.99,
         "prev_close": 573.0,
-        "change_pct": -3.13,
+        "change_pct": -3.14,
         "day_high": 570.12,
         "day_low": 552.3,
         "volume": 6469606
@@ -762,9 +762,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 185.51,
+        "last": 185.5,
         "prev_close": 188.61,
-        "change_pct": -1.64,
+        "change_pct": -1.65,
         "day_high": 188.67,
         "day_low": 185.51,
         "volume": 6302263
@@ -778,77 +778,77 @@
         "ticker": "RDHL",
         "halt_reason": "",
         "title": "RDHL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/31/2026                    06:57:27.503RDHLRedhill Biopharma ADRNASDAQT2",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/31/2026                    06:57:27.503RDHLRedhill Biopharma ADRNASDAQT308/31/2026                    07:25:00                      07:30:00",
         "published": "Mon, 31 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "VBIO",
         "halt_reason": "",
         "title": "VBIO",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VBIOValion Bio CmnNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VBIOValion Bio CmnNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "VEEAW",
         "halt_reason": "",
         "title": "VEEAW",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VEEAWVeea Inc. WarrantNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VEEAWVeea Inc. WarrantNASDAQT308/31/2026                    09:00:00                      09:05:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "CALC",
         "halt_reason": "",
         "title": "CALC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000CALCCalciMedica Inc CmnNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000CALCCalciMedica Inc CmnNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "GCTK",
         "halt_reason": "",
         "title": "GCTK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000GCTKGlucoTrack, Inc. Cm StNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000GCTKGlucoTrack, Inc. Cm StNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "ARTL",
         "halt_reason": "",
         "title": "ARTL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000ARTLArtelo Biosciences, Inc. CSNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000ARTLArtelo Biosciences, Inc. CSNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "CHGA",
         "halt_reason": "",
         "title": "CHGA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000CHGAChange Agents Corporation CommNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000CHGAChange Agents Corporation CommNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "FTFT",
         "halt_reason": "",
         "title": "FTFT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000FTFTFuture FinTech Group Inc.NASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000FTFTFuture FinTech Group Inc.NASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "OMH",
         "halt_reason": "",
         "title": "OMH",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000OMHOhmyhome Ltd Ords ANASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000OMHOhmyhome Ltd Ords ANASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "NXL",
         "halt_reason": "",
         "title": "NXL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000NXLNexalin Technology, Inc Cm StkNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000NXLNexalin Technology, Inc Cm StkNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
         "ticker": "VEEA",
         "halt_reason": "",
         "title": "VEEA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VEEAVeea Inc. Common StockNASDAQT1",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time08/28/2026                    19:50:00.000VEEAVeea Inc. Common StockNASDAQT308/31/2026                    08:55:00                      09:00:00",
         "published": "Fri, 28 Aug 2026 04:00:00 GMT"
       },
       {
