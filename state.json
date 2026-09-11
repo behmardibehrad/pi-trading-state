@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-09-11T23:50:00.226104+00:00",
+    "generated_at": "2026-09-11T23:55:00.232655+00:00",
     "session_phase": "afterhours"
   },
   "scanner": {
@@ -1468,7 +1468,7 @@
       }
     ],
     "scanner_file": "scan_20260911_203001.json",
-    "scanner_age_seconds": 11999,
+    "scanner_age_seconds": 12299,
     "market_context": {
       "SPY": {
         "price": 764.35,
@@ -1731,12 +1731,12 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 764.42,
+        "last": 764.35,
         "prev_close": 757.83,
-        "change_pct": 0.87,
+        "change_pct": 0.86,
         "day_high": 766.38,
         "day_low": 763.6,
-        "volume": 45552244
+        "volume": 45554010
       },
       {
         "symbol": "QQQ",
@@ -1747,29 +1747,29 @@
         "change_pct": 0.88,
         "day_high": 717.63,
         "day_low": 713.63,
-        "volume": 26909185
+        "volume": 26910822
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 526.19,
+        "last": 526.0,
         "prev_close": 520.75,
-        "change_pct": 1.04,
+        "change_pct": 1.01,
         "day_high": 527.36,
         "day_low": 524.29,
-        "volume": 3438840
+        "volume": 3438894
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 289.05,
+        "last": 288.9,
         "prev_close": 287.7,
-        "change_pct": 0.47,
+        "change_pct": 0.42,
         "day_high": 291.44,
         "day_low": 288.77,
-        "volume": 26547317
+        "volume": 26547559
       }
     ],
     "commodities": [
@@ -1777,23 +1777,23 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 154.64,
+        "last": 154.62,
         "prev_close": 158.38,
-        "change_pct": -2.36,
+        "change_pct": -2.37,
         "day_high": 155.02,
         "day_low": 152.35,
-        "volume": 6707176
+        "volume": 6710072
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.16,
+        "last": 10.15,
         "prev_close": 10.19,
-        "change_pct": -0.29,
+        "change_pct": -0.39,
         "day_high": 10.23,
         "day_low": 10.07,
-        "volume": 11792423
+        "volume": 11794123
       },
       {
         "symbol": "GLD",
@@ -1804,7 +1804,7 @@
         "change_pct": 0.49,
         "day_high": 403.65,
         "day_low": 398.14,
-        "volume": 11891965
+        "volume": 11892091
       }
     ],
     "vol_and_dollar": [
@@ -1817,7 +1817,7 @@
         "change_pct": -3.69,
         "day_high": 17.55,
         "day_low": 16.81,
-        "volume": 3163369
+        "volume": 3163492
       },
       {
         "symbol": "UUP",
@@ -1834,12 +1834,12 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 80.92,
+        "last": 80.93,
         "prev_close": 80.78,
-        "change_pct": 0.17,
+        "change_pct": 0.19,
         "day_high": 81.47,
         "day_low": 80.81,
-        "volume": 32442554
+        "volume": 32442919
       }
     ],
     "asia": [
@@ -1874,7 +1874,7 @@
         "change_pct": 3.49,
         "day_high": 190.13,
         "day_low": 187.99,
-        "volume": 12013692
+        "volume": 12016061
       },
       {
         "symbol": "EWT",
@@ -1944,7 +1944,7 @@
         "change_pct": 0.48,
         "day_high": 65.72,
         "day_low": 64.71,
-        "volume": 30518543
+        "volume": 30518657
       },
       {
         "symbol": "XLF",
@@ -1966,18 +1966,18 @@
         "change_pct": 1.07,
         "day_high": 172.91,
         "day_low": 171.87,
-        "volume": 5571372
+        "volume": 5571373
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 568.28,
+        "last": 568.49,
         "prev_close": 560.28,
-        "change_pct": 1.43,
+        "change_pct": 1.47,
         "day_high": 572.8,
         "day_low": 564.0,
-        "volume": 5310470
+        "volume": 5310693
       },
       {
         "symbol": "XLK",
@@ -1988,13 +1988,69 @@
         "change_pct": 1.32,
         "day_high": 188.64,
         "day_low": 186.88,
-        "volume": 6518765
+        "volume": 6518817
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "HUBC",
+        "halt_reason": "",
+        "title": "HUBC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000HUBCHub Cyber Security Ltd. OrdNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NRSN",
+        "halt_reason": "",
+        "title": "NRSN",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000NRSNNeuroSense Thera Ltd OrdNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NXXT",
+        "halt_reason": "",
+        "title": "NXXT",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000NXXTNextNRG, Inc. Cmn StkNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "IPDN",
+        "halt_reason": "",
+        "title": "IPDN",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000IPDNProfessional Diversity Ntwk CmNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NRSNW",
+        "halt_reason": "",
+        "title": "NRSNW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000NRSNWNeuroSense Thera Ltd WtNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "HUBCW",
+        "halt_reason": "",
+        "title": "HUBCW",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000HUBCWHub Cyber Security Ltd. WtNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "CPOP",
+        "halt_reason": "",
+        "title": "CPOP",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000CPOPPop Culture Group Cl A Or ShNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "HUBCZ",
+        "halt_reason": "",
+        "title": "HUBCZ",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    19:50:00.000HUBCZHub Cyber Security WtNASDAQT1",
+        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
+      },
       {
         "ticker": "SRRK",
         "halt_reason": "",
