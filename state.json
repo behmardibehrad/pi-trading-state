@@ -1,8 +1,8 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-09-11T23:55:00.232655+00:00",
-    "session_phase": "afterhours"
+    "generated_at": "2026-09-12T08:00:00.234703+00:00",
+    "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [
@@ -1468,7 +1468,7 @@
       }
     ],
     "scanner_file": "scan_20260911_203001.json",
-    "scanner_age_seconds": 12299,
+    "scanner_age_seconds": 41399,
     "market_context": {
       "SPY": {
         "price": 764.35,
@@ -1571,142 +1571,6 @@
   "calendar": {
     "earnings_yesterday_ah": [
       {
-        "symbol": "ADBE",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 6.1999,
-        "eps_actual": 6.13,
-        "rev_estimate": 6822313594,
-        "rev_actual": 6760000000,
-        "year": 2026,
-        "quarter": 3
-      },
-      {
-        "symbol": "AENT",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 0.0612,
-        "eps_actual": 0.13,
-        "rev_estimate": 244770420,
-        "rev_actual": 268100000,
-        "year": 2026,
-        "quarter": 4
-      },
-      {
-        "symbol": "CPRT",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 0.3898,
-        "eps_actual": 0.35,
-        "rev_estimate": 1163345190,
-        "rev_actual": 1152440000,
-        "year": 2026,
-        "quarter": 4
-      },
-      {
-        "symbol": "CSBR",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": -0.0102,
-        "eps_actual": -0.03,
-        "rev_estimate": 15345900,
-        "rev_actual": 15230000,
-        "year": 2027,
-        "quarter": 1
-      },
-      {
-        "symbol": "FEIM",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 0.2244,
-        "eps_actual": 0.41,
-        "rev_estimate": 18207000,
-        "rev_actual": 23450000,
-        "year": 2027,
-        "quarter": 1
-      },
-      {
-        "symbol": "IBEX",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 0.8619,
-        "eps_actual": 0.85,
-        "rev_estimate": 163200000,
-        "rev_actual": 164270000,
-        "year": 2026,
-        "quarter": 4
-      },
-      {
-        "symbol": "LPTH",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": -0.0204,
-        "eps_actual": -0.02,
-        "rev_estimate": 21022200,
-        "rev_actual": 21160000,
-        "year": 2026,
-        "quarter": 4
-      },
-      {
-        "symbol": "ORCL",
-        "date": "2026-09-10",
-        "hour": "amc",
-        "eps_estimate": 1.7766,
-        "eps_actual": 1.92,
-        "rev_estimate": 19527219180,
-        "rev_actual": 19345000000,
-        "year": 2027,
-        "quarter": 1
-      }
-    ],
-    "earnings_today_bmo": [
-      {
-        "symbol": "HOFT",
-        "date": "2026-09-11",
-        "hour": "bmo",
-        "eps_estimate": -0.0204,
-        "eps_actual": 0.11,
-        "rev_estimate": 65035710,
-        "rev_actual": 63250000,
-        "year": 2027,
-        "quarter": 2
-      },
-      {
-        "symbol": "MNY",
-        "date": "2026-09-11",
-        "hour": "bmo",
-        "eps_estimate": -0.0202,
-        "eps_actual": -0.03,
-        "rev_estimate": 21744290,
-        "rev_actual": 15750000,
-        "year": 2026,
-        "quarter": 2
-      },
-      {
-        "symbol": "RENT",
-        "date": "2026-09-11",
-        "hour": "bmo",
-        "eps_estimate": null,
-        "eps_actual": -0.2,
-        "rev_estimate": null,
-        "rev_actual": 97700000,
-        "year": 2027,
-        "quarter": 2
-      },
-      {
-        "symbol": "RENT",
-        "date": "2026-09-11",
-        "hour": "bmo",
-        "eps_estimate": -4.4166,
-        "eps_actual": -0.2,
-        "rev_estimate": 85119000,
-        "rev_actual": 97700000,
-        "year": 2026,
-        "quarter": 2
-      }
-    ],
-    "earnings_today_ah": [
-      {
         "symbol": "ANAB",
         "date": "2026-09-11",
         "hour": "amc",
@@ -1718,6 +1582,8 @@
         "quarter": 2
       }
     ],
+    "earnings_today_bmo": [],
+    "earnings_today_ah": [],
     "econ_data_today": null,
     "fetch_status": {
       "earnings": "ok",
@@ -1731,45 +1597,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 764.35,
+        "last": 764.29,
         "prev_close": 757.83,
-        "change_pct": 0.86,
+        "change_pct": 0.85,
         "day_high": 766.38,
         "day_low": 763.6,
-        "volume": 45554010
+        "volume": 45555313
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 714.95,
+        "last": 714.89,
         "prev_close": 708.69,
-        "change_pct": 0.88,
+        "change_pct": 0.87,
         "day_high": 717.63,
         "day_low": 713.63,
-        "volume": 26910822
+        "volume": 26916333
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 526.0,
+        "last": 525.79,
         "prev_close": 520.75,
-        "change_pct": 1.01,
+        "change_pct": 0.97,
         "day_high": 527.36,
         "day_low": 524.29,
-        "volume": 3438894
+        "volume": 3439002
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 288.9,
+        "last": 288.89,
         "prev_close": 287.7,
-        "change_pct": 0.42,
+        "change_pct": 0.41,
         "day_high": 291.44,
         "day_low": 288.77,
-        "volume": 26547559
+        "volume": 26547642
       }
     ],
     "commodities": [
@@ -1777,20 +1643,20 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 154.62,
+        "last": 154.9,
         "prev_close": 158.38,
-        "change_pct": -2.37,
+        "change_pct": -2.2,
         "day_high": 155.02,
         "day_low": 152.35,
-        "volume": 6710072
+        "volume": 6711426
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.15,
+        "last": 10.17,
         "prev_close": 10.19,
-        "change_pct": -0.39,
+        "change_pct": -0.2,
         "day_high": 10.23,
         "day_low": 10.07,
         "volume": 11794123
@@ -1799,12 +1665,12 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 398.3,
+        "last": 398.77,
         "prev_close": 396.36,
-        "change_pct": 0.49,
+        "change_pct": 0.61,
         "day_high": 403.65,
         "day_low": 398.14,
-        "volume": 11892091
+        "volume": 11892536
       }
     ],
     "vol_and_dollar": [
@@ -1812,12 +1678,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 17.49,
+        "last": 17.3,
         "prev_close": 18.16,
-        "change_pct": -3.69,
+        "change_pct": -4.74,
         "day_high": 17.55,
         "day_low": 16.81,
-        "volume": 3163492
+        "volume": 3163527
       },
       {
         "symbol": "UUP",
@@ -1839,7 +1705,7 @@
         "change_pct": 0.19,
         "day_high": 81.47,
         "day_low": 80.81,
-        "volume": 32442919
+        "volume": 32443874
       }
     ],
     "asia": [
@@ -1852,15 +1718,15 @@
         "change_pct": 2.2,
         "day_high": 98.76,
         "day_low": 98.32,
-        "volume": 3377227
+        "volume": 3377295
       },
       {
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 34.48,
+        "last": 34.49,
         "prev_close": 34.35,
-        "change_pct": 0.38,
+        "change_pct": 0.41,
         "day_high": 34.72,
         "day_low": 34.46,
         "volume": 12909843
@@ -1869,20 +1735,20 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 189.16,
+        "last": 188.72,
         "prev_close": 182.78,
-        "change_pct": 3.49,
+        "change_pct": 3.25,
         "day_high": 190.13,
         "day_low": 187.99,
-        "volume": 12016061
+        "volume": 12016077
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 112.0,
+        "last": 110.91,
         "prev_close": 108.92,
-        "change_pct": 2.83,
+        "change_pct": 1.83,
         "day_high": 111.15,
         "day_low": 110.31,
         "volume": 2232007
@@ -1939,45 +1805,45 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 65.24,
+        "last": 65.14,
         "prev_close": 64.93,
-        "change_pct": 0.48,
+        "change_pct": 0.32,
         "day_high": 65.72,
         "day_low": 64.71,
-        "volume": 30518657
+        "volume": 30520897
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 57.28,
+        "last": 57.25,
         "prev_close": 56.87,
-        "change_pct": 0.72,
+        "change_pct": 0.67,
         "day_high": 57.62,
         "day_low": 56.95,
-        "volume": 34720552
+        "volume": 34721393
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 172.38,
+        "last": 172.37,
         "prev_close": 170.55,
         "change_pct": 1.07,
         "day_high": 172.91,
         "day_low": 171.87,
-        "volume": 5571373
+        "volume": 5571383
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 568.49,
+        "last": 568.88,
         "prev_close": 560.28,
-        "change_pct": 1.47,
+        "change_pct": 1.53,
         "day_high": 572.8,
         "day_low": 564.0,
-        "volume": 5310693
+        "volume": 5310879
       },
       {
         "symbol": "XLK",
@@ -1988,7 +1854,7 @@
         "change_pct": 1.32,
         "day_high": 188.64,
         "day_low": 186.88,
-        "volume": 6518817
+        "volume": 6519017
       }
     ]
   },
@@ -2052,307 +1918,6 @@
         "published": "Fri, 11 Sep 2026 04:00:00 GMT"
       },
       {
-        "ticker": "SRRK",
-        "halt_reason": "",
-        "title": "SRRK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    17:07:36.806SRRKScholar Rock Holding Corp CMNASDAQT309/11/2026                    18:40:00                      18:45:00",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    15:34:37.856WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    15:39:37                      15:39:37",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    15:18:28.773WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    15:28:33                      15:28:33",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "VACI=",
-        "halt_reason": "",
-        "title": "VACI=",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    15:16:29.566VACI=NYSEM09/11/2026                    15:21:32                      15:21:32",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "XHLD",
-        "halt_reason": "",
-        "title": "XHLD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    15:13:05.636XHLDTEN Hldgs CmnNASDAQLUDP09/11/2026                    15:13:05                      15:18:05",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "XHLD",
-        "halt_reason": "",
-        "title": "XHLD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    15:04:17.813XHLDTEN Hldgs CmnNASDAQLUDP09/11/2026                    15:04:17                      15:09:17",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    13:46:53.756TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    13:46:53                      13:51:53",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    13:32:52.990TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    13:32:52                      13:42:52",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SFWL",
-        "halt_reason": "",
-        "title": "SFWL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    13:31:07.436SFWLShengfeng Development OsNASDAQLUDP09/11/2026                    13:31:07                      13:36:07",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    13:22:28.726TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    13:22:28                      13:32:29",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WXM",
-        "halt_reason": "",
-        "title": "WXM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:53:43.543WXMWF Intl Ltd OrdNASDAQLUDP09/11/2026                    12:53:43                      12:58:43",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WXM",
-        "halt_reason": "",
-        "title": "WXM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:43:36.763WXMWF Intl Ltd OrdNASDAQLUDP09/11/2026                    12:43:36                      12:48:36",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "PW-A",
-        "halt_reason": "",
-        "title": "PW-A",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:42:11.570PW-AAMEXM09/11/2026                    12:47:11                      12:47:11",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "HLSQ",
-        "halt_reason": "",
-        "title": "HLSQ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:41:53.736HLSQTessera Defense and Homeland Security Inc. Common StockAMEXM09/11/2026                    12:46:53                      12:46:53",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:36:49.983WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    12:41:49                      12:41:49",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WXM",
-        "halt_reason": "",
-        "title": "WXM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:34:51.000WXMWF Intl Ltd OrdNASDAQLUDP09/11/2026                    12:34:51                      12:39:51",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:30:02.023WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    12:35:02                      12:35:02",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "PW-A",
-        "halt_reason": "",
-        "title": "PW-A",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    12:15:57.033PW-AAMEXM09/11/2026                    12:20:57                      12:20:57",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FGL",
-        "halt_reason": "",
-        "title": "FGL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    11:45:21.936FGLFounder Group Ltd Cl A Ord ShsNASDAQLUDP09/11/2026                    11:45:21                      11:50:21",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FGL",
-        "halt_reason": "",
-        "title": "FGL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    11:33:21.380FGLFounder Group Ltd Cl A Ord ShsNASDAQLUDP09/11/2026                    11:33:21                      11:43:21",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    11:26:55.356WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    11:31:55                      11:31:55",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BDRX",
-        "halt_reason": "",
-        "title": "BDRX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    11:16:26.263BDRXBiodexa Pharmactls plc ADSNASDAQLUDP09/11/2026                    11:16:26                      11:21:26",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    11:06:30.636WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    11:11:30                      11:11:30",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:55:13.283TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    10:55:13                      11:00:13",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:47:00.216TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    10:47:00                      10:52:00",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "PMAX",
-        "halt_reason": "",
-        "title": "PMAX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:41:32.773PMAXPowell Max Ltd Cl A Ord ShsNASDAQLUDP09/11/2026                    10:41:32                      10:46:32",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TNON",
-        "halt_reason": "",
-        "title": "TNON",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:38:50.340TNONTenon Medical Inc CmNASDAQLUDP09/11/2026                    10:38:50                      10:43:50",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "WZRD",
-        "halt_reason": "",
-        "title": "WZRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:34:31.590WZRDOpportunistic Trader ETFNon NASDAQM09/11/2026                    10:39:31                      10:39:31",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SFWL",
-        "halt_reason": "",
-        "title": "SFWL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:33:03.766SFWLShengfeng Development OsNASDAQLUDP09/11/2026                    10:33:03                      10:43:03",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SFWL",
-        "halt_reason": "",
-        "title": "SFWL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:27:05.966SFWLShengfeng Development OsNASDAQLUDP09/11/2026                    10:27:05                      10:32:05",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BENF",
-        "halt_reason": "",
-        "title": "BENF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:20:33.976BENFBeneficient Class A Common StkNASDAQLUDP09/11/2026                    10:20:33                      10:25:33",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GURE",
-        "halt_reason": "",
-        "title": "GURE",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:17:22.326GUREGulf Resources, Inc.NASDAQLUDP09/11/2026                    10:17:22                      10:22:22",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "RFAI",
-        "halt_reason": "",
-        "title": "RFAI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:16:58.836RFAIRF Acq Cp II OrdNASDAQLUDP09/11/2026                    10:16:58                      10:21:58",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BENF",
-        "halt_reason": "",
-        "title": "BENF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:12:30.270BENFBeneficient Class A Common StkNASDAQLUDP09/11/2026                    10:12:30                      10:17:30",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "RFAI",
-        "halt_reason": "",
-        "title": "RFAI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:07:51.240RFAIRF Acq Cp II OrdNASDAQLUDP09/11/2026                    10:07:51                      10:12:51",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BNMC",
-        "halt_reason": "",
-        "title": "BNMC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:04:48.470BNMCCorgi BMNR 2x Daily ETFNon NASDAQM09/11/2026                    10:09:48                      10:09:48",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "BENF",
-        "halt_reason": "",
-        "title": "BENF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    10:02:04.043BENFBeneficient Class A Common StkNASDAQLUDP09/11/2026                    10:02:04                      10:12:08",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "RFAIU",
-        "halt_reason": "",
-        "title": "RFAIU",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    09:53:33.450RFAIURF Acquisition Corp IINASDAQLUDP09/11/2026                    09:53:33                      09:58:33",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "INLX",
-        "halt_reason": "",
-        "title": "INLX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    09:50:28.013INLXIntellinetics, Inc. Common StockAMEXM09/11/2026                    09:55:28                      09:55:28",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GCTK",
-        "halt_reason": "",
-        "title": "GCTK",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    09:49:17.656GCTKGlucoTrack, Inc. Cm StNASDAQLUDP09/11/2026                    09:49:17                      09:54:17",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "PNAQ=",
-        "halt_reason": "",
-        "title": "PNAQ=",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    09:44:51.760PNAQ=NYSEM09/11/2026                    09:49:51                      09:49:51",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SWRD",
-        "halt_reason": "",
-        "title": "SWRD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/11/2026                    09:36:07.096SWRDStewards Inc CmnNASDAQLUDP09/11/2026                    09:36:07                      09:46:07",
-        "published": "Fri, 11 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GOSS",
-        "halt_reason": "",
-        "title": "GOSS",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/10/2026                    19:50:00.000GOSSGossamer Bio, Inc. CSNASDAQT309/11/2026                    08:55:00                      09:00:00",
-        "published": "Thu, 10 Sep 2026 04:00:00 GMT"
-      },
-      {
         "ticker": "NFE",
         "halt_reason": "",
         "title": "NFE",
@@ -2364,13 +1929,6 @@
         "halt_reason": "",
         "title": "ATAI",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/10/2026                    19:50:00.000ATAIAtaiBeckley Inc. Common StockNASDAQT12",
-        "published": "Thu, 10 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "GAUZ",
-        "halt_reason": "",
-        "title": "GAUZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/10/2026                    19:50:00.000GAUZGauzy Ltd. Ordinary SharesNASDAQT309/11/2026                    08:55:00                      09:00:00",
         "published": "Thu, 10 Sep 2026 04:00:00 GMT"
       },
       {
