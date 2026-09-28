@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-09-28T12:40:00.227673+00:00",
+    "generated_at": "2026-09-28T12:45:00.229315+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20260928_123001.json",
-    "scanner_age_seconds": 599,
+    "scanner_age_seconds": 899,
     "market_context": {
       "SPY": {
         "price": 768.52,
@@ -247,9 +247,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 768.76,
+        "last": 768.88,
         "prev_close": 767.18,
-        "change_pct": 0.21,
+        "change_pct": 0.22,
         "day_high": 772.28,
         "day_low": 766.29,
         "volume": 36735915
@@ -258,9 +258,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 740.29,
+        "last": 740.68,
         "prev_close": 741.1,
-        "change_pct": -0.11,
+        "change_pct": -0.06,
         "day_high": 745.91,
         "day_low": 739.64,
         "volume": 30420322
@@ -269,9 +269,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 515.1,
+        "last": 514.7,
         "prev_close": 512.68,
-        "change_pct": 0.47,
+        "change_pct": 0.39,
         "day_high": 517.92,
         "day_low": 512.59,
         "volume": 2790561
@@ -280,9 +280,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 280.65,
+        "last": 280.6,
         "prev_close": 281.66,
-        "change_pct": -0.36,
+        "change_pct": -0.38,
         "day_high": 283.52,
         "day_low": 280.45,
         "volume": 22614507
@@ -293,9 +293,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 152.61,
+        "last": 152.26,
         "prev_close": 153.09,
-        "change_pct": -0.31,
+        "change_pct": -0.54,
         "day_high": 151.56,
         "day_low": 147.18,
         "volume": 7184674
@@ -304,9 +304,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.72,
+        "last": 10.75,
         "prev_close": 11.55,
-        "change_pct": -7.19,
+        "change_pct": -6.93,
         "day_high": 11.2,
         "day_low": 10.86,
         "volume": 43661315
@@ -315,9 +315,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 380.25,
+        "last": 379.98,
         "prev_close": 391.69,
-        "change_pct": -2.92,
+        "change_pct": -2.99,
         "day_high": 394.22,
         "day_low": 390.05,
         "volume": 7720999
@@ -328,9 +328,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 16.71,
+        "last": 16.74,
         "prev_close": 16.9,
-        "change_pct": -1.12,
+        "change_pct": -0.95,
         "day_high": 17.03,
         "day_low": 16.58,
         "volume": 1608295
@@ -385,9 +385,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 184.41,
+        "last": 184.55,
         "prev_close": 182.53,
-        "change_pct": 1.03,
+        "change_pct": 1.11,
         "day_high": 187.64,
         "day_low": 184.18,
         "volume": 12216152
@@ -466,9 +466,9 @@
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 54.7,
+        "last": 54.72,
         "prev_close": 54.53,
-        "change_pct": 0.31,
+        "change_pct": 0.35,
         "day_high": 54.88,
         "day_low": 54.31,
         "volume": 29082522
@@ -488,9 +488,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 602.63,
+        "last": 603.46,
         "prev_close": 600.52,
-        "change_pct": 0.35,
+        "change_pct": 0.49,
         "day_high": 609.66,
         "day_low": 602.22,
         "volume": 4645902
@@ -499,9 +499,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 195.0,
+        "last": 195.09,
         "prev_close": 194.71,
-        "change_pct": 0.15,
+        "change_pct": 0.2,
         "day_high": 196.94,
         "day_low": 195.05,
         "volume": 6002101
@@ -512,17 +512,24 @@
     "fetch_status": "ok",
     "halts_today": [
       {
-        "ticker": "FBGL",
+        "ticker": "LFCR",
         "halt_reason": "",
-        "title": "FBGL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000FBGLFBS Global Limited OSNASDAQT309/28/2026                    08:55:00                      09:00:00",
+        "title": "LFCR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/28/2026                    08:40:00.000LFCRLifecore Biomedical, Inc. CmnNASDAQT1",
+        "published": "Mon, 28 Sep 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "CTNT",
+        "halt_reason": "",
+        "title": "CTNT",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000CTNTCheetah Nt Spply Ch SvcNASDAQT309/28/2026                    08:55:00                      09:00:00",
         "published": "Fri, 25 Sep 2026 04:00:00 GMT"
       },
       {
-        "ticker": "DCX",
+        "ticker": "BTLN",
         "halt_reason": "",
-        "title": "DCX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000DCXDigital Currency X Tec Cl A OSNASDAQT309/28/2026                    08:55:00                      09:00:00",
+        "title": "BTLN",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000BTLNBrightline Interactive Cmn StkNASDAQT309/28/2026                    08:55:00                      09:00:00",
         "published": "Fri, 25 Sep 2026 04:00:00 GMT"
       },
       {
@@ -547,17 +554,17 @@
         "published": "Fri, 25 Sep 2026 04:00:00 GMT"
       },
       {
-        "ticker": "CTNT",
+        "ticker": "FBGL",
         "halt_reason": "",
-        "title": "CTNT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000CTNTCheetah Nt Spply Ch SvcNASDAQT309/28/2026                    08:55:00                      09:00:00",
+        "title": "FBGL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000FBGLFBS Global Limited OSNASDAQT309/28/2026                    08:55:00                      09:00:00",
         "published": "Fri, 25 Sep 2026 04:00:00 GMT"
       },
       {
-        "ticker": "BTLN",
+        "ticker": "DCX",
         "halt_reason": "",
-        "title": "BTLN",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000BTLNBrightline Interactive Cmn StkNASDAQT309/28/2026                    08:55:00                      09:00:00",
+        "title": "DCX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/25/2026                    19:50:00.000DCXDigital Currency X Tec Cl A OSNASDAQT309/28/2026                    08:55:00                      09:00:00",
         "published": "Fri, 25 Sep 2026 04:00:00 GMT"
       },
       {
