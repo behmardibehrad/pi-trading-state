@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-10-01T10:55:00.226801+00:00",
+    "generated_at": "2026-10-01T11:00:00.218160+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261001_103001.json",
-    "scanner_age_seconds": 1499,
+    "scanner_age_seconds": 1799,
     "market_context": {
       "SPY": {
         "price": 764.62,
@@ -171,9 +171,9 @@
         "date": "2026-10-01",
         "hour": "bmo",
         "eps_estimate": 3.2141,
-        "eps_actual": null,
+        "eps_actual": 3.29,
         "rev_estimate": 18212098486,
-        "rev_actual": null,
+        "rev_actual": 18679110000,
         "year": 2026,
         "quarter": 4
       },
@@ -215,9 +215,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 765.77,
+        "last": 765.71,
         "prev_close": 764.2,
-        "change_pct": 0.21,
+        "change_pct": 0.2,
         "day_high": 769.41,
         "day_low": 762.18,
         "volume": 62848571
@@ -226,9 +226,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 746.13,
+        "last": 745.89,
         "prev_close": 737.93,
-        "change_pct": 1.11,
+        "change_pct": 1.08,
         "day_high": 745.1,
         "day_low": 739.46,
         "volume": 29986431
@@ -237,7 +237,7 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 509.13,
+        "last": 509.12,
         "prev_close": 512.88,
         "change_pct": -0.73,
         "day_high": 514.16,
@@ -248,9 +248,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 278.68,
+        "last": 278.54,
         "prev_close": 279.01,
-        "change_pct": -0.12,
+        "change_pct": -0.17,
         "day_high": 280.48,
         "day_low": 277.86,
         "volume": 21230345
@@ -261,9 +261,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 146.78,
+        "last": 146.99,
         "prev_close": 143.35,
-        "change_pct": 2.39,
+        "change_pct": 2.54,
         "day_high": 147.88,
         "day_low": 145.33,
         "volume": 3322578
@@ -272,9 +272,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.15,
+        "last": 10.16,
         "prev_close": 10.35,
-        "change_pct": -1.93,
+        "change_pct": -1.84,
         "day_high": 10.46,
         "day_low": 10.2,
         "volume": 23480081
@@ -283,9 +283,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 382.85,
+        "last": 382.7,
         "prev_close": 382.89,
-        "change_pct": -0.01,
+        "change_pct": -0.05,
         "day_high": 384.59,
         "day_low": 380.18,
         "volume": 7091824
@@ -307,9 +307,9 @@
         "symbol": "UUP",
         "label": "US Dollar",
         "proxy_for": "DXY",
-        "last": 28.92,
+        "last": 28.85,
         "prev_close": 28.75,
-        "change_pct": 0.59,
+        "change_pct": 0.35,
         "day_high": 28.79,
         "day_low": 28.68,
         "volume": 1233492
@@ -318,9 +318,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 77.47,
+        "last": 77.43,
         "prev_close": 78.23,
-        "change_pct": -0.97,
+        "change_pct": -1.02,
         "day_high": 78.21,
         "day_low": 77.55,
         "volume": 73142194
@@ -342,9 +342,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 33.94,
+        "last": 34.0,
         "prev_close": 33.86,
-        "change_pct": 0.24,
+        "change_pct": 0.41,
         "day_high": 34.16,
         "day_low": 33.94,
         "volume": 14646497
@@ -353,9 +353,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 185.32,
+        "last": 185.14,
         "prev_close": 187.1,
-        "change_pct": -0.95,
+        "change_pct": -1.05,
         "day_high": 185.67,
         "day_low": 181.76,
         "volume": 16404516
@@ -456,9 +456,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 617.5,
+        "last": 617.05,
         "prev_close": 606.9,
-        "change_pct": 1.75,
+        "change_pct": 1.67,
         "day_high": 611.95,
         "day_low": 606.01,
         "volume": 4441568
@@ -480,6 +480,20 @@
     "fetch_status": "ok",
     "halts_today": [
       {
+        "ticker": "FHTX",
+        "halt_reason": "",
+        "title": "FHTX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/01/2026                    06:55:00.000FHTXFoghorn Therapeutics CmnNASDAQT1",
+        "published": "Thu, 01 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "FSEA",
+        "halt_reason": "",
+        "title": "FSEA",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/30/2026                    19:50:00.000FSEAFirst Seacoast Bancorp, Inc.NASDAQT12",
+        "published": "Wed, 30 Sep 2026 04:00:00 GMT"
+      },
+      {
         "ticker": "KUST",
         "halt_reason": "",
         "title": "KUST",
@@ -491,13 +505,6 @@
         "halt_reason": "",
         "title": "MYPS",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/30/2026                    19:50:00.000MYPSPLAYSTUDIOS, Inc. NASDAQT310/01/2026                    08:55:00                      09:00:00",
-        "published": "Wed, 30 Sep 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "FSEA",
-        "halt_reason": "",
-        "title": "FSEA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time09/30/2026                    19:50:00.000FSEAFirst Seacoast Bancorp, Inc.NASDAQT12",
         "published": "Wed, 30 Sep 2026 04:00:00 GMT"
       },
       {
