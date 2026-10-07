@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-10-07T13:40:00.200030+00:00",
+    "generated_at": "2026-10-07T13:45:00.205169+00:00",
     "session_phase": "rth"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261007_133001.json",
-    "scanner_age_seconds": 599,
+    "scanner_age_seconds": 899,
     "market_context": {
       "SPY": {
         "price": 775.76,
@@ -236,45 +236,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 774.51,
+        "last": 774.6,
         "prev_close": 779.09,
-        "change_pct": -0.59,
+        "change_pct": -0.58,
         "day_high": 776.15,
         "day_low": 774.25,
-        "volume": 3139429
+        "volume": 3610136
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 752.55,
+        "last": 752.86,
         "prev_close": 759.66,
-        "change_pct": -0.94,
+        "change_pct": -0.9,
         "day_high": 754.83,
         "day_low": 751.82,
-        "volume": 3734266
+        "volume": 4344815
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 509.72,
+        "last": 509.66,
         "prev_close": 514.56,
-        "change_pct": -0.94,
+        "change_pct": -0.95,
         "day_high": 511.62,
-        "day_low": 509.75,
-        "volume": 760790
+        "day_low": 509.56,
+        "volume": 856648
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 277.91,
+        "last": 278.56,
         "prev_close": 281.34,
-        "change_pct": -1.22,
+        "change_pct": -0.99,
         "day_high": 279.04,
-        "day_low": 277.94,
-        "volume": 2546346
+        "day_low": 277.87,
+        "volume": 3040298
       }
     ],
     "commodities": [
@@ -282,12 +282,12 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 146.91,
+        "last": 146.96,
         "prev_close": 144.91,
-        "change_pct": 1.38,
+        "change_pct": 1.41,
         "day_high": 147.07,
         "day_low": 146.22,
-        "volume": 376222
+        "volume": 423779
       },
       {
         "symbol": "UNG",
@@ -297,19 +297,19 @@
         "prev_close": 10.74,
         "change_pct": 1.49,
         "day_high": 10.95,
-        "day_low": 10.89,
-        "volume": 1039835
+        "day_low": 10.88,
+        "volume": 1315116
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 374.28,
+        "last": 374.94,
         "prev_close": 382.27,
-        "change_pct": -2.09,
+        "change_pct": -1.92,
         "day_high": 375.34,
-        "day_low": 374.25,
-        "volume": 1197847
+        "day_low": 374.23,
+        "volume": 1405781
       }
     ],
     "vol_and_dollar": [
@@ -317,12 +317,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 16.5,
+        "last": 16.45,
         "prev_close": 16.1,
-        "change_pct": 2.48,
+        "change_pct": 2.17,
         "day_high": 16.52,
         "day_low": 16.39,
-        "volume": 310799
+        "volume": 340824
       },
       {
         "symbol": "UUP",
@@ -333,18 +333,18 @@
         "change_pct": 0.59,
         "day_high": 29.08,
         "day_low": 29.07,
-        "volume": 68518
+        "volume": 76355
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 76.52,
+        "last": 76.55,
         "prev_close": 77.28,
-        "change_pct": -0.98,
-        "day_high": 76.52,
+        "change_pct": -0.94,
+        "day_high": 76.58,
         "day_low": 76.43,
-        "volume": 5741737
+        "volume": 6520399
       }
     ],
     "asia": [
@@ -352,45 +352,45 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 97.67,
+        "last": 97.69,
         "prev_close": 99.32,
-        "change_pct": -1.66,
+        "change_pct": -1.64,
         "day_high": 98.06,
         "day_low": 97.63,
-        "volume": 160854
+        "volume": 189664
       },
       {
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 33.39,
+        "last": 33.37,
         "prev_close": 33.77,
-        "change_pct": -1.13,
+        "change_pct": -1.18,
         "day_high": 33.5,
-        "day_low": 33.38,
-        "volume": 801290
+        "day_low": 33.35,
+        "volume": 1011838
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 180.78,
+        "last": 181.51,
         "prev_close": 186.4,
-        "change_pct": -3.02,
+        "change_pct": -2.62,
         "day_high": 182.42,
         "day_low": 180.53,
-        "volume": 1443136
+        "volume": 1834263
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 115.1,
+        "last": 115.26,
         "prev_close": 117.61,
-        "change_pct": -2.13,
+        "change_pct": -2.0,
         "day_high": 115.69,
         "day_low": 115.05,
-        "volume": 273328
+        "volume": 332941
       }
     ],
     "europe": [
@@ -398,12 +398,12 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 40.72,
+        "last": 40.7,
         "prev_close": 41.49,
-        "change_pct": -1.86,
+        "change_pct": -1.9,
         "day_high": 40.82,
-        "day_low": 40.72,
-        "volume": 21918
+        "day_low": 40.7,
+        "volume": 64024
       },
       {
         "symbol": "EWU",
@@ -413,30 +413,30 @@
         "prev_close": 46.37,
         "change_pct": -1.25,
         "day_high": 45.93,
-        "day_low": 45.79,
-        "volume": 41894
+        "day_low": 45.77,
+        "volume": 53050
       },
       {
         "symbol": "EWQ",
         "label": "France",
         "proxy_for": "CAC 40",
-        "last": 41.13,
+        "last": 41.11,
         "prev_close": 41.81,
-        "change_pct": -1.63,
+        "change_pct": -1.67,
         "day_high": 41.23,
-        "day_low": 41.12,
-        "volume": 49086
+        "day_low": 41.11,
+        "volume": 56765
       },
       {
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 85.2,
+        "last": 85.19,
         "prev_close": 86.58,
-        "change_pct": -1.59,
+        "change_pct": -1.61,
         "day_high": 85.43,
         "day_low": 85.19,
-        "volume": 149660
+        "volume": 163058
       }
     ],
     "sectors_extra": [
@@ -444,56 +444,56 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 64.17,
+        "last": 64.02,
         "prev_close": 63.75,
-        "change_pct": 0.66,
+        "change_pct": 0.42,
         "day_high": 64.51,
         "day_low": 64.0,
-        "volume": 3599439
+        "volume": 4289939
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 53.49,
+        "last": 53.48,
         "prev_close": 54.01,
-        "change_pct": -0.96,
+        "change_pct": -0.98,
         "day_high": 53.69,
         "day_low": 53.42,
-        "volume": 2930992
+        "volume": 3404563
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 169.47,
+        "last": 169.66,
         "prev_close": 171.58,
-        "change_pct": -1.23,
+        "change_pct": -1.12,
         "day_high": 170.21,
-        "day_low": 169.47,
-        "volume": 467079
+        "day_low": 169.42,
+        "volume": 606955
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 620.48,
+        "last": 621.25,
         "prev_close": 632.5,
-        "change_pct": -1.9,
+        "change_pct": -1.78,
         "day_high": 623.18,
         "day_low": 619.43,
-        "volume": 945045
+        "volume": 1483992
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 200.04,
+        "last": 200.14,
         "prev_close": 202.0,
-        "change_pct": -0.97,
+        "change_pct": -0.92,
         "day_high": 200.64,
         "day_low": 199.76,
-        "volume": 718578
+        "volume": 834435
       }
     ]
   },
@@ -501,38 +501,59 @@
     "fetch_status": "ok",
     "halts_today": [
       {
-        "ticker": "ITOC",
+        "ticker": "BBCI",
         "halt_reason": "",
-        "title": "ITOC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:38:12.266ITOCiTonic Holdings Ltd Cl A OrdNASDAQLUDP10/07/2026                    09:38:12",
+        "title": "BBCI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:44:16.093BBCIBradbury Capital Inc. Ord ShsNASDAQLUDP10/07/2026                    09:44:16",
         "published": "Wed, 07 Oct 2026 04:00:00 GMT"
       },
       {
         "ticker": "WORX",
         "halt_reason": "",
         "title": "WORX",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:36:38.720WORXSCWorx Corp.NASDAQLUDP10/07/2026                    09:36:38",
-        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "SMXT",
-        "halt_reason": "",
-        "title": "SMXT",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:35:35.436SMXTSolarmax Technology Inc. CSNASDAQLUDP10/07/2026                    09:35:35",
-        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "TJGC",
-        "halt_reason": "",
-        "title": "TJGC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:34:21.553TJGCTJGC Grp Ltd Ord ANASDAQLUDP10/07/2026                    09:34:21",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:42:36.400WORXSCWorx Corp.NASDAQLUDP10/07/2026                    09:42:36",
         "published": "Wed, 07 Oct 2026 04:00:00 GMT"
       },
       {
         "ticker": "ACYQ",
         "halt_reason": "",
         "title": "ACYQ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:30:15.470ACYQFT Vest Autocallable Barrier & High Income ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:40:30.470ACYQFT Vest Autocallable Barrier & High Income ETFNYSE ArcaM",
+        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ITOC",
+        "halt_reason": "",
+        "title": "ITOC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:38:12.266ITOCiTonic Holdings Ltd Cl A OrdNASDAQLUDP10/07/2026                    09:38:12                      09:43:12",
+        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "WORX",
+        "halt_reason": "",
+        "title": "WORX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:36:38.720WORXSCWorx Corp.NASDAQLUDP10/07/2026                    09:36:38                      09:41:38",
+        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "SMXT",
+        "halt_reason": "",
+        "title": "SMXT",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:35:35.436SMXTSolarmax Technology Inc. CSNASDAQLUDP10/07/2026                    09:35:35                      09:40:35",
+        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "TJGC",
+        "halt_reason": "",
+        "title": "TJGC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:34:21.553TJGCTJGC Grp Ltd Ord ANASDAQLUDP10/07/2026                    09:34:21                      09:44:21",
+        "published": "Wed, 07 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "ACYQ",
+        "halt_reason": "",
+        "title": "ACYQ",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/07/2026                    09:30:15.470ACYQFT Vest Autocallable Barrier & High Income ETFNYSE ArcaM10/07/2026                    09:40:15                      09:40:15",
         "published": "Wed, 07 Oct 2026 04:00:00 GMT"
       },
       {
