@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-10-12T12:15:00.210711+00:00",
+    "generated_at": "2026-10-12T12:20:00.201612+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261012_113001.json",
-    "scanner_age_seconds": 2699,
+    "scanner_age_seconds": 2999,
     "market_context": {
       "SPY": {
         "price": 778.79,
@@ -124,9 +124,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 779.35,
+        "last": 779.2,
         "prev_close": 773.93,
-        "change_pct": 0.7,
+        "change_pct": 0.68,
         "day_high": 779.42,
         "day_low": 775.14,
         "volume": 22843351
@@ -135,9 +135,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 750.55,
+        "last": 750.34,
         "prev_close": 747.58,
-        "change_pct": 0.4,
+        "change_pct": 0.37,
         "day_high": 752.87,
         "day_low": 748.37,
         "volume": 22699728
@@ -146,9 +146,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 517.2,
+        "last": 517.09,
         "prev_close": 511.65,
-        "change_pct": 1.08,
+        "change_pct": 1.06,
         "day_high": 517.03,
         "day_low": 511.67,
         "volume": 2729491
@@ -157,9 +157,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 279.15,
+        "last": 278.98,
         "prev_close": 277.57,
-        "change_pct": 0.57,
+        "change_pct": 0.51,
         "day_high": 279.88,
         "day_low": 277.46,
         "volume": 18776359
@@ -170,9 +170,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 150.6,
+        "last": 150.55,
         "prev_close": 147.58,
-        "change_pct": 2.05,
+        "change_pct": 2.01,
         "day_high": 149.03,
         "day_low": 146.74,
         "volume": 2833295
@@ -181,9 +181,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 10.76,
+        "last": 10.74,
         "prev_close": 10.81,
-        "change_pct": -0.46,
+        "change_pct": -0.65,
         "day_high": 11.17,
         "day_low": 10.91,
         "volume": 32269673
@@ -192,9 +192,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 382.52,
+        "last": 382.25,
         "prev_close": 378.62,
-        "change_pct": 1.03,
+        "change_pct": 0.96,
         "day_high": 385.17,
         "day_low": 383.26,
         "volume": 7504679
@@ -205,9 +205,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 16.17,
+        "last": 16.16,
         "prev_close": 16.5,
-        "change_pct": -2.0,
+        "change_pct": -2.06,
         "day_high": 16.38,
         "day_low": 16.23,
         "volume": 1491221
@@ -251,9 +251,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 34.12,
+        "last": 34.13,
         "prev_close": 33.45,
-        "change_pct": 2.0,
+        "change_pct": 2.03,
         "day_high": 34.37,
         "day_low": 33.92,
         "volume": 31523090
@@ -332,9 +332,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 65.65,
+        "last": 65.66,
         "prev_close": 65.24,
-        "change_pct": 0.63,
+        "change_pct": 0.64,
         "day_high": 65.86,
         "day_low": 64.88,
         "volume": 27330104
@@ -365,9 +365,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 599.26,
+        "last": 599.0,
         "prev_close": 607.27,
-        "change_pct": -1.32,
+        "change_pct": -1.36,
         "day_high": 615.54,
         "day_low": 601.38,
         "volume": 5535080
@@ -376,9 +376,9 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 198.41,
+        "last": 198.24,
         "prev_close": 197.78,
-        "change_pct": 0.32,
+        "change_pct": 0.23,
         "day_high": 199.41,
         "day_low": 197.38,
         "volume": 5567304
@@ -399,7 +399,7 @@
         "ticker": "IONC",
         "halt_reason": "",
         "title": "IONC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/12/2026                    07:51:50.708IONCCorgi IONQ 2x Daily ETFBX VentureT8",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/12/2026                    07:51:50.708IONCCorgi IONQ 2x Daily ETFBX VentureT310/12/2026                    08:15:49                      08:15:49",
         "published": "Mon, 12 Oct 2026 04:00:00 GMT"
       },
       {
