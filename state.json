@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-10-23T12:20:00.235122+00:00",
+    "generated_at": "2026-10-23T12:25:00.230470+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261023_113001.json",
-    "scanner_age_seconds": 2999,
+    "scanner_age_seconds": 3299,
     "market_context": {
       "SPY": {
         "price": 762.18,
@@ -820,9 +820,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 761.8,
+        "last": 761.62,
         "prev_close": 773.09,
-        "change_pct": -1.46,
+        "change_pct": -1.48,
         "day_high": 767.71,
         "day_low": 761.16,
         "volume": 54184876
@@ -831,9 +831,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 703.72,
+        "last": 703.67,
         "prev_close": 725.2,
-        "change_pct": -2.96,
+        "change_pct": -2.97,
         "day_high": 715.43,
         "day_low": 701.9,
         "volume": 64765682
@@ -842,9 +842,9 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 524.16,
+        "last": 524.29,
         "prev_close": 527.7,
-        "change_pct": -0.67,
+        "change_pct": -0.65,
         "day_high": 528.45,
         "day_low": 524.29,
         "volume": 2716658
@@ -853,9 +853,9 @@
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 275.2,
+        "last": 275.18,
         "prev_close": 276.48,
-        "change_pct": -0.46,
+        "change_pct": -0.47,
         "day_high": 277.28,
         "day_low": 274.49,
         "volume": 25730160
@@ -866,9 +866,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 165.89,
+        "last": 165.72,
         "prev_close": 159.8,
-        "change_pct": 3.81,
+        "change_pct": 3.7,
         "day_high": 163.77,
         "day_low": 160.09,
         "volume": 4402153
@@ -888,9 +888,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 368.72,
+        "last": 369.08,
         "prev_close": 378.95,
-        "change_pct": -2.7,
+        "change_pct": -2.6,
         "day_high": 373.87,
         "day_low": 368.35,
         "volume": 17578277
@@ -901,9 +901,9 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 18.03,
+        "last": 17.99,
         "prev_close": 16.65,
-        "change_pct": 8.29,
+        "change_pct": 8.05,
         "day_high": 18.09,
         "day_low": 16.89,
         "volume": 6636641
@@ -923,9 +923,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 81.61,
+        "last": 81.71,
         "prev_close": 80.24,
-        "change_pct": 1.71,
+        "change_pct": 1.83,
         "day_high": 81.92,
         "day_low": 80.87,
         "volume": 65643421
@@ -947,9 +947,9 @@
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 32.28,
+        "last": 32.29,
         "prev_close": 32.94,
-        "change_pct": -2.0,
+        "change_pct": -1.97,
         "day_high": 32.46,
         "day_low": 32.16,
         "volume": 24566896
@@ -958,9 +958,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 150.5,
+        "last": 151.07,
         "prev_close": 156.88,
-        "change_pct": -4.07,
+        "change_pct": -3.7,
         "day_high": 153.4,
         "day_low": 148.3,
         "volume": 18002986
@@ -1050,9 +1050,9 @@
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 165.68,
+        "last": 165.99,
         "prev_close": 168.31,
-        "change_pct": -1.56,
+        "change_pct": -1.38,
         "day_high": 167.36,
         "day_low": 164.77,
         "volume": 10756593
@@ -1061,9 +1061,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 524.71,
+        "last": 526.24,
         "prev_close": 556.7,
-        "change_pct": -5.75,
+        "change_pct": -5.47,
         "day_high": 540.86,
         "day_low": 520.53,
         "volume": 15276523
@@ -1085,6 +1085,20 @@
     "fetch_status": "ok",
     "halts_today": [
       {
+        "ticker": "CATX",
+        "halt_reason": "",
+        "title": "CATX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/23/2026                    08:12:00.197CATXPerspective Therapeutics, Inc. Common StockNYSET1",
+        "published": "Fri, 23 Oct 2026 04:00:00 GMT"
+      },
+      {
+        "ticker": "NIVF",
+        "halt_reason": "",
+        "title": "NIVF",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/22/2026                    19:50:00.000NIVFNewGenIvf Group Limited OsNASDAQT310/23/2026                    08:55:00                      09:00:00",
+        "published": "Thu, 22 Oct 2026 04:00:00 GMT"
+      },
+      {
         "ticker": "NIVFW",
         "halt_reason": "",
         "title": "NIVFW",
@@ -1103,13 +1117,6 @@
         "halt_reason": "",
         "title": "PASW",
         "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/22/2026                    19:50:00.000PASWPing An Biomedical Co Cl A OrdNASDAQT310/23/2026                    08:55:00                      09:00:00",
-        "published": "Thu, 22 Oct 2026 04:00:00 GMT"
-      },
-      {
-        "ticker": "NIVF",
-        "halt_reason": "",
-        "title": "NIVF",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time10/22/2026                    19:50:00.000NIVFNewGenIvf Group Limited OsNASDAQT310/23/2026                    08:55:00                      09:00:00",
         "published": "Thu, 22 Oct 2026 04:00:00 GMT"
       },
       {
