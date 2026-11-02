@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-02T12:25:00.212839+00:00",
+    "generated_at": "2026-11-02T12:30:00.246750+00:00",
     "session_phase": "premarket"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261102_113001.json",
-    "scanner_age_seconds": 3299,
+    "scanner_age_seconds": 3599,
     "market_context": {
       "SPY": {
         "price": 760.02,
@@ -1468,9 +1468,9 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 759.09,
+        "last": 758.94,
         "prev_close": 769.36,
-        "change_pct": -1.33,
+        "change_pct": -1.35,
         "day_high": 761.46,
         "day_low": 750.36,
         "volume": 77978520
@@ -1479,9 +1479,9 @@
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 696.23,
+        "last": 695.86,
         "prev_close": 715.34,
-        "change_pct": -2.67,
+        "change_pct": -2.72,
         "day_high": 698.63,
         "day_low": 683.45,
         "volume": 85929928
@@ -1490,7 +1490,7 @@
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 518.97,
+        "last": 518.99,
         "prev_close": 522.73,
         "change_pct": -0.72,
         "day_high": 522.02,
@@ -1514,9 +1514,9 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 163.35,
+        "last": 163.29,
         "prev_close": 168.19,
-        "change_pct": -2.88,
+        "change_pct": -2.91,
         "day_high": 171.82,
         "day_low": 168.5,
         "volume": 5135357
@@ -1525,9 +1525,9 @@
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 9.22,
+        "last": 9.25,
         "prev_close": 9.18,
-        "change_pct": 0.44,
+        "change_pct": 0.76,
         "day_high": 9.14,
         "day_low": 8.94,
         "volume": 21206941
@@ -1536,9 +1536,9 @@
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 357.85,
+        "last": 357.64,
         "prev_close": 368.57,
-        "change_pct": -2.91,
+        "change_pct": -2.97,
         "day_high": 361.68,
         "day_low": 354.67,
         "volume": 16346201
@@ -1571,9 +1571,9 @@
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 81.61,
+        "last": 81.58,
         "prev_close": 81.49,
-        "change_pct": 0.15,
+        "change_pct": 0.11,
         "day_high": 82.03,
         "day_low": 81.38,
         "volume": 41245086
@@ -1606,9 +1606,9 @@
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 158.95,
+        "last": 159.01,
         "prev_close": 161.83,
-        "change_pct": -1.78,
+        "change_pct": -1.74,
         "day_high": 155.04,
         "day_low": 150.69,
         "volume": 22917418
@@ -1617,9 +1617,9 @@
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 102.58,
+        "last": 102.88,
         "prev_close": 105.99,
-        "change_pct": -3.22,
+        "change_pct": -2.93,
         "day_high": 102.26,
         "day_low": 100.03,
         "volume": 8010959
@@ -1676,9 +1676,9 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 69.28,
+        "last": 69.3,
         "prev_close": 68.71,
-        "change_pct": 0.83,
+        "change_pct": 0.86,
         "day_high": 70.15,
         "day_low": 69.28,
         "volume": 31566587
@@ -1709,9 +1709,9 @@
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 531.95,
+        "last": 530.95,
         "prev_close": 561.67,
-        "change_pct": -5.29,
+        "change_pct": -5.47,
         "day_high": 535.32,
         "day_low": 511.63,
         "volume": 17652181
@@ -1720,7 +1720,7 @@
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 181.25,
+        "last": 181.24,
         "prev_close": 188.74,
         "change_pct": -3.97,
         "day_high": 182.29,
@@ -1732,6 +1732,13 @@
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "DRUG",
+        "halt_reason": "",
+        "title": "DRUG",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/02/2026                    07:25:00.000DRUGBright Minds Biosciences CmNASDAQT1",
+        "published": "Mon, 02 Nov 2026 05:00:00 GMT"
+      },
       {
         "ticker": "KPTI",
         "halt_reason": "",
