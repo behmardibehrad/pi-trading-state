@@ -1,13 +1,13 @@
 {
   "meta": {
     "schema_version": 1,
-    "generated_at": "2026-11-23T14:45:00.239949+00:00",
+    "generated_at": "2026-11-23T14:50:00.236641+00:00",
     "session_phase": "rth"
   },
   "scanner": {
     "pi_candidates": [],
     "scanner_file": "scan_20261123_143001.json",
-    "scanner_age_seconds": 899,
+    "scanner_age_seconds": 1199,
     "market_context": {
       "SPY": {
         "price": 723.47,
@@ -390,45 +390,45 @@
         "symbol": "SPY",
         "label": "S&P 500",
         "proxy_for": "ES futures / SPX",
-        "last": 716.91,
+        "last": 718.75,
         "prev_close": 689.81,
-        "change_pct": 3.93,
+        "change_pct": 4.2,
         "day_high": 724.81,
         "day_low": 713.53,
-        "volume": 13796707
+        "volume": 15414184
       },
       {
         "symbol": "QQQ",
         "label": "Nasdaq 100",
         "proxy_for": "NQ futures / NDX",
-        "last": 645.19,
+        "last": 646.84,
         "prev_close": 608.45,
-        "change_pct": 6.04,
+        "change_pct": 6.31,
         "day_high": 656.3,
         "day_low": 641.95,
-        "volume": 20934579
+        "volume": 22770534
       },
       {
         "symbol": "DIA",
         "label": "Dow Jones",
         "proxy_for": "YM futures / DJIA",
-        "last": 491.75,
+        "last": 492.75,
         "prev_close": 481.08,
-        "change_pct": 2.22,
+        "change_pct": 2.43,
         "day_high": 494.55,
         "day_low": 489.8,
-        "volume": 1000321
+        "volume": 1070502
       },
       {
         "symbol": "IWM",
         "label": "Russell 2000",
         "proxy_for": "RTY futures / RUT",
-        "last": 263.58,
+        "last": 264.31,
         "prev_close": 256.61,
-        "change_pct": 2.72,
+        "change_pct": 3.0,
         "day_high": 266.08,
-        "day_low": 263.22,
-        "volume": 6689821
+        "day_low": 262.86,
+        "volume": 7783119
       }
     ],
     "commodities": [
@@ -436,34 +436,34 @@
         "symbol": "USO",
         "label": "Oil (WTI proxy)",
         "proxy_for": "WTI crude",
-        "last": 136.31,
+        "last": 136.13,
         "prev_close": 139.63,
-        "change_pct": -2.38,
+        "change_pct": -2.51,
         "day_high": 136.52,
         "day_low": 135.81,
-        "volume": 778259
+        "volume": 816354
       },
       {
         "symbol": "UNG",
         "label": "Natural gas",
         "proxy_for": "NG futures",
-        "last": 9.83,
+        "last": 9.81,
         "prev_close": 10.56,
-        "change_pct": -6.91,
+        "change_pct": -7.1,
         "day_high": 9.93,
         "day_low": 9.8,
-        "volume": 2429223
+        "volume": 2696211
       },
       {
         "symbol": "GLD",
         "label": "Gold",
         "proxy_for": "Gold futures",
-        "last": 335.8,
+        "last": 336.29,
         "prev_close": 322.87,
-        "change_pct": 4.0,
+        "change_pct": 4.16,
         "day_high": 338.0,
         "day_low": 335.4,
-        "volume": 2736151
+        "volume": 3045636
       }
     ],
     "vol_and_dollar": [
@@ -471,12 +471,12 @@
         "symbol": "VIXY",
         "label": "VIX (proxy)",
         "proxy_for": "^VIX (imperfect \u2014 VIX ETF has decay)",
-        "last": 22.79,
+        "last": 22.77,
         "prev_close": 25.95,
-        "change_pct": -12.18,
+        "change_pct": -12.25,
         "day_high": 23.21,
         "day_low": 22.2,
-        "volume": 1363056
+        "volume": 1461704
       },
       {
         "symbol": "UUP",
@@ -487,18 +487,18 @@
         "change_pct": 0.37,
         "day_high": 29.73,
         "day_low": 29.7,
-        "volume": 197857
+        "volume": 236981
       },
       {
         "symbol": "TLT",
         "label": "20Y Treasuries",
         "proxy_for": "Long bonds \u2014 inverse to long yields",
-        "last": 81.29,
+        "last": 81.41,
         "prev_close": 81.45,
-        "change_pct": -0.2,
-        "day_high": 81.33,
+        "change_pct": -0.05,
+        "day_high": 81.42,
         "day_low": 81.08,
-        "volume": 6726652
+        "volume": 8726431
       }
     ],
     "asia": [
@@ -506,45 +506,45 @@
         "symbol": "EWJ",
         "label": "Japan",
         "proxy_for": "Nikkei / TOPIX",
-        "last": 86.93,
+        "last": 86.9,
         "prev_close": 83.43,
-        "change_pct": 4.2,
+        "change_pct": 4.16,
         "day_high": 87.8,
         "day_low": 86.6,
-        "volume": 899790
+        "volume": 1130374
       },
       {
         "symbol": "FXI",
         "label": "China large-cap",
         "proxy_for": "HSI / CSI300",
-        "last": 31.61,
+        "last": 31.64,
         "prev_close": 31.23,
-        "change_pct": 1.22,
+        "change_pct": 1.31,
         "day_high": 31.77,
         "day_low": 31.52,
-        "volume": 2750008
+        "volume": 3669099
       },
       {
         "symbol": "EWY",
         "label": "South Korea",
         "proxy_for": "KOSPI",
-        "last": 135.77,
+        "last": 136.01,
         "prev_close": 123.26,
-        "change_pct": 10.15,
+        "change_pct": 10.34,
         "day_high": 139.09,
         "day_low": 135.07,
-        "volume": 5523694
+        "volume": 6448505
       },
       {
         "symbol": "EWT",
         "label": "Taiwan",
         "proxy_for": "TAIEX",
-        "last": 90.3,
+        "last": 89.92,
         "prev_close": 74.77,
-        "change_pct": 20.77,
+        "change_pct": 20.26,
         "day_high": 93.79,
-        "day_low": 89.37,
-        "volume": 6849481
+        "day_low": 89.2,
+        "volume": 8212384
       }
     ],
     "europe": [
@@ -552,45 +552,45 @@
         "symbol": "EWG",
         "label": "Germany",
         "proxy_for": "DAX",
-        "last": 40.0,
+        "last": 40.06,
         "prev_close": 39.17,
-        "change_pct": 2.12,
-        "day_high": 40.04,
+        "change_pct": 2.27,
+        "day_high": 40.07,
         "day_low": 39.84,
-        "volume": 60744
+        "volume": 98879
       },
       {
         "symbol": "EWU",
         "label": "UK",
         "proxy_for": "FTSE 100",
-        "last": 45.42,
+        "last": 45.44,
         "prev_close": 44.74,
-        "change_pct": 1.52,
+        "change_pct": 1.56,
         "day_high": 45.63,
         "day_low": 45.25,
-        "volume": 35489
+        "volume": 46808
       },
       {
         "symbol": "EWQ",
         "label": "France",
         "proxy_for": "CAC 40",
-        "last": 41.5,
+        "last": 41.56,
         "prev_close": 40.88,
-        "change_pct": 1.52,
-        "day_high": 41.6,
+        "change_pct": 1.66,
+        "day_high": 41.61,
         "day_low": 41.47,
-        "volume": 14663
+        "volume": 16987
       },
       {
         "symbol": "VGK",
         "label": "Europe broad",
         "proxy_for": "STOXX 600 broad",
-        "last": 84.33,
+        "last": 84.41,
         "prev_close": 82.61,
-        "change_pct": 2.08,
+        "change_pct": 2.18,
         "day_high": 84.52,
         "day_low": 84.14,
-        "volume": 235331
+        "volume": 298506
       }
     ],
     "sectors_extra": [
@@ -598,62 +598,181 @@
         "symbol": "XLE",
         "label": "Energy",
         "proxy_for": "Sector",
-        "last": 60.61,
+        "last": 60.48,
         "prev_close": 60.51,
-        "change_pct": 0.17,
+        "change_pct": -0.05,
         "day_high": 60.91,
         "day_low": 60.34,
-        "volume": 6011941
+        "volume": 6826661
       },
       {
         "symbol": "XLF",
         "label": "Financials",
         "proxy_for": "Sector",
-        "last": 55.48,
+        "last": 55.57,
         "prev_close": 54.57,
-        "change_pct": 1.67,
+        "change_pct": 1.83,
         "day_high": 55.76,
         "day_low": 55.26,
-        "volume": 8819671
+        "volume": 10004162
       },
       {
         "symbol": "XLI",
         "label": "Industrials",
         "proxy_for": "Sector",
-        "last": 160.93,
+        "last": 161.12,
         "prev_close": 156.37,
-        "change_pct": 2.92,
+        "change_pct": 3.04,
         "day_high": 162.41,
         "day_low": 160.28,
-        "volume": 711924
+        "volume": 880574
       },
       {
         "symbol": "SMH",
         "label": "Semis",
         "proxy_for": "PHLX SOX proxy",
-        "last": 453.51,
+        "last": 455.62,
         "prev_close": 400.06,
-        "change_pct": 13.36,
+        "change_pct": 13.89,
         "day_high": 469.35,
         "day_low": 449.64,
-        "volume": 4053391
+        "volume": 4585690
       },
       {
         "symbol": "XLK",
         "label": "Technology",
         "proxy_for": "Sector",
-        "last": 160.91,
+        "last": 161.59,
         "prev_close": 149.01,
-        "change_pct": 7.99,
+        "change_pct": 8.44,
         "day_high": 164.79,
         "day_low": 159.9,
-        "volume": 2672265
+        "volume": 3132794
       }
     ]
   },
   "halts": {
     "fetch_status": "ok",
     "halts_today": [
+      {
+        "ticker": "UMCU",
+        "halt_reason": "",
+        "title": "UMCU",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:48:25.556UMCUTradr 2X Long UMC Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "APMI",
+        "halt_reason": "",
+        "title": "APMI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:48:13.386APMICorgi AMAT 2x Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "USMD",
+        "halt_reason": "",
+        "title": "USMD",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:48:10.636USMDCoreValues America First Technology ETFNYSE ArcaM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "NBDS",
+        "halt_reason": "",
+        "title": "NBDS",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:46.623NBDSNeuberger Disrupters ETFNYSE ArcaM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "HOID",
+        "halt_reason": "",
+        "title": "HOID",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:45.566HOIDTuttle - Rareview Humanoid Robotics ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "UMCX",
+        "halt_reason": "",
+        "title": "UMCX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:43.526UMCXCorgi UMC 2x Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "AEI",
+        "halt_reason": "",
+        "title": "AEI",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:40.653AEIAlset Inc.NASDAQLUDP11/23/2026                    09:47:40",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "TEC",
+        "halt_reason": "",
+        "title": "TEC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:11.006TECHarbor Transformative Technologies ETFNYSE ArcaM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "CIFC",
+        "halt_reason": "",
+        "title": "CIFC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:08.366CIFCCorgi CIFR 2x Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "HOOC",
+        "halt_reason": "",
+        "title": "HOOC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:47:02.143HOOCCorgi HOOD 2x Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "TESC",
+        "halt_reason": "",
+        "title": "TESC",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:46:55.500TESCCorgi TSLA 2x Daily ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "ITP",
+        "halt_reason": "",
+        "title": "ITP",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:46:35.363ITPIT Tech Packaging, Inc. Common StockAMEXM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "FOXX",
+        "halt_reason": "",
+        "title": "FOXX",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:46:08.126FOXXFoxx Development Hold Inc CSNASDAQLUDP11/23/2026                    09:46:08",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "LOPP",
+        "halt_reason": "",
+        "title": "LOPP",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:45:48.840LOPPGabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETFNYSE ArcaM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "JSPR",
+        "halt_reason": "",
+        "title": "JSPR",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:45:05.590JSPRJasper Therapeutics, Inc.NASDAQLUDP11/23/2026                    09:45:05",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "TRIB",
+        "halt_reason": "",
+        "title": "TRIB",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:45:02.353TRIBTrinity Biotech PLC ADRNASDAQLUDP11/23/2026                    09:45:02",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
+      {
+        "ticker": "FHIL",
+        "halt_reason": "",
+        "title": "FHIL",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:45:01.473FHILFederated Hermes International Leaders ETFNon NASDAQM",
+        "published": "Mon, 23 Nov 2026 05:00:00 GMT"
+      },
       {
         "ticker": "RGTC",
         "halt_reason": "",
@@ -672,14 +791,14 @@
         "ticker": "XSEM",
         "halt_reason": "",
         "title": "XSEM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:57.303XSEMCorgi U.S. Semiconductors 2x Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:57.303XSEMCorgi U.S. Semiconductors 2x Daily ETFNon NASDAQM11/23/2026                    09:48:57                      09:48:57",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "AHBM",
         "halt_reason": "",
         "title": "AHBM",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:56.876AHBMAmplify Top 10 Asia Memory ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:56.876AHBMAmplify Top 10 Asia Memory ETFNYSE ArcaM11/23/2026                    09:48:56                      09:48:56",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -693,91 +812,91 @@
         "ticker": "KMCA",
         "halt_reason": "",
         "title": "KMCA",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:53.880KMCAPLUS Korea Manufacturing Core Alliance Index ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:53.880KMCAPLUS Korea Manufacturing Core Alliance Index ETFNYSE ArcaM11/23/2026                    09:48:53                      09:48:53",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "TPEI",
         "halt_reason": "",
         "title": "TPEI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:14.516TPEIMicroSectors -3x Short Taiwan ETNsNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:43:14.516TPEIMicroSectors -3x Short Taiwan ETNsNon NASDAQM11/23/2026                    09:48:14                      09:48:14",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "APMI",
         "halt_reason": "",
         "title": "APMI",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:57.466APMICorgi AMAT 2x Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:57.466APMICorgi AMAT 2x Daily ETFNon NASDAQM11/23/2026                    09:47:57                      09:47:57",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "USMD",
         "halt_reason": "",
         "title": "USMD",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:55.606USMDCoreValues America First Technology ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:55.606USMDCoreValues America First Technology ETFNYSE ArcaM11/23/2026                    09:47:55                      09:47:55",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "MPLY",
         "halt_reason": "",
         "title": "MPLY",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:48.523MPLYMonopoly ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:48.523MPLYMonopoly ETFNon NASDAQM11/23/2026                    09:47:48                      09:47:48",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "IREZ",
         "halt_reason": "",
         "title": "IREZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:40.730IREZTradr 2X Short IREN Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:40.730IREZTradr 2X Short IREN Daily ETFNon NASDAQM11/23/2026                    09:47:40                      09:47:40",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "EMAG",
         "halt_reason": "",
         "title": "EMAG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:37.486EMAGEmerging Markets AI Mag 3 ETFNASDAQLUDP11/23/2026                    09:42:37",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:37.486EMAGEmerging Markets AI Mag 3 ETFNASDAQLUDP11/23/2026                    09:42:37                      09:47:37",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "NBDS",
         "halt_reason": "",
         "title": "NBDS",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:29.953NBDSNeuberger Disrupters ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:29.953NBDSNeuberger Disrupters ETFNYSE ArcaM11/23/2026                    09:47:29                      09:47:29",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "HOID",
         "halt_reason": "",
         "title": "HOID",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:28.720HOIDTuttle - Rareview Humanoid Robotics ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:42:28.720HOIDTuttle - Rareview Humanoid Robotics ETFNon NASDAQM11/23/2026                    09:47:28                      09:47:28",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "TEC",
         "halt_reason": "",
         "title": "TEC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:55.173TECHarbor Transformative Technologies ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:55.173TECHarbor Transformative Technologies ETFNYSE ArcaM11/23/2026                    09:46:55                      09:46:55",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "CIFC",
         "halt_reason": "",
         "title": "CIFC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:50.853CIFCCorgi CIFR 2x Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:50.853CIFCCorgi CIFR 2x Daily ETFNon NASDAQM11/23/2026                    09:46:50                      09:46:50",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "ASMZ",
         "halt_reason": "",
         "title": "ASMZ",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:36.650ASMZCorgi ASML 2x Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:36.650ASMZCorgi ASML 2x Daily ETFNon NASDAQM11/23/2026                    09:46:36                      09:46:36",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
         "ticker": "AIMG",
         "halt_reason": "",
         "title": "AIMG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:02.936AIMGDefiance AI Magnificent 10 ETFNASDAQLUDP11/23/2026                    09:41:02",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:41:02.936AIMGDefiance AI Magnificent 10 ETFNASDAQLUDP11/23/2026                    09:41:02                      09:46:02",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -791,7 +910,7 @@
         "ticker": "LOPP",
         "halt_reason": "",
         "title": "LOPP",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:40:33.003LOPPGabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:40:33.003LOPPGabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETFNYSE ArcaM11/23/2026                    09:45:33                      09:45:33",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -805,7 +924,7 @@
         "ticker": "TOPP",
         "halt_reason": "",
         "title": "TOPP",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:40:02.550TOPPToppoint Holdings Inc. Common StockAMEXM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:40:02.550TOPPToppoint Holdings Inc. Common StockAMEXM11/23/2026                    09:45:02                      09:45:02",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -819,7 +938,7 @@
         "ticker": "COOL",
         "halt_reason": "",
         "title": "COOL",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:39:45.000COOLVegaShares AI Thermal, Cooling & Power Management ETFNASDAQLUDP11/23/2026                    09:39:45",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:39:45.000COOLVegaShares AI Thermal, Cooling & Power Management ETFNASDAQLUDP11/23/2026                    09:39:45                      09:44:45",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -931,7 +1050,7 @@
         "ticker": "MSTC",
         "halt_reason": "",
         "title": "MSTC",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:36:56.616MSTCCorgi MSTR 2x Daily ETFNon NASDAQM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:36:56.616MSTCCorgi MSTR 2x Daily ETFNon NASDAQM11/23/2026                    09:46:56                      09:46:56",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
@@ -959,7 +1078,7 @@
         "ticker": "MHIG",
         "halt_reason": "",
         "title": "MHIG",
-        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:35:33.226MHIGMilliman Healthcare Inflation Guard ETFNYSE ArcaM",
+        "description": "Halt DateHalt TimeIssue SymbolIssue NameMarketReason CodePause Threshold PriceResumption DateResumption Quote TimeResumption Trade Time11/23/2026                    09:35:33.226MHIGMilliman Healthcare Inflation Guard ETFNYSE ArcaM11/23/2026                    09:45:33                      09:45:33",
         "published": "Mon, 23 Nov 2026 05:00:00 GMT"
       },
       {
